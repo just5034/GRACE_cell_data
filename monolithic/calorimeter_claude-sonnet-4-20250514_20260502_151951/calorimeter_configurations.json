@@ -1,0 +1,92 @@
+{
+  "design_requirements": {
+    "energy_range_gev": [
+      10,
+      30,
+      50
+    ],
+    "particle_types": [
+      "pi+",
+      "protons"
+    ],
+    "performance_targets": {
+      "energy_resolution": "50-100%/sqrt(E)",
+      "containment_efficiency": ">95%",
+      "response_linearity": "<5% deviation"
+    },
+    "design_constraints": {
+      "compact_design": true,
+      "mid_energy_collider": true,
+      "no_magnetic_field": true
+    }
+  },
+  "configurations": {
+    "config1": {
+      "name": "projective_tower_iron",
+      "topology": "projective_tower",
+      "absorber_material": "iron",
+      "active_material": "plastic_scintillator",
+      "geometry_parameters": {
+        "absorber_thickness": 0.02,
+        "active_thickness": 0.004,
+        "num_layers": 45,
+        "inner_radius": 1.5,
+        "half_length": 2.5,
+        "tower_eta_segments": 32,
+        "tower_phi_segments": 64,
+        "eta_min": -2.5,
+        "eta_max": 2.5
+      },
+      "design_rationale": "Projective geometry for collider environment, iron absorber for cost-effectiveness, fine segmentation for position resolution",
+      "calculated_parameters": {
+        "total_depth_m": 1.08,
+        "interaction_lengths": 6.4,
+        "sampling_fraction": 0.167,
+        "layer_thickness_m": 0.024
+      }
+    },
+    "config2": {
+      "name": "cylinder_barrel_steel",
+      "topology": "cylinder_barrel",
+      "absorber_material": "steel",
+      "active_material": "plastic_scintillator",
+      "geometry_parameters": {
+        "absorber_thickness": 0.014,
+        "active_thickness": 0.003,
+        "num_layers": 64,
+        "inner_radius": 2.0,
+        "half_length": 3.0,
+        "transverse_size": 1.0
+      },
+      "design_rationale": "Barrel geometry for uniform coverage, steel absorber for mechanical strength, optimized for mid-energy hadrons",
+      "calculated_parameters": {
+        "total_depth_m": 1.088,
+        "interaction_lengths": 6.5,
+        "sampling_fraction": 0.176,
+        "layer_thickness_m": 0.017
+      }
+    },
+    "config3": {
+      "name": "segmented_tile_iron",
+      "topology": "segmented",
+      "absorber_material": "iron",
+      "active_material": "plastic_scintillator",
+      "geometry_parameters": {
+        "absorber_thickness": 0.025,
+        "active_thickness": 0.005,
+        "num_layers": 40,
+        "transverse_size": 0.8,
+        "tile_size": 0.1,
+        "num_tiles_x": 8,
+        "num_tiles_y": 8
+      },
+      "design_rationale": "Segmented tile readout for flexibility, thicker sampling for better energy resolution, modular design for maintenance",
+      "calculated_parameters": {
+        "total_depth_m": 1.2000000000000002,
+        "interaction_lengths": 7.1,
+        "sampling_fraction": 0.167,
+        "layer_thickness_m": 0.030000000000000002
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "name": "steel_box_compact",
+    "topology": "box",
+    "absorber_material": "steel",
+    "active_material": "plastic_scintillator",
+    "description": "Compact planar sampling calorimeter with steel absorber",
+    "total_depth_m": 1.26,
+    "absorber_thickness_mm": 20,
+    "active_thickness_mm": 4,
+    "num_layers": 52,
+    "transverse_size_m": 1.2,
+    "sampling_fraction": 0.16666666666666666
+  },
+  {
+    "name": "tungsten_barrel_dense",
+    "topology": "cylinder_barrel",
+    "absorber_material": "tungsten",
+    "active_material": "plastic_scintillator",
+    "description": "Dense cylindrical barrel calorimeter with tungsten absorber",
+    "total_depth_m": 0.72,
+    "absorber_thickness_mm": 5,
+    "active_thickness_mm": 3,
+    "num_layers": 90,
+    "inner_radius_m": 1.5,
+    "outer_radius_m": 2.2199999999999998,
+    "half_length_m": 2.5,
+    "sampling_fraction": 0.375
+  },
+  {
+    "name": "lead_tower_projective",
+    "topology": "projective_tower",
+    "absorber_material": "lead",
+    "active_material": "plastic_scintillator",
+    "description": "Projective tower calorimeter with lead absorber and segmented readout",
+    "total_depth_m": 1.3725,
+    "absorber_thickness_mm": 15,
+    "active_thickness_mm": 4,
+    "num_layers": 72,
+    "inner_radius_m": 1.8,
+    "outer_radius_m": 3.1725000000000003,
+    "half_length_m": 3.0,
+    "tower_eta_segments": 48,
+    "tower_phi_segments": 64,
+    "eta_coverage": 2.4,
+    "sampling_fraction": 0.21052631578947367
+  }
+]

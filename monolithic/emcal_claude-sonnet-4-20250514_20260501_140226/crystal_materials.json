@@ -1,0 +1,23 @@
+{
+  "CsI(Tl)": {
+    "density_g_cm3": 4.51,
+    "light_yield_photons_MeV": 54000,
+    "radiation_length_cm": 1.86,
+    "moliere_radius_cm": 3.5,
+    "description": "Cesium Iodide with Thallium activator - highest light yield"
+  },
+  "PbWO4": {
+    "density_g_cm3": 8.28,
+    "light_yield_photons_MeV": 200,
+    "radiation_length_cm": 0.89,
+    "moliere_radius_cm": 2.0,
+    "description": "Lead Tungstate - most compact, shortest radiation length"
+  },
+  "BGO": {
+    "density_g_cm3": 7.13,
+    "light_yield_photons_MeV": 8200,
+    "radiation_length_cm": 1.12,
+    "moliere_radius_cm": 2.3,
+    "description": "Bismuth Germanate - intermediate properties"
+  }
+}

@@ -1,0 +1,2938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+  <define>
+    <position name="center" x="0" y="0" z="0" unit="mm"/>
+    <position name="layer_0_abs_pos" x="0" y="0" z="-403.75" unit="mm"/>
+    <position name="layer_0_act_pos" x="0" y="0" z="-402.25" unit="mm"/>
+    <position name="layer_1_abs_pos" x="0" y="0" z="-400.75" unit="mm"/>
+    <position name="layer_1_act_pos" x="0" y="0" z="-399.25" unit="mm"/>
+    <position name="layer_2_abs_pos" x="0" y="0" z="-397.75" unit="mm"/>
+    <position name="layer_2_act_pos" x="0" y="0" z="-396.25" unit="mm"/>
+    <position name="layer_3_abs_pos" x="0" y="0" z="-394.75" unit="mm"/>
+    <position name="layer_3_act_pos" x="0" y="0" z="-393.25" unit="mm"/>
+    <position name="layer_4_abs_pos" x="0" y="0" z="-391.75" unit="mm"/>
+    <position name="layer_4_act_pos" x="0" y="0" z="-390.25" unit="mm"/>
+    <position name="layer_5_abs_pos" x="0" y="0" z="-388.75" unit="mm"/>
+    <position name="layer_5_act_pos" x="0" y="0" z="-387.25" unit="mm"/>
+    <position name="layer_6_abs_pos" x="0" y="0" z="-385.75" unit="mm"/>
+    <position name="layer_6_act_pos" x="0" y="0" z="-384.25" unit="mm"/>
+    <position name="layer_7_abs_pos" x="0" y="0" z="-382.75" unit="mm"/>
+    <position name="layer_7_act_pos" x="0" y="0" z="-381.25" unit="mm"/>
+    <position name="layer_8_abs_pos" x="0" y="0" z="-379.75" unit="mm"/>
+    <position name="layer_8_act_pos" x="0" y="0" z="-378.25" unit="mm"/>
+    <position name="layer_9_abs_pos" x="0" y="0" z="-376.75" unit="mm"/>
+    <position name="layer_9_act_pos" x="0" y="0" z="-375.25" unit="mm"/>
+    <position name="layer_10_abs_pos" x="0" y="0" z="-373.75" unit="mm"/>
+    <position name="layer_10_act_pos" x="0" y="0" z="-372.25" unit="mm"/>
+    <position name="layer_11_abs_pos" x="0" y="0" z="-370.75" unit="mm"/>
+    <position name="layer_11_act_pos" x="0" y="0" z="-369.25" unit="mm"/>
+    <position name="layer_12_abs_pos" x="0" y="0" z="-367.75" unit="mm"/>
+    <position name="layer_12_act_pos" x="0" y="0" z="-366.25" unit="mm"/>
+    <position name="layer_13_abs_pos" x="0" y="0" z="-364.75" unit="mm"/>
+    <position name="layer_13_act_pos" x="0" y="0" z="-363.25" unit="mm"/>
+    <position name="layer_14_abs_pos" x="0" y="0" z="-361.75" unit="mm"/>
+    <position name="layer_14_act_pos" x="0" y="0" z="-360.25" unit="mm"/>
+    <position name="layer_15_abs_pos" x="0" y="0" z="-358.75" unit="mm"/>
+    <position name="layer_15_act_pos" x="0" y="0" z="-357.25" unit="mm"/>
+    <position name="layer_16_abs_pos" x="0" y="0" z="-355.75" unit="mm"/>
+    <position name="layer_16_act_pos" x="0" y="0" z="-354.25" unit="mm"/>
+    <position name="layer_17_abs_pos" x="0" y="0" z="-352.75" unit="mm"/>
+    <position name="layer_17_act_pos" x="0" y="0" z="-351.25" unit="mm"/>
+    <position name="layer_18_abs_pos" x="0" y="0" z="-349.75" unit="mm"/>
+    <position name="layer_18_act_pos" x="0" y="0" z="-348.25" unit="mm"/>
+    <position name="layer_19_abs_pos" x="0" y="0" z="-346.75" unit="mm"/>
+    <position name="layer_19_act_pos" x="0" y="0" z="-345.25" unit="mm"/>
+    <position name="layer_20_abs_pos" x="0" y="0" z="-343.75" unit="mm"/>
+    <position name="layer_20_act_pos" x="0" y="0" z="-342.25" unit="mm"/>
+    <position name="layer_21_abs_pos" x="0" y="0" z="-340.75" unit="mm"/>
+    <position name="layer_21_act_pos" x="0" y="0" z="-339.25" unit="mm"/>
+    <position name="layer_22_abs_pos" x="0" y="0" z="-337.75" unit="mm"/>
+    <position name="layer_22_act_pos" x="0" y="0" z="-336.25" unit="mm"/>
+    <position name="layer_23_abs_pos" x="0" y="0" z="-334.75" unit="mm"/>
+    <position name="layer_23_act_pos" x="0" y="0" z="-333.25" unit="mm"/>
+    <position name="layer_24_abs_pos" x="0" y="0" z="-331.75" unit="mm"/>
+    <position name="layer_24_act_pos" x="0" y="0" z="-330.25" unit="mm"/>
+    <position name="layer_25_abs_pos" x="0" y="0" z="-328.75" unit="mm"/>
+    <position name="layer_25_act_pos" x="0" y="0" z="-327.25" unit="mm"/>
+    <position name="layer_26_abs_pos" x="0" y="0" z="-325.75" unit="mm"/>
+    <position name="layer_26_act_pos" x="0" y="0" z="-324.25" unit="mm"/>
+    <position name="layer_27_abs_pos" x="0" y="0" z="-322.75" unit="mm"/>
+    <position name="layer_27_act_pos" x="0" y="0" z="-321.25" unit="mm"/>
+    <position name="layer_28_abs_pos" x="0" y="0" z="-319.75" unit="mm"/>
+    <position name="layer_28_act_pos" x="0" y="0" z="-318.25" unit="mm"/>
+    <position name="layer_29_abs_pos" x="0" y="0" z="-316.75" unit="mm"/>
+    <position name="layer_29_act_pos" x="0" y="0" z="-315.25" unit="mm"/>
+    <position name="layer_30_abs_pos" x="0" y="0" z="-313.75" unit="mm"/>
+    <position name="layer_30_act_pos" x="0" y="0" z="-312.25" unit="mm"/>
+    <position name="layer_31_abs_pos" x="0" y="0" z="-310.75" unit="mm"/>
+    <position name="layer_31_act_pos" x="0" y="0" z="-309.25" unit="mm"/>
+    <position name="layer_32_abs_pos" x="0" y="0" z="-307.75" unit="mm"/>
+    <position name="layer_32_act_pos" x="0" y="0" z="-306.25" unit="mm"/>
+    <position name="layer_33_abs_pos" x="0" y="0" z="-304.75" unit="mm"/>
+    <position name="layer_33_act_pos" x="0" y="0" z="-303.25" unit="mm"/>
+    <position name="layer_34_abs_pos" x="0" y="0" z="-301.75" unit="mm"/>
+    <position name="layer_34_act_pos" x="0" y="0" z="-300.25" unit="mm"/>
+    <position name="layer_35_abs_pos" x="0" y="0" z="-298.75" unit="mm"/>
+    <position name="layer_35_act_pos" x="0" y="0" z="-297.25" unit="mm"/>
+    <position name="layer_36_abs_pos" x="0" y="0" z="-295.75" unit="mm"/>
+    <position name="layer_36_act_pos" x="0" y="0" z="-294.25" unit="mm"/>
+    <position name="layer_37_abs_pos" x="0" y="0" z="-292.75" unit="mm"/>
+    <position name="layer_37_act_pos" x="0" y="0" z="-291.25" unit="mm"/>
+    <position name="layer_38_abs_pos" x="0" y="0" z="-289.75" unit="mm"/>
+    <position name="layer_38_act_pos" x="0" y="0" z="-288.25" unit="mm"/>
+    <position name="layer_39_abs_pos" x="0" y="0" z="-286.75" unit="mm"/>
+    <position name="layer_39_act_pos" x="0" y="0" z="-285.25" unit="mm"/>
+    <position name="layer_40_abs_pos" x="0" y="0" z="-283.75" unit="mm"/>
+    <position name="layer_40_act_pos" x="0" y="0" z="-282.25" unit="mm"/>
+    <position name="layer_41_abs_pos" x="0" y="0" z="-280.75" unit="mm"/>
+    <position name="layer_41_act_pos" x="0" y="0" z="-279.25" unit="mm"/>
+    <position name="layer_42_abs_pos" x="0" y="0" z="-277.75" unit="mm"/>
+    <position name="layer_42_act_pos" x="0" y="0" z="-276.25" unit="mm"/>
+    <position name="layer_43_abs_pos" x="0" y="0" z="-274.75" unit="mm"/>
+    <position name="layer_43_act_pos" x="0" y="0" z="-273.25" unit="mm"/>
+    <position name="layer_44_abs_pos" x="0" y="0" z="-271.75" unit="mm"/>
+    <position name="layer_44_act_pos" x="0" y="0" z="-270.25" unit="mm"/>
+    <position name="layer_45_abs_pos" x="0" y="0" z="-268.75" unit="mm"/>
+    <position name="layer_45_act_pos" x="0" y="0" z="-267.25" unit="mm"/>
+    <position name="layer_46_abs_pos" x="0" y="0" z="-265.75" unit="mm"/>
+    <position name="layer_46_act_pos" x="0" y="0" z="-264.25" unit="mm"/>
+    <position name="layer_47_abs_pos" x="0" y="0" z="-262.75" unit="mm"/>
+    <position name="layer_47_act_pos" x="0" y="0" z="-261.25" unit="mm"/>
+    <position name="layer_48_abs_pos" x="0" y="0" z="-259.75" unit="mm"/>
+    <position name="layer_48_act_pos" x="0" y="0" z="-258.25" unit="mm"/>
+    <position name="layer_49_abs_pos" x="0" y="0" z="-256.75" unit="mm"/>
+    <position name="layer_49_act_pos" x="0" y="0" z="-255.25" unit="mm"/>
+    <position name="layer_50_abs_pos" x="0" y="0" z="-253.75" unit="mm"/>
+    <position name="layer_50_act_pos" x="0" y="0" z="-252.25" unit="mm"/>
+    <position name="layer_51_abs_pos" x="0" y="0" z="-250.75" unit="mm"/>
+    <position name="layer_51_act_pos" x="0" y="0" z="-249.25" unit="mm"/>
+    <position name="layer_52_abs_pos" x="0" y="0" z="-247.75" unit="mm"/>
+    <position name="layer_52_act_pos" x="0" y="0" z="-246.25" unit="mm"/>
+    <position name="layer_53_abs_pos" x="0" y="0" z="-244.75" unit="mm"/>
+    <position name="layer_53_act_pos" x="0" y="0" z="-243.25" unit="mm"/>
+    <position name="layer_54_abs_pos" x="0" y="0" z="-241.75" unit="mm"/>
+    <position name="layer_54_act_pos" x="0" y="0" z="-240.25" unit="mm"/>
+    <position name="layer_55_abs_pos" x="0" y="0" z="-238.75" unit="mm"/>
+    <position name="layer_55_act_pos" x="0" y="0" z="-237.25" unit="mm"/>
+    <position name="layer_56_abs_pos" x="0" y="0" z="-235.75" unit="mm"/>
+    <position name="layer_56_act_pos" x="0" y="0" z="-234.25" unit="mm"/>
+    <position name="layer_57_abs_pos" x="0" y="0" z="-232.75" unit="mm"/>
+    <position name="layer_57_act_pos" x="0" y="0" z="-231.25" unit="mm"/>
+    <position name="layer_58_abs_pos" x="0" y="0" z="-229.75" unit="mm"/>
+    <position name="layer_58_act_pos" x="0" y="0" z="-228.25" unit="mm"/>
+    <position name="layer_59_abs_pos" x="0" y="0" z="-226.75" unit="mm"/>
+    <position name="layer_59_act_pos" x="0" y="0" z="-225.25" unit="mm"/>
+    <position name="layer_60_abs_pos" x="0" y="0" z="-223.75" unit="mm"/>
+    <position name="layer_60_act_pos" x="0" y="0" z="-222.25" unit="mm"/>
+    <position name="layer_61_abs_pos" x="0" y="0" z="-220.75" unit="mm"/>
+    <position name="layer_61_act_pos" x="0" y="0" z="-219.25" unit="mm"/>
+    <position name="layer_62_abs_pos" x="0" y="0" z="-217.75" unit="mm"/>
+    <position name="layer_62_act_pos" x="0" y="0" z="-216.25" unit="mm"/>
+    <position name="layer_63_abs_pos" x="0" y="0" z="-214.75" unit="mm"/>
+    <position name="layer_63_act_pos" x="0" y="0" z="-213.25" unit="mm"/>
+    <position name="layer_64_abs_pos" x="0" y="0" z="-211.75" unit="mm"/>
+    <position name="layer_64_act_pos" x="0" y="0" z="-210.25" unit="mm"/>
+    <position name="layer_65_abs_pos" x="0" y="0" z="-208.75" unit="mm"/>
+    <position name="layer_65_act_pos" x="0" y="0" z="-207.25" unit="mm"/>
+    <position name="layer_66_abs_pos" x="0" y="0" z="-205.75" unit="mm"/>
+    <position name="layer_66_act_pos" x="0" y="0" z="-204.25" unit="mm"/>
+    <position name="layer_67_abs_pos" x="0" y="0" z="-202.75" unit="mm"/>
+    <position name="layer_67_act_pos" x="0" y="0" z="-201.25" unit="mm"/>
+    <position name="layer_68_abs_pos" x="0" y="0" z="-199.75" unit="mm"/>
+    <position name="layer_68_act_pos" x="0" y="0" z="-198.25" unit="mm"/>
+    <position name="layer_69_abs_pos" x="0" y="0" z="-196.75" unit="mm"/>
+    <position name="layer_69_act_pos" x="0" y="0" z="-195.25" unit="mm"/>
+    <position name="layer_70_abs_pos" x="0" y="0" z="-193.75" unit="mm"/>
+    <position name="layer_70_act_pos" x="0" y="0" z="-192.25" unit="mm"/>
+    <position name="layer_71_abs_pos" x="0" y="0" z="-190.75" unit="mm"/>
+    <position name="layer_71_act_pos" x="0" y="0" z="-189.25" unit="mm"/>
+    <position name="layer_72_abs_pos" x="0" y="0" z="-187.75" unit="mm"/>
+    <position name="layer_72_act_pos" x="0" y="0" z="-186.25" unit="mm"/>
+    <position name="layer_73_abs_pos" x="0" y="0" z="-184.75" unit="mm"/>
+    <position name="layer_73_act_pos" x="0" y="0" z="-183.25" unit="mm"/>
+    <position name="layer_74_abs_pos" x="0" y="0" z="-181.75" unit="mm"/>
+    <position name="layer_74_act_pos" x="0" y="0" z="-180.25" unit="mm"/>
+    <position name="layer_75_abs_pos" x="0" y="0" z="-178.75" unit="mm"/>
+    <position name="layer_75_act_pos" x="0" y="0" z="-177.25" unit="mm"/>
+    <position name="layer_76_abs_pos" x="0" y="0" z="-175.75" unit="mm"/>
+    <position name="layer_76_act_pos" x="0" y="0" z="-174.25" unit="mm"/>
+    <position name="layer_77_abs_pos" x="0" y="0" z="-172.75" unit="mm"/>
+    <position name="layer_77_act_pos" x="0" y="0" z="-171.25" unit="mm"/>
+    <position name="layer_78_abs_pos" x="0" y="0" z="-169.75" unit="mm"/>
+    <position name="layer_78_act_pos" x="0" y="0" z="-168.25" unit="mm"/>
+    <position name="layer_79_abs_pos" x="0" y="0" z="-166.75" unit="mm"/>
+    <position name="layer_79_act_pos" x="0" y="0" z="-165.25" unit="mm"/>
+    <position name="layer_80_abs_pos" x="0" y="0" z="-163.75" unit="mm"/>
+    <position name="layer_80_act_pos" x="0" y="0" z="-162.25" unit="mm"/>
+    <position name="layer_81_abs_pos" x="0" y="0" z="-160.75" unit="mm"/>
+    <position name="layer_81_act_pos" x="0" y="0" z="-159.25" unit="mm"/>
+    <position name="layer_82_abs_pos" x="0" y="0" z="-157.75" unit="mm"/>
+    <position name="layer_82_act_pos" x="0" y="0" z="-156.25" unit="mm"/>
+    <position name="layer_83_abs_pos" x="0" y="0" z="-154.75" unit="mm"/>
+    <position name="layer_83_act_pos" x="0" y="0" z="-153.25" unit="mm"/>
+    <position name="layer_84_abs_pos" x="0" y="0" z="-151.75" unit="mm"/>
+    <position name="layer_84_act_pos" x="0" y="0" z="-150.25" unit="mm"/>
+    <position name="layer_85_abs_pos" x="0" y="0" z="-148.75" unit="mm"/>
+    <position name="layer_85_act_pos" x="0" y="0" z="-147.25" unit="mm"/>
+    <position name="layer_86_abs_pos" x="0" y="0" z="-145.75" unit="mm"/>
+    <position name="layer_86_act_pos" x="0" y="0" z="-144.25" unit="mm"/>
+    <position name="layer_87_abs_pos" x="0" y="0" z="-142.75" unit="mm"/>
+    <position name="layer_87_act_pos" x="0" y="0" z="-141.25" unit="mm"/>
+    <position name="layer_88_abs_pos" x="0" y="0" z="-139.75" unit="mm"/>
+    <position name="layer_88_act_pos" x="0" y="0" z="-138.25" unit="mm"/>
+    <position name="layer_89_abs_pos" x="0" y="0" z="-136.75" unit="mm"/>
+    <position name="layer_89_act_pos" x="0" y="0" z="-135.25" unit="mm"/>
+    <position name="layer_90_abs_pos" x="0" y="0" z="-133.75" unit="mm"/>
+    <position name="layer_90_act_pos" x="0" y="0" z="-132.25" unit="mm"/>
+    <position name="layer_91_abs_pos" x="0" y="0" z="-130.75" unit="mm"/>
+    <position name="layer_91_act_pos" x="0" y="0" z="-129.25" unit="mm"/>
+    <position name="layer_92_abs_pos" x="0" y="0" z="-127.75" unit="mm"/>
+    <position name="layer_92_act_pos" x="0" y="0" z="-126.25" unit="mm"/>
+    <position name="layer_93_abs_pos" x="0" y="0" z="-124.75" unit="mm"/>
+    <position name="layer_93_act_pos" x="0" y="0" z="-123.25" unit="mm"/>
+    <position name="layer_94_abs_pos" x="0" y="0" z="-121.75" unit="mm"/>
+    <position name="layer_94_act_pos" x="0" y="0" z="-120.25" unit="mm"/>
+    <position name="layer_95_abs_pos" x="0" y="0" z="-118.75" unit="mm"/>
+    <position name="layer_95_act_pos" x="0" y="0" z="-117.25" unit="mm"/>
+    <position name="layer_96_abs_pos" x="0" y="0" z="-115.75" unit="mm"/>
+    <position name="layer_96_act_pos" x="0" y="0" z="-114.25" unit="mm"/>
+    <position name="layer_97_abs_pos" x="0" y="0" z="-112.75" unit="mm"/>
+    <position name="layer_97_act_pos" x="0" y="0" z="-111.25" unit="mm"/>
+    <position name="layer_98_abs_pos" x="0" y="0" z="-109.75" unit="mm"/>
+    <position name="layer_98_act_pos" x="0" y="0" z="-108.25" unit="mm"/>
+    <position name="layer_99_abs_pos" x="0" y="0" z="-106.75" unit="mm"/>
+    <position name="layer_99_act_pos" x="0" y="0" z="-105.25" unit="mm"/>
+    <position name="layer_100_abs_pos" x="0" y="0" z="-103.75" unit="mm"/>
+    <position name="layer_100_act_pos" x="0" y="0" z="-102.25" unit="mm"/>
+    <position name="layer_101_abs_pos" x="0" y="0" z="-100.75" unit="mm"/>
+    <position name="layer_101_act_pos" x="0" y="0" z="-99.25" unit="mm"/>
+    <position name="layer_102_abs_pos" x="0" y="0" z="-97.75" unit="mm"/>
+    <position name="layer_102_act_pos" x="0" y="0" z="-96.25" unit="mm"/>
+    <position name="layer_103_abs_pos" x="0" y="0" z="-94.75" unit="mm"/>
+    <position name="layer_103_act_pos" x="0" y="0" z="-93.25" unit="mm"/>
+    <position name="layer_104_abs_pos" x="0" y="0" z="-91.75" unit="mm"/>
+    <position name="layer_104_act_pos" x="0" y="0" z="-90.25" unit="mm"/>
+    <position name="layer_105_abs_pos" x="0" y="0" z="-88.75" unit="mm"/>
+    <position name="layer_105_act_pos" x="0" y="0" z="-87.25" unit="mm"/>
+    <position name="layer_106_abs_pos" x="0" y="0" z="-85.75" unit="mm"/>
+    <position name="layer_106_act_pos" x="0" y="0" z="-84.25" unit="mm"/>
+    <position name="layer_107_abs_pos" x="0" y="0" z="-82.75" unit="mm"/>
+    <position name="layer_107_act_pos" x="0" y="0" z="-81.25" unit="mm"/>
+    <position name="layer_108_abs_pos" x="0" y="0" z="-79.75" unit="mm"/>
+    <position name="layer_108_act_pos" x="0" y="0" z="-78.25" unit="mm"/>
+    <position name="layer_109_abs_pos" x="0" y="0" z="-76.75" unit="mm"/>
+    <position name="layer_109_act_pos" x="0" y="0" z="-75.25" unit="mm"/>
+    <position name="layer_110_abs_pos" x="0" y="0" z="-73.75" unit="mm"/>
+    <position name="layer_110_act_pos" x="0" y="0" z="-72.25" unit="mm"/>
+    <position name="layer_111_abs_pos" x="0" y="0" z="-70.75" unit="mm"/>
+    <position name="layer_111_act_pos" x="0" y="0" z="-69.25" unit="mm"/>
+    <position name="layer_112_abs_pos" x="0" y="0" z="-67.75" unit="mm"/>
+    <position name="layer_112_act_pos" x="0" y="0" z="-66.25" unit="mm"/>
+    <position name="layer_113_abs_pos" x="0" y="0" z="-64.75" unit="mm"/>
+    <position name="layer_113_act_pos" x="0" y="0" z="-63.25" unit="mm"/>
+    <position name="layer_114_abs_pos" x="0" y="0" z="-61.75" unit="mm"/>
+    <position name="layer_114_act_pos" x="0" y="0" z="-60.25" unit="mm"/>
+    <position name="layer_115_abs_pos" x="0" y="0" z="-58.75" unit="mm"/>
+    <position name="layer_115_act_pos" x="0" y="0" z="-57.25" unit="mm"/>
+    <position name="layer_116_abs_pos" x="0" y="0" z="-55.75" unit="mm"/>
+    <position name="layer_116_act_pos" x="0" y="0" z="-54.25" unit="mm"/>
+    <position name="layer_117_abs_pos" x="0" y="0" z="-52.75" unit="mm"/>
+    <position name="layer_117_act_pos" x="0" y="0" z="-51.25" unit="mm"/>
+    <position name="layer_118_abs_pos" x="0" y="0" z="-49.75" unit="mm"/>
+    <position name="layer_118_act_pos" x="0" y="0" z="-48.25" unit="mm"/>
+    <position name="layer_119_abs_pos" x="0" y="0" z="-46.75" unit="mm"/>
+    <position name="layer_119_act_pos" x="0" y="0" z="-45.25" unit="mm"/>
+    <position name="layer_120_abs_pos" x="0" y="0" z="-43.75" unit="mm"/>
+    <position name="layer_120_act_pos" x="0" y="0" z="-42.25" unit="mm"/>
+    <position name="layer_121_abs_pos" x="0" y="0" z="-40.75" unit="mm"/>
+    <position name="layer_121_act_pos" x="0" y="0" z="-39.25" unit="mm"/>
+    <position name="layer_122_abs_pos" x="0" y="0" z="-37.75" unit="mm"/>
+    <position name="layer_122_act_pos" x="0" y="0" z="-36.25" unit="mm"/>
+    <position name="layer_123_abs_pos" x="0" y="0" z="-34.75" unit="mm"/>
+    <position name="layer_123_act_pos" x="0" y="0" z="-33.25" unit="mm"/>
+    <position name="layer_124_abs_pos" x="0" y="0" z="-31.75" unit="mm"/>
+    <position name="layer_124_act_pos" x="0" y="0" z="-30.25" unit="mm"/>
+    <position name="layer_125_abs_pos" x="0" y="0" z="-28.75" unit="mm"/>
+    <position name="layer_125_act_pos" x="0" y="0" z="-27.25" unit="mm"/>
+    <position name="layer_126_abs_pos" x="0" y="0" z="-25.75" unit="mm"/>
+    <position name="layer_126_act_pos" x="0" y="0" z="-24.25" unit="mm"/>
+    <position name="layer_127_abs_pos" x="0" y="0" z="-22.75" unit="mm"/>
+    <position name="layer_127_act_pos" x="0" y="0" z="-21.25" unit="mm"/>
+    <position name="layer_128_abs_pos" x="0" y="0" z="-19.75" unit="mm"/>
+    <position name="layer_128_act_pos" x="0" y="0" z="-18.25" unit="mm"/>
+    <position name="layer_129_abs_pos" x="0" y="0" z="-16.75" unit="mm"/>
+    <position name="layer_129_act_pos" x="0" y="0" z="-15.25" unit="mm"/>
+    <position name="layer_130_abs_pos" x="0" y="0" z="-13.75" unit="mm"/>
+    <position name="layer_130_act_pos" x="0" y="0" z="-12.25" unit="mm"/>
+    <position name="layer_131_abs_pos" x="0" y="0" z="-10.75" unit="mm"/>
+    <position name="layer_131_act_pos" x="0" y="0" z="-9.25" unit="mm"/>
+    <position name="layer_132_abs_pos" x="0" y="0" z="-7.75" unit="mm"/>
+    <position name="layer_132_act_pos" x="0" y="0" z="-6.25" unit="mm"/>
+    <position name="layer_133_abs_pos" x="0" y="0" z="-4.75" unit="mm"/>
+    <position name="layer_133_act_pos" x="0" y="0" z="-3.25" unit="mm"/>
+    <position name="layer_134_abs_pos" x="0" y="0" z="-1.75" unit="mm"/>
+    <position name="layer_134_act_pos" x="0" y="0" z="-0.25" unit="mm"/>
+    <position name="layer_135_abs_pos" x="0" y="0" z="1.25" unit="mm"/>
+    <position name="layer_135_act_pos" x="0" y="0" z="2.75" unit="mm"/>
+    <position name="layer_136_abs_pos" x="0" y="0" z="4.25" unit="mm"/>
+    <position name="layer_136_act_pos" x="0" y="0" z="5.75" unit="mm"/>
+    <position name="layer_137_abs_pos" x="0" y="0" z="7.25" unit="mm"/>
+    <position name="layer_137_act_pos" x="0" y="0" z="8.75" unit="mm"/>
+    <position name="layer_138_abs_pos" x="0" y="0" z="10.25" unit="mm"/>
+    <position name="layer_138_act_pos" x="0" y="0" z="11.75" unit="mm"/>
+    <position name="layer_139_abs_pos" x="0" y="0" z="13.25" unit="mm"/>
+    <position name="layer_139_act_pos" x="0" y="0" z="14.75" unit="mm"/>
+    <position name="layer_140_abs_pos" x="0" y="0" z="16.25" unit="mm"/>
+    <position name="layer_140_act_pos" x="0" y="0" z="17.75" unit="mm"/>
+    <position name="layer_141_abs_pos" x="0" y="0" z="19.25" unit="mm"/>
+    <position name="layer_141_act_pos" x="0" y="0" z="20.75" unit="mm"/>
+    <position name="layer_142_abs_pos" x="0" y="0" z="22.25" unit="mm"/>
+    <position name="layer_142_act_pos" x="0" y="0" z="23.75" unit="mm"/>
+    <position name="layer_143_abs_pos" x="0" y="0" z="25.25" unit="mm"/>
+    <position name="layer_143_act_pos" x="0" y="0" z="26.75" unit="mm"/>
+    <position name="layer_144_abs_pos" x="0" y="0" z="28.25" unit="mm"/>
+    <position name="layer_144_act_pos" x="0" y="0" z="29.75" unit="mm"/>
+    <position name="layer_145_abs_pos" x="0" y="0" z="31.25" unit="mm"/>
+    <position name="layer_145_act_pos" x="0" y="0" z="32.75" unit="mm"/>
+    <position name="layer_146_abs_pos" x="0" y="0" z="34.25" unit="mm"/>
+    <position name="layer_146_act_pos" x="0" y="0" z="35.75" unit="mm"/>
+    <position name="layer_147_abs_pos" x="0" y="0" z="37.25" unit="mm"/>
+    <position name="layer_147_act_pos" x="0" y="0" z="38.75" unit="mm"/>
+    <position name="layer_148_abs_pos" x="0" y="0" z="40.25" unit="mm"/>
+    <position name="layer_148_act_pos" x="0" y="0" z="41.75" unit="mm"/>
+    <position name="layer_149_abs_pos" x="0" y="0" z="43.25" unit="mm"/>
+    <position name="layer_149_act_pos" x="0" y="0" z="44.75" unit="mm"/>
+    <position name="layer_150_abs_pos" x="0" y="0" z="46.25" unit="mm"/>
+    <position name="layer_150_act_pos" x="0" y="0" z="47.75" unit="mm"/>
+    <position name="layer_151_abs_pos" x="0" y="0" z="49.25" unit="mm"/>
+    <position name="layer_151_act_pos" x="0" y="0" z="50.75" unit="mm"/>
+    <position name="layer_152_abs_pos" x="0" y="0" z="52.25" unit="mm"/>
+    <position name="layer_152_act_pos" x="0" y="0" z="53.75" unit="mm"/>
+    <position name="layer_153_abs_pos" x="0" y="0" z="55.25" unit="mm"/>
+    <position name="layer_153_act_pos" x="0" y="0" z="56.75" unit="mm"/>
+    <position name="layer_154_abs_pos" x="0" y="0" z="58.25" unit="mm"/>
+    <position name="layer_154_act_pos" x="0" y="0" z="59.75" unit="mm"/>
+    <position name="layer_155_abs_pos" x="0" y="0" z="61.25" unit="mm"/>
+    <position name="layer_155_act_pos" x="0" y="0" z="62.75" unit="mm"/>
+    <position name="layer_156_abs_pos" x="0" y="0" z="64.25" unit="mm"/>
+    <position name="layer_156_act_pos" x="0" y="0" z="65.75" unit="mm"/>
+    <position name="layer_157_abs_pos" x="0" y="0" z="67.25" unit="mm"/>
+    <position name="layer_157_act_pos" x="0" y="0" z="68.75" unit="mm"/>
+    <position name="layer_158_abs_pos" x="0" y="0" z="70.25" unit="mm"/>
+    <position name="layer_158_act_pos" x="0" y="0" z="71.75" unit="mm"/>
+    <position name="layer_159_abs_pos" x="0" y="0" z="73.25" unit="mm"/>
+    <position name="layer_159_act_pos" x="0" y="0" z="74.75" unit="mm"/>
+    <position name="layer_160_abs_pos" x="0" y="0" z="76.25" unit="mm"/>
+    <position name="layer_160_act_pos" x="0" y="0" z="77.75" unit="mm"/>
+    <position name="layer_161_abs_pos" x="0" y="0" z="79.25" unit="mm"/>
+    <position name="layer_161_act_pos" x="0" y="0" z="80.75" unit="mm"/>
+    <position name="layer_162_abs_pos" x="0" y="0" z="82.25" unit="mm"/>
+    <position name="layer_162_act_pos" x="0" y="0" z="83.75" unit="mm"/>
+    <position name="layer_163_abs_pos" x="0" y="0" z="85.25" unit="mm"/>
+    <position name="layer_163_act_pos" x="0" y="0" z="86.75" unit="mm"/>
+    <position name="layer_164_abs_pos" x="0" y="0" z="88.25" unit="mm"/>
+    <position name="layer_164_act_pos" x="0" y="0" z="89.75" unit="mm"/>
+    <position name="layer_165_abs_pos" x="0" y="0" z="91.25" unit="mm"/>
+    <position name="layer_165_act_pos" x="0" y="0" z="92.75" unit="mm"/>
+    <position name="layer_166_abs_pos" x="0" y="0" z="94.25" unit="mm"/>
+    <position name="layer_166_act_pos" x="0" y="0" z="95.75" unit="mm"/>
+    <position name="layer_167_abs_pos" x="0" y="0" z="97.25" unit="mm"/>
+    <position name="layer_167_act_pos" x="0" y="0" z="98.75" unit="mm"/>
+    <position name="layer_168_abs_pos" x="0" y="0" z="100.25" unit="mm"/>
+    <position name="layer_168_act_pos" x="0" y="0" z="101.75" unit="mm"/>
+    <position name="layer_169_abs_pos" x="0" y="0" z="103.25" unit="mm"/>
+    <position name="layer_169_act_pos" x="0" y="0" z="104.75" unit="mm"/>
+    <position name="layer_170_abs_pos" x="0" y="0" z="106.25" unit="mm"/>
+    <position name="layer_170_act_pos" x="0" y="0" z="107.75" unit="mm"/>
+    <position name="layer_171_abs_pos" x="0" y="0" z="109.25" unit="mm"/>
+    <position name="layer_171_act_pos" x="0" y="0" z="110.75" unit="mm"/>
+    <position name="layer_172_abs_pos" x="0" y="0" z="112.25" unit="mm"/>
+    <position name="layer_172_act_pos" x="0" y="0" z="113.75" unit="mm"/>
+    <position name="layer_173_abs_pos" x="0" y="0" z="115.25" unit="mm"/>
+    <position name="layer_173_act_pos" x="0" y="0" z="116.75" unit="mm"/>
+    <position name="layer_174_abs_pos" x="0" y="0" z="118.25" unit="mm"/>
+    <position name="layer_174_act_pos" x="0" y="0" z="119.75" unit="mm"/>
+    <position name="layer_175_abs_pos" x="0" y="0" z="121.25" unit="mm"/>
+    <position name="layer_175_act_pos" x="0" y="0" z="122.75" unit="mm"/>
+    <position name="layer_176_abs_pos" x="0" y="0" z="124.25" unit="mm"/>
+    <position name="layer_176_act_pos" x="0" y="0" z="125.75" unit="mm"/>
+    <position name="layer_177_abs_pos" x="0" y="0" z="127.25" unit="mm"/>
+    <position name="layer_177_act_pos" x="0" y="0" z="128.75" unit="mm"/>
+    <position name="layer_178_abs_pos" x="0" y="0" z="130.25" unit="mm"/>
+    <position name="layer_178_act_pos" x="0" y="0" z="131.75" unit="mm"/>
+    <position name="layer_179_abs_pos" x="0" y="0" z="133.25" unit="mm"/>
+    <position name="layer_179_act_pos" x="0" y="0" z="134.75" unit="mm"/>
+    <position name="layer_180_abs_pos" x="0" y="0" z="136.25" unit="mm"/>
+    <position name="layer_180_act_pos" x="0" y="0" z="137.75" unit="mm"/>
+    <position name="layer_181_abs_pos" x="0" y="0" z="139.25" unit="mm"/>
+    <position name="layer_181_act_pos" x="0" y="0" z="140.75" unit="mm"/>
+    <position name="layer_182_abs_pos" x="0" y="0" z="142.25" unit="mm"/>
+    <position name="layer_182_act_pos" x="0" y="0" z="143.75" unit="mm"/>
+    <position name="layer_183_abs_pos" x="0" y="0" z="145.25" unit="mm"/>
+    <position name="layer_183_act_pos" x="0" y="0" z="146.75" unit="mm"/>
+    <position name="layer_184_abs_pos" x="0" y="0" z="148.25" unit="mm"/>
+    <position name="layer_184_act_pos" x="0" y="0" z="149.75" unit="mm"/>
+    <position name="layer_185_abs_pos" x="0" y="0" z="151.25" unit="mm"/>
+    <position name="layer_185_act_pos" x="0" y="0" z="152.75" unit="mm"/>
+    <position name="layer_186_abs_pos" x="0" y="0" z="154.25" unit="mm"/>
+    <position name="layer_186_act_pos" x="0" y="0" z="155.75" unit="mm"/>
+    <position name="layer_187_abs_pos" x="0" y="0" z="157.25" unit="mm"/>
+    <position name="layer_187_act_pos" x="0" y="0" z="158.75" unit="mm"/>
+    <position name="layer_188_abs_pos" x="0" y="0" z="160.25" unit="mm"/>
+    <position name="layer_188_act_pos" x="0" y="0" z="161.75" unit="mm"/>
+    <position name="layer_189_abs_pos" x="0" y="0" z="163.25" unit="mm"/>
+    <position name="layer_189_act_pos" x="0" y="0" z="164.75" unit="mm"/>
+    <position name="layer_190_abs_pos" x="0" y="0" z="166.25" unit="mm"/>
+    <position name="layer_190_act_pos" x="0" y="0" z="167.75" unit="mm"/>
+    <position name="layer_191_abs_pos" x="0" y="0" z="169.25" unit="mm"/>
+    <position name="layer_191_act_pos" x="0" y="0" z="170.75" unit="mm"/>
+    <position name="layer_192_abs_pos" x="0" y="0" z="172.25" unit="mm"/>
+    <position name="layer_192_act_pos" x="0" y="0" z="173.75" unit="mm"/>
+    <position name="layer_193_abs_pos" x="0" y="0" z="175.25" unit="mm"/>
+    <position name="layer_193_act_pos" x="0" y="0" z="176.75" unit="mm"/>
+    <position name="layer_194_abs_pos" x="0" y="0" z="178.25" unit="mm"/>
+    <position name="layer_194_act_pos" x="0" y="0" z="179.75" unit="mm"/>
+    <position name="layer_195_abs_pos" x="0" y="0" z="181.25" unit="mm"/>
+    <position name="layer_195_act_pos" x="0" y="0" z="182.75" unit="mm"/>
+    <position name="layer_196_abs_pos" x="0" y="0" z="184.25" unit="mm"/>
+    <position name="layer_196_act_pos" x="0" y="0" z="185.75" unit="mm"/>
+    <position name="layer_197_abs_pos" x="0" y="0" z="187.25" unit="mm"/>
+    <position name="layer_197_act_pos" x="0" y="0" z="188.75" unit="mm"/>
+    <position name="layer_198_abs_pos" x="0" y="0" z="190.25" unit="mm"/>
+    <position name="layer_198_act_pos" x="0" y="0" z="191.75" unit="mm"/>
+    <position name="layer_199_abs_pos" x="0" y="0" z="193.25" unit="mm"/>
+    <position name="layer_199_act_pos" x="0" y="0" z="194.75" unit="mm"/>
+    <position name="layer_200_abs_pos" x="0" y="0" z="196.25" unit="mm"/>
+    <position name="layer_200_act_pos" x="0" y="0" z="197.75" unit="mm"/>
+    <position name="layer_201_abs_pos" x="0" y="0" z="199.25" unit="mm"/>
+    <position name="layer_201_act_pos" x="0" y="0" z="200.75" unit="mm"/>
+    <position name="layer_202_abs_pos" x="0" y="0" z="202.25" unit="mm"/>
+    <position name="layer_202_act_pos" x="0" y="0" z="203.75" unit="mm"/>
+    <position name="layer_203_abs_pos" x="0" y="0" z="205.25" unit="mm"/>
+    <position name="layer_203_act_pos" x="0" y="0" z="206.75" unit="mm"/>
+    <position name="layer_204_abs_pos" x="0" y="0" z="208.25" unit="mm"/>
+    <position name="layer_204_act_pos" x="0" y="0" z="209.75" unit="mm"/>
+    <position name="layer_205_abs_pos" x="0" y="0" z="211.25" unit="mm"/>
+    <position name="layer_205_act_pos" x="0" y="0" z="212.75" unit="mm"/>
+    <position name="layer_206_abs_pos" x="0" y="0" z="214.25" unit="mm"/>
+    <position name="layer_206_act_pos" x="0" y="0" z="215.75" unit="mm"/>
+    <position name="layer_207_abs_pos" x="0" y="0" z="217.25" unit="mm"/>
+    <position name="layer_207_act_pos" x="0" y="0" z="218.75" unit="mm"/>
+    <position name="layer_208_abs_pos" x="0" y="0" z="220.25" unit="mm"/>
+    <position name="layer_208_act_pos" x="0" y="0" z="221.75" unit="mm"/>
+    <position name="layer_209_abs_pos" x="0" y="0" z="223.25" unit="mm"/>
+    <position name="layer_209_act_pos" x="0" y="0" z="224.75" unit="mm"/>
+    <position name="layer_210_abs_pos" x="0" y="0" z="226.25" unit="mm"/>
+    <position name="layer_210_act_pos" x="0" y="0" z="227.75" unit="mm"/>
+    <position name="layer_211_abs_pos" x="0" y="0" z="229.25" unit="mm"/>
+    <position name="layer_211_act_pos" x="0" y="0" z="230.75" unit="mm"/>
+    <position name="layer_212_abs_pos" x="0" y="0" z="232.25" unit="mm"/>
+    <position name="layer_212_act_pos" x="0" y="0" z="233.75" unit="mm"/>
+    <position name="layer_213_abs_pos" x="0" y="0" z="235.25" unit="mm"/>
+    <position name="layer_213_act_pos" x="0" y="0" z="236.75" unit="mm"/>
+    <position name="layer_214_abs_pos" x="0" y="0" z="238.25" unit="mm"/>
+    <position name="layer_214_act_pos" x="0" y="0" z="239.75" unit="mm"/>
+    <position name="layer_215_abs_pos" x="0" y="0" z="241.25" unit="mm"/>
+    <position name="layer_215_act_pos" x="0" y="0" z="242.75" unit="mm"/>
+    <position name="layer_216_abs_pos" x="0" y="0" z="244.25" unit="mm"/>
+    <position name="layer_216_act_pos" x="0" y="0" z="245.75" unit="mm"/>
+    <position name="layer_217_abs_pos" x="0" y="0" z="247.25" unit="mm"/>
+    <position name="layer_217_act_pos" x="0" y="0" z="248.75" unit="mm"/>
+    <position name="layer_218_abs_pos" x="0" y="0" z="250.25" unit="mm"/>
+    <position name="layer_218_act_pos" x="0" y="0" z="251.75" unit="mm"/>
+    <position name="layer_219_abs_pos" x="0" y="0" z="253.25" unit="mm"/>
+    <position name="layer_219_act_pos" x="0" y="0" z="254.75" unit="mm"/>
+    <position name="layer_220_abs_pos" x="0" y="0" z="256.25" unit="mm"/>
+    <position name="layer_220_act_pos" x="0" y="0" z="257.75" unit="mm"/>
+    <position name="layer_221_abs_pos" x="0" y="0" z="259.25" unit="mm"/>
+    <position name="layer_221_act_pos" x="0" y="0" z="260.75" unit="mm"/>
+    <position name="layer_222_abs_pos" x="0" y="0" z="262.25" unit="mm"/>
+    <position name="layer_222_act_pos" x="0" y="0" z="263.75" unit="mm"/>
+    <position name="layer_223_abs_pos" x="0" y="0" z="265.25" unit="mm"/>
+    <position name="layer_223_act_pos" x="0" y="0" z="266.75" unit="mm"/>
+    <position name="layer_224_abs_pos" x="0" y="0" z="268.25" unit="mm"/>
+    <position name="layer_224_act_pos" x="0" y="0" z="269.75" unit="mm"/>
+    <position name="layer_225_abs_pos" x="0" y="0" z="271.25" unit="mm"/>
+    <position name="layer_225_act_pos" x="0" y="0" z="272.75" unit="mm"/>
+    <position name="layer_226_abs_pos" x="0" y="0" z="274.25" unit="mm"/>
+    <position name="layer_226_act_pos" x="0" y="0" z="275.75" unit="mm"/>
+    <position name="layer_227_abs_pos" x="0" y="0" z="277.25" unit="mm"/>
+    <position name="layer_227_act_pos" x="0" y="0" z="278.75" unit="mm"/>
+    <position name="layer_228_abs_pos" x="0" y="0" z="280.25" unit="mm"/>
+    <position name="layer_228_act_pos" x="0" y="0" z="281.75" unit="mm"/>
+    <position name="layer_229_abs_pos" x="0" y="0" z="283.25" unit="mm"/>
+    <position name="layer_229_act_pos" x="0" y="0" z="284.75" unit="mm"/>
+    <position name="layer_230_abs_pos" x="0" y="0" z="286.25" unit="mm"/>
+    <position name="layer_230_act_pos" x="0" y="0" z="287.75" unit="mm"/>
+    <position name="layer_231_abs_pos" x="0" y="0" z="289.25" unit="mm"/>
+    <position name="layer_231_act_pos" x="0" y="0" z="290.75" unit="mm"/>
+    <position name="layer_232_abs_pos" x="0" y="0" z="292.25" unit="mm"/>
+    <position name="layer_232_act_pos" x="0" y="0" z="293.75" unit="mm"/>
+    <position name="layer_233_abs_pos" x="0" y="0" z="295.25" unit="mm"/>
+    <position name="layer_233_act_pos" x="0" y="0" z="296.75" unit="mm"/>
+    <position name="layer_234_abs_pos" x="0" y="0" z="298.25" unit="mm"/>
+    <position name="layer_234_act_pos" x="0" y="0" z="299.75" unit="mm"/>
+    <position name="layer_235_abs_pos" x="0" y="0" z="301.25" unit="mm"/>
+    <position name="layer_235_act_pos" x="0" y="0" z="302.75" unit="mm"/>
+    <position name="layer_236_abs_pos" x="0" y="0" z="304.25" unit="mm"/>
+    <position name="layer_236_act_pos" x="0" y="0" z="305.75" unit="mm"/>
+    <position name="layer_237_abs_pos" x="0" y="0" z="307.25" unit="mm"/>
+    <position name="layer_237_act_pos" x="0" y="0" z="308.75" unit="mm"/>
+    <position name="layer_238_abs_pos" x="0" y="0" z="310.25" unit="mm"/>
+    <position name="layer_238_act_pos" x="0" y="0" z="311.75" unit="mm"/>
+    <position name="layer_239_abs_pos" x="0" y="0" z="313.25" unit="mm"/>
+    <position name="layer_239_act_pos" x="0" y="0" z="314.75" unit="mm"/>
+    <position name="layer_240_abs_pos" x="0" y="0" z="316.25" unit="mm"/>
+    <position name="layer_240_act_pos" x="0" y="0" z="317.75" unit="mm"/>
+    <position name="layer_241_abs_pos" x="0" y="0" z="319.25" unit="mm"/>
+    <position name="layer_241_act_pos" x="0" y="0" z="320.75" unit="mm"/>
+    <position name="layer_242_abs_pos" x="0" y="0" z="322.25" unit="mm"/>
+    <position name="layer_242_act_pos" x="0" y="0" z="323.75" unit="mm"/>
+    <position name="layer_243_abs_pos" x="0" y="0" z="325.25" unit="mm"/>
+    <position name="layer_243_act_pos" x="0" y="0" z="326.75" unit="mm"/>
+    <position name="layer_244_abs_pos" x="0" y="0" z="328.25" unit="mm"/>
+    <position name="layer_244_act_pos" x="0" y="0" z="329.75" unit="mm"/>
+    <position name="layer_245_abs_pos" x="0" y="0" z="331.25" unit="mm"/>
+    <position name="layer_245_act_pos" x="0" y="0" z="332.75" unit="mm"/>
+    <position name="layer_246_abs_pos" x="0" y="0" z="334.25" unit="mm"/>
+    <position name="layer_246_act_pos" x="0" y="0" z="335.75" unit="mm"/>
+    <position name="layer_247_abs_pos" x="0" y="0" z="337.25" unit="mm"/>
+    <position name="layer_247_act_pos" x="0" y="0" z="338.75" unit="mm"/>
+    <position name="layer_248_abs_pos" x="0" y="0" z="340.25" unit="mm"/>
+    <position name="layer_248_act_pos" x="0" y="0" z="341.75" unit="mm"/>
+    <position name="layer_249_abs_pos" x="0" y="0" z="343.25" unit="mm"/>
+    <position name="layer_249_act_pos" x="0" y="0" z="344.75" unit="mm"/>
+    <position name="layer_250_abs_pos" x="0" y="0" z="346.25" unit="mm"/>
+    <position name="layer_250_act_pos" x="0" y="0" z="347.75" unit="mm"/>
+    <position name="layer_251_abs_pos" x="0" y="0" z="349.25" unit="mm"/>
+    <position name="layer_251_act_pos" x="0" y="0" z="350.75" unit="mm"/>
+    <position name="layer_252_abs_pos" x="0" y="0" z="352.25" unit="mm"/>
+    <position name="layer_252_act_pos" x="0" y="0" z="353.75" unit="mm"/>
+    <position name="layer_253_abs_pos" x="0" y="0" z="355.25" unit="mm"/>
+    <position name="layer_253_act_pos" x="0" y="0" z="356.75" unit="mm"/>
+    <position name="layer_254_abs_pos" x="0" y="0" z="358.25" unit="mm"/>
+    <position name="layer_254_act_pos" x="0" y="0" z="359.75" unit="mm"/>
+    <position name="layer_255_abs_pos" x="0" y="0" z="361.25" unit="mm"/>
+    <position name="layer_255_act_pos" x="0" y="0" z="362.75" unit="mm"/>
+    <position name="layer_256_abs_pos" x="0" y="0" z="364.25" unit="mm"/>
+    <position name="layer_256_act_pos" x="0" y="0" z="365.75" unit="mm"/>
+    <position name="layer_257_abs_pos" x="0" y="0" z="367.25" unit="mm"/>
+    <position name="layer_257_act_pos" x="0" y="0" z="368.75" unit="mm"/>
+    <position name="layer_258_abs_pos" x="0" y="0" z="370.25" unit="mm"/>
+    <position name="layer_258_act_pos" x="0" y="0" z="371.75" unit="mm"/>
+    <position name="layer_259_abs_pos" x="0" y="0" z="373.25" unit="mm"/>
+    <position name="layer_259_act_pos" x="0" y="0" z="374.75" unit="mm"/>
+    <position name="layer_260_abs_pos" x="0" y="0" z="376.25" unit="mm"/>
+    <position name="layer_260_act_pos" x="0" y="0" z="377.75" unit="mm"/>
+    <position name="layer_261_abs_pos" x="0" y="0" z="379.25" unit="mm"/>
+    <position name="layer_261_act_pos" x="0" y="0" z="380.75" unit="mm"/>
+    <position name="layer_262_abs_pos" x="0" y="0" z="382.25" unit="mm"/>
+    <position name="layer_262_act_pos" x="0" y="0" z="383.75" unit="mm"/>
+    <position name="layer_263_abs_pos" x="0" y="0" z="385.25" unit="mm"/>
+    <position name="layer_263_act_pos" x="0" y="0" z="386.75" unit="mm"/>
+    <position name="layer_264_abs_pos" x="0" y="0" z="388.25" unit="mm"/>
+    <position name="layer_264_act_pos" x="0" y="0" z="389.75" unit="mm"/>
+    <position name="layer_265_abs_pos" x="0" y="0" z="391.25" unit="mm"/>
+    <position name="layer_265_act_pos" x="0" y="0" z="392.75" unit="mm"/>
+    <position name="layer_266_abs_pos" x="0" y="0" z="394.25" unit="mm"/>
+    <position name="layer_266_act_pos" x="0" y="0" z="395.75" unit="mm"/>
+    <position name="layer_267_abs_pos" x="0" y="0" z="397.25" unit="mm"/>
+    <position name="layer_267_act_pos" x="0" y="0" z="398.75" unit="mm"/>
+    <position name="layer_268_abs_pos" x="0" y="0" z="400.25" unit="mm"/>
+    <position name="layer_268_act_pos" x="0" y="0" z="401.75" unit="mm"/>
+    <position name="layer_269_abs_pos" x="0" y="0" z="403.25" unit="mm"/>
+    <position name="layer_269_act_pos" x="0" y="0" z="404.75" unit="mm"/>
+  </define>
+
+  <materials>
+    <!-- Element definitions -->
+    <element name="Hydrogen" formula="H" Z="1">
+      <atom value="1.00794"/>
+    </element>
+    <element name="Carbon" formula="C" Z="6">
+      <atom value="12.0107"/>
+    </element>
+    <element name="Nitrogen" formula="N" Z="7">
+      <atom value="14.0067"/>
+    </element>
+    <element name="Oxygen" formula="O" Z="8">
+      <atom value="15.9994"/>
+    </element>
+    <element name="Iron_el" formula="Fe" Z="26">
+      <atom value="55.845"/>
+    </element>
+    <element name="Chromium" formula="Cr" Z="24">
+      <atom value="51.9961"/>
+    </element>
+    <element name="Nickel" formula="Ni" Z="28">
+      <atom value="58.6934"/>
+    </element>
+    <element name="Lead_el" formula="Pb" Z="82">
+      <atom value="207.2"/>
+    </element>
+    <element name="Tungsten_el" formula="W" Z="74">
+      <atom value="183.84"/>
+    </element>
+
+    <!-- Air -->
+    <material name="G4_AIR" formula="Air">
+      <D value="0.00120479" unit="g/cm3"/>
+      <fraction n="0.7" ref="Nitrogen"/>
+      <fraction n="0.3" ref="Oxygen"/>
+    </material>
+
+    <!-- Stainless Steel (typical 304) -->
+    <material name="G4_STAINLESS-STEEL" formula="Steel">
+      <D value="7.93" unit="g/cm3"/>
+      <fraction n="0.70" ref="Iron_el"/>
+      <fraction n="0.19" ref="Chromium"/>
+      <fraction n="0.10" ref="Nickel"/>
+      <fraction n="0.01" ref="Carbon"/>
+    </material>
+
+    <!-- Iron -->
+    <material name="G4_Fe" formula="Fe">
+      <D value="7.874" unit="g/cm3"/>
+      <fraction n="1.0" ref="Iron_el"/>
+    </material>
+
+    <!-- Aluminum -->
+    <element name="Aluminum_el" formula="Al" Z="13">
+      <atom value="26.982"/>
+    </element>
+    <material name="G4_Al" formula="Al">
+      <D value="2.699" unit="g/cm3"/>
+      <fraction n="1.0" ref="Aluminum_el"/>
+    </material>
+
+    <!-- Lead -->
+    <material name="G4_Pb" formula="Pb">
+      <D value="11.35" unit="g/cm3"/>
+      <fraction n="1.0" ref="Lead_el"/>
+    </material>
+
+    <!-- Tungsten -->
+    <material name="G4_W" formula="W">
+      <D value="19.3" unit="g/cm3"/>
+      <fraction n="1.0" ref="Tungsten_el"/>
+    </material>
+
+    <!-- Copper -->
+    <element name="Copper_el" formula="Cu" Z="29">
+      <atom value="63.546"/>
+    </element>
+    <material name="G4_Cu" formula="Cu">
+      <D value="8.96" unit="g/cm3"/>
+      <fraction n="1.0" ref="Copper_el"/>
+    </material>
+
+    <!-- Brass (70/30 Cu/Zn) -->
+    <element name="Zinc_el" formula="Zn" Z="30">
+      <atom value="65.38"/>
+    </element>
+    <material name="G4_BRASS" formula="CuZn">
+      <D value="8.52" unit="g/cm3"/>
+      <fraction n="0.70" ref="Copper_el"/>
+      <fraction n="0.30" ref="Zinc_el"/>
+    </material>
+
+    <!-- Plastic Scintillator (polyvinyltoluene based) -->
+    <material name="G4_PLASTIC_SC_VINYLTOLUENE" formula="C9H10">
+      <D value="1.032" unit="g/cm3"/>
+      <fraction n="0.915" ref="Carbon"/>
+      <fraction n="0.085" ref="Hydrogen"/>
+    </material>
+
+    <!-- Polystyrene -->
+    <material name="G4_POLYSTYRENE" formula="C8H8">
+      <D value="1.06" unit="g/cm3"/>
+      <fraction n="0.923" ref="Carbon"/>
+      <fraction n="0.077" ref="Hydrogen"/>
+    </material>
+
+    <!-- Silicon -->
+    <element name="Silicon_el" formula="Si" Z="14">
+      <atom value="28.0855"/>
+    </element>
+    <material name="G4_Si" formula="Si">
+      <D value="2.33" unit="g/cm3"/>
+      <fraction n="1.0" ref="Silicon_el"/>
+    </material>
+
+    <!-- Copper -->
+    <element name="Copper_el" formula="Cu" Z="29">
+      <atom value="63.546"/>
+    </element>
+    <material name="G4_Cu" formula="Cu">
+      <D value="8.96" unit="g/cm3"/>
+      <fraction n="1.0" ref="Copper_el"/>
+    </material>
+
+    <!-- Brass (Cu 70%, Zn 30%) -->
+    <element name="Zinc" formula="Zn" Z="30">
+      <atom value="65.38"/>
+    </element>
+    <material name="G4_BRASS" formula="CuZn">
+      <D value="8.52" unit="g/cm3"/>
+      <fraction n="0.70" ref="Copper_el"/>
+      <fraction n="0.30" ref="Zinc"/>
+    </material>
+
+    <!-- Liquid Argon -->
+    <element name="Argon_el" formula="Ar" Z="18">
+      <atom value="39.948"/>
+    </element>
+    <material name="G4_lAr" formula="Ar">
+      <D value="1.396" unit="g/cm3"/>
+      <fraction n="1.0" ref="Argon_el"/>
+    </material>
+
+    <!-- Crystal calorimeter materials -->
+    <element name="Cesium" formula="Cs" Z="55">
+      <atom value="132.905"/>
+    </element>
+    <element name="Iodine" formula="I" Z="53">
+      <atom value="126.904"/>
+    </element>
+    <material name="G4_CESIUM_IODIDE" formula="CsI">
+      <D value="4.51" unit="g/cm3"/>
+      <fraction n="0.512" ref="Cesium"/>
+      <fraction n="0.488" ref="Iodine"/>
+    </material>
+
+    <element name="Bismuth" formula="Bi" Z="83">
+      <atom value="208.98"/>
+    </element>
+    <element name="Germanium" formula="Ge" Z="32">
+      <atom value="72.63"/>
+    </element>
+    <material name="G4_BGO" formula="Bi4Ge3O12">
+      <D value="7.13" unit="g/cm3"/>
+      <fraction n="0.671" ref="Bismuth"/>
+      <fraction n="0.175" ref="Germanium"/>
+      <fraction n="0.154" ref="Oxygen"/>
+    </material>
+
+    <material name="G4_PbWO4" formula="PbWO4">
+      <D value="8.28" unit="g/cm3"/>
+      <fraction n="0.455" ref="Lead_el"/>
+      <fraction n="0.404" ref="Tungsten_el"/>
+      <fraction n="0.141" ref="Oxygen"/>
+    </material>
+
+    <element name="Lutetium" formula="Lu" Z="71">
+      <atom value="174.967"/>
+    </element>
+    <element name="Yttrium_el" formula="Y" Z="39">
+      <atom value="88.906"/>
+    </element>
+    <material name="G4_LYSO" formula="Lu2SiO5">
+      <D value="7.4" unit="g/cm3"/>
+      <fraction n="0.714" ref="Lutetium"/>
+      <fraction n="0.040" ref="Yttrium_el"/>
+      <fraction n="0.064" ref="Silicon_el"/>
+      <fraction n="0.182" ref="Oxygen"/>
+    </material>
+
+  </materials>
+
+  <solids>
+    <box name="world_solid" x="50000.0" y="50000.0" z="50000.0" lunit="mm"/>
+    <box name="absorber_layer" x="200.0" y="200.0" z="2.5" lunit="mm"/>
+    <box name="active_layer" x="200.0" y="200.0" z="0.5" lunit="mm"/>
+    <box name="calor_envelope" x="220.00000000000003" y="220.00000000000003" z="891.0000000000001" lunit="mm"/>
+  </solids>
+
+  <structure>
+    <volume name="absorber_log">
+      <materialref ref="G4_W"/>
+      <solidref ref="absorber_layer"/>
+    </volume>
+    <volume name="active_log">
+      <materialref ref="G4_PLASTIC_SC_VINYLTOLUENE"/>
+      <solidref ref="active_layer"/>
+      <auxiliary auxtype="SensDet" auxvalue="CalorimeterSD"/>
+    </volume>
+
+    <volume name="calor_log">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="calor_envelope"/>
+      <physvol name="absorber_0">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_0_abs_pos"/>
+      </physvol>
+      <physvol name="active_0">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_0_act_pos"/>
+      </physvol>
+      <physvol name="absorber_1">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_1_abs_pos"/>
+      </physvol>
+      <physvol name="active_1">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_1_act_pos"/>
+      </physvol>
+      <physvol name="absorber_2">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_2_abs_pos"/>
+      </physvol>
+      <physvol name="active_2">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_2_act_pos"/>
+      </physvol>
+      <physvol name="absorber_3">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_3_abs_pos"/>
+      </physvol>
+      <physvol name="active_3">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_3_act_pos"/>
+      </physvol>
+      <physvol name="absorber_4">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_4_abs_pos"/>
+      </physvol>
+      <physvol name="active_4">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_4_act_pos"/>
+      </physvol>
+      <physvol name="absorber_5">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_5_abs_pos"/>
+      </physvol>
+      <physvol name="active_5">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_5_act_pos"/>
+      </physvol>
+      <physvol name="absorber_6">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_6_abs_pos"/>
+      </physvol>
+      <physvol name="active_6">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_6_act_pos"/>
+      </physvol>
+      <physvol name="absorber_7">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_7_abs_pos"/>
+      </physvol>
+      <physvol name="active_7">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_7_act_pos"/>
+      </physvol>
+      <physvol name="absorber_8">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_8_abs_pos"/>
+      </physvol>
+      <physvol name="active_8">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_8_act_pos"/>
+      </physvol>
+      <physvol name="absorber_9">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_9_abs_pos"/>
+      </physvol>
+      <physvol name="active_9">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_9_act_pos"/>
+      </physvol>
+      <physvol name="absorber_10">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_10_abs_pos"/>
+      </physvol>
+      <physvol name="active_10">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_10_act_pos"/>
+      </physvol>
+      <physvol name="absorber_11">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_11_abs_pos"/>
+      </physvol>
+      <physvol name="active_11">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_11_act_pos"/>
+      </physvol>
+      <physvol name="absorber_12">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_12_abs_pos"/>
+      </physvol>
+      <physvol name="active_12">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_12_act_pos"/>
+      </physvol>
+      <physvol name="absorber_13">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_13_abs_pos"/>
+      </physvol>
+      <physvol name="active_13">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_13_act_pos"/>
+      </physvol>
+      <physvol name="absorber_14">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_14_abs_pos"/>
+      </physvol>
+      <physvol name="active_14">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_14_act_pos"/>
+      </physvol>
+      <physvol name="absorber_15">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_15_abs_pos"/>
+      </physvol>
+      <physvol name="active_15">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_15_act_pos"/>
+      </physvol>
+      <physvol name="absorber_16">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_16_abs_pos"/>
+      </physvol>
+      <physvol name="active_16">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_16_act_pos"/>
+      </physvol>
+      <physvol name="absorber_17">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_17_abs_pos"/>
+      </physvol>
+      <physvol name="active_17">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_17_act_pos"/>
+      </physvol>
+      <physvol name="absorber_18">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_18_abs_pos"/>
+      </physvol>
+      <physvol name="active_18">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_18_act_pos"/>
+      </physvol>
+      <physvol name="absorber_19">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_19_abs_pos"/>
+      </physvol>
+      <physvol name="active_19">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_19_act_pos"/>
+      </physvol>
+      <physvol name="absorber_20">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_20_abs_pos"/>
+      </physvol>
+      <physvol name="active_20">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_20_act_pos"/>
+      </physvol>
+      <physvol name="absorber_21">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_21_abs_pos"/>
+      </physvol>
+      <physvol name="active_21">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_21_act_pos"/>
+      </physvol>
+      <physvol name="absorber_22">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_22_abs_pos"/>
+      </physvol>
+      <physvol name="active_22">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_22_act_pos"/>
+      </physvol>
+      <physvol name="absorber_23">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_23_abs_pos"/>
+      </physvol>
+      <physvol name="active_23">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_23_act_pos"/>
+      </physvol>
+      <physvol name="absorber_24">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_24_abs_pos"/>
+      </physvol>
+      <physvol name="active_24">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_24_act_pos"/>
+      </physvol>
+      <physvol name="absorber_25">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_25_abs_pos"/>
+      </physvol>
+      <physvol name="active_25">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_25_act_pos"/>
+      </physvol>
+      <physvol name="absorber_26">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_26_abs_pos"/>
+      </physvol>
+      <physvol name="active_26">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_26_act_pos"/>
+      </physvol>
+      <physvol name="absorber_27">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_27_abs_pos"/>
+      </physvol>
+      <physvol name="active_27">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_27_act_pos"/>
+      </physvol>
+      <physvol name="absorber_28">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_28_abs_pos"/>
+      </physvol>
+      <physvol name="active_28">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_28_act_pos"/>
+      </physvol>
+      <physvol name="absorber_29">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_29_abs_pos"/>
+      </physvol>
+      <physvol name="active_29">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_29_act_pos"/>
+      </physvol>
+      <physvol name="absorber_30">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_30_abs_pos"/>
+      </physvol>
+      <physvol name="active_30">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_30_act_pos"/>
+      </physvol>
+      <physvol name="absorber_31">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_31_abs_pos"/>
+      </physvol>
+      <physvol name="active_31">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_31_act_pos"/>
+      </physvol>
+      <physvol name="absorber_32">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_32_abs_pos"/>
+      </physvol>
+      <physvol name="active_32">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_32_act_pos"/>
+      </physvol>
+      <physvol name="absorber_33">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_33_abs_pos"/>
+      </physvol>
+      <physvol name="active_33">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_33_act_pos"/>
+      </physvol>
+      <physvol name="absorber_34">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_34_abs_pos"/>
+      </physvol>
+      <physvol name="active_34">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_34_act_pos"/>
+      </physvol>
+      <physvol name="absorber_35">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_35_abs_pos"/>
+      </physvol>
+      <physvol name="active_35">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_35_act_pos"/>
+      </physvol>
+      <physvol name="absorber_36">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_36_abs_pos"/>
+      </physvol>
+      <physvol name="active_36">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_36_act_pos"/>
+      </physvol>
+      <physvol name="absorber_37">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_37_abs_pos"/>
+      </physvol>
+      <physvol name="active_37">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_37_act_pos"/>
+      </physvol>
+      <physvol name="absorber_38">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_38_abs_pos"/>
+      </physvol>
+      <physvol name="active_38">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_38_act_pos"/>
+      </physvol>
+      <physvol name="absorber_39">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_39_abs_pos"/>
+      </physvol>
+      <physvol name="active_39">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_39_act_pos"/>
+      </physvol>
+      <physvol name="absorber_40">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_40_abs_pos"/>
+      </physvol>
+      <physvol name="active_40">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_40_act_pos"/>
+      </physvol>
+      <physvol name="absorber_41">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_41_abs_pos"/>
+      </physvol>
+      <physvol name="active_41">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_41_act_pos"/>
+      </physvol>
+      <physvol name="absorber_42">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_42_abs_pos"/>
+      </physvol>
+      <physvol name="active_42">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_42_act_pos"/>
+      </physvol>
+      <physvol name="absorber_43">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_43_abs_pos"/>
+      </physvol>
+      <physvol name="active_43">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_43_act_pos"/>
+      </physvol>
+      <physvol name="absorber_44">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_44_abs_pos"/>
+      </physvol>
+      <physvol name="active_44">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_44_act_pos"/>
+      </physvol>
+      <physvol name="absorber_45">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_45_abs_pos"/>
+      </physvol>
+      <physvol name="active_45">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_45_act_pos"/>
+      </physvol>
+      <physvol name="absorber_46">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_46_abs_pos"/>
+      </physvol>
+      <physvol name="active_46">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_46_act_pos"/>
+      </physvol>
+      <physvol name="absorber_47">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_47_abs_pos"/>
+      </physvol>
+      <physvol name="active_47">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_47_act_pos"/>
+      </physvol>
+      <physvol name="absorber_48">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_48_abs_pos"/>
+      </physvol>
+      <physvol name="active_48">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_48_act_pos"/>
+      </physvol>
+      <physvol name="absorber_49">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_49_abs_pos"/>
+      </physvol>
+      <physvol name="active_49">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_49_act_pos"/>
+      </physvol>
+      <physvol name="absorber_50">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_50_abs_pos"/>
+      </physvol>
+      <physvol name="active_50">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_50_act_pos"/>
+      </physvol>
+      <physvol name="absorber_51">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_51_abs_pos"/>
+      </physvol>
+      <physvol name="active_51">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_51_act_pos"/>
+      </physvol>
+      <physvol name="absorber_52">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_52_abs_pos"/>
+      </physvol>
+      <physvol name="active_52">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_52_act_pos"/>
+      </physvol>
+      <physvol name="absorber_53">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_53_abs_pos"/>
+      </physvol>
+      <physvol name="active_53">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_53_act_pos"/>
+      </physvol>
+      <physvol name="absorber_54">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_54_abs_pos"/>
+      </physvol>
+      <physvol name="active_54">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_54_act_pos"/>
+      </physvol>
+      <physvol name="absorber_55">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_55_abs_pos"/>
+      </physvol>
+      <physvol name="active_55">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_55_act_pos"/>
+      </physvol>
+      <physvol name="absorber_56">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_56_abs_pos"/>
+      </physvol>
+      <physvol name="active_56">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_56_act_pos"/>
+      </physvol>
+      <physvol name="absorber_57">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_57_abs_pos"/>
+      </physvol>
+      <physvol name="active_57">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_57_act_pos"/>
+      </physvol>
+      <physvol name="absorber_58">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_58_abs_pos"/>
+      </physvol>
+      <physvol name="active_58">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_58_act_pos"/>
+      </physvol>
+      <physvol name="absorber_59">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_59_abs_pos"/>
+      </physvol>
+      <physvol name="active_59">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_59_act_pos"/>
+      </physvol>
+      <physvol name="absorber_60">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_60_abs_pos"/>
+      </physvol>
+      <physvol name="active_60">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_60_act_pos"/>
+      </physvol>
+      <physvol name="absorber_61">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_61_abs_pos"/>
+      </physvol>
+      <physvol name="active_61">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_61_act_pos"/>
+      </physvol>
+      <physvol name="absorber_62">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_62_abs_pos"/>
+      </physvol>
+      <physvol name="active_62">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_62_act_pos"/>
+      </physvol>
+      <physvol name="absorber_63">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_63_abs_pos"/>
+      </physvol>
+      <physvol name="active_63">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_63_act_pos"/>
+      </physvol>
+      <physvol name="absorber_64">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_64_abs_pos"/>
+      </physvol>
+      <physvol name="active_64">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_64_act_pos"/>
+      </physvol>
+      <physvol name="absorber_65">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_65_abs_pos"/>
+      </physvol>
+      <physvol name="active_65">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_65_act_pos"/>
+      </physvol>
+      <physvol name="absorber_66">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_66_abs_pos"/>
+      </physvol>
+      <physvol name="active_66">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_66_act_pos"/>
+      </physvol>
+      <physvol name="absorber_67">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_67_abs_pos"/>
+      </physvol>
+      <physvol name="active_67">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_67_act_pos"/>
+      </physvol>
+      <physvol name="absorber_68">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_68_abs_pos"/>
+      </physvol>
+      <physvol name="active_68">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_68_act_pos"/>
+      </physvol>
+      <physvol name="absorber_69">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_69_abs_pos"/>
+      </physvol>
+      <physvol name="active_69">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_69_act_pos"/>
+      </physvol>
+      <physvol name="absorber_70">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_70_abs_pos"/>
+      </physvol>
+      <physvol name="active_70">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_70_act_pos"/>
+      </physvol>
+      <physvol name="absorber_71">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_71_abs_pos"/>
+      </physvol>
+      <physvol name="active_71">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_71_act_pos"/>
+      </physvol>
+      <physvol name="absorber_72">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_72_abs_pos"/>
+      </physvol>
+      <physvol name="active_72">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_72_act_pos"/>
+      </physvol>
+      <physvol name="absorber_73">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_73_abs_pos"/>
+      </physvol>
+      <physvol name="active_73">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_73_act_pos"/>
+      </physvol>
+      <physvol name="absorber_74">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_74_abs_pos"/>
+      </physvol>
+      <physvol name="active_74">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_74_act_pos"/>
+      </physvol>
+      <physvol name="absorber_75">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_75_abs_pos"/>
+      </physvol>
+      <physvol name="active_75">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_75_act_pos"/>
+      </physvol>
+      <physvol name="absorber_76">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_76_abs_pos"/>
+      </physvol>
+      <physvol name="active_76">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_76_act_pos"/>
+      </physvol>
+      <physvol name="absorber_77">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_77_abs_pos"/>
+      </physvol>
+      <physvol name="active_77">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_77_act_pos"/>
+      </physvol>
+      <physvol name="absorber_78">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_78_abs_pos"/>
+      </physvol>
+      <physvol name="active_78">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_78_act_pos"/>
+      </physvol>
+      <physvol name="absorber_79">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_79_abs_pos"/>
+      </physvol>
+      <physvol name="active_79">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_79_act_pos"/>
+      </physvol>
+      <physvol name="absorber_80">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_80_abs_pos"/>
+      </physvol>
+      <physvol name="active_80">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_80_act_pos"/>
+      </physvol>
+      <physvol name="absorber_81">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_81_abs_pos"/>
+      </physvol>
+      <physvol name="active_81">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_81_act_pos"/>
+      </physvol>
+      <physvol name="absorber_82">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_82_abs_pos"/>
+      </physvol>
+      <physvol name="active_82">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_82_act_pos"/>
+      </physvol>
+      <physvol name="absorber_83">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_83_abs_pos"/>
+      </physvol>
+      <physvol name="active_83">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_83_act_pos"/>
+      </physvol>
+      <physvol name="absorber_84">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_84_abs_pos"/>
+      </physvol>
+      <physvol name="active_84">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_84_act_pos"/>
+      </physvol>
+      <physvol name="absorber_85">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_85_abs_pos"/>
+      </physvol>
+      <physvol name="active_85">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_85_act_pos"/>
+      </physvol>
+      <physvol name="absorber_86">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_86_abs_pos"/>
+      </physvol>
+      <physvol name="active_86">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_86_act_pos"/>
+      </physvol>
+      <physvol name="absorber_87">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_87_abs_pos"/>
+      </physvol>
+      <physvol name="active_87">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_87_act_pos"/>
+      </physvol>
+      <physvol name="absorber_88">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_88_abs_pos"/>
+      </physvol>
+      <physvol name="active_88">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_88_act_pos"/>
+      </physvol>
+      <physvol name="absorber_89">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_89_abs_pos"/>
+      </physvol>
+      <physvol name="active_89">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_89_act_pos"/>
+      </physvol>
+      <physvol name="absorber_90">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_90_abs_pos"/>
+      </physvol>
+      <physvol name="active_90">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_90_act_pos"/>
+      </physvol>
+      <physvol name="absorber_91">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_91_abs_pos"/>
+      </physvol>
+      <physvol name="active_91">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_91_act_pos"/>
+      </physvol>
+      <physvol name="absorber_92">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_92_abs_pos"/>
+      </physvol>
+      <physvol name="active_92">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_92_act_pos"/>
+      </physvol>
+      <physvol name="absorber_93">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_93_abs_pos"/>
+      </physvol>
+      <physvol name="active_93">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_93_act_pos"/>
+      </physvol>
+      <physvol name="absorber_94">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_94_abs_pos"/>
+      </physvol>
+      <physvol name="active_94">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_94_act_pos"/>
+      </physvol>
+      <physvol name="absorber_95">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_95_abs_pos"/>
+      </physvol>
+      <physvol name="active_95">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_95_act_pos"/>
+      </physvol>
+      <physvol name="absorber_96">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_96_abs_pos"/>
+      </physvol>
+      <physvol name="active_96">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_96_act_pos"/>
+      </physvol>
+      <physvol name="absorber_97">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_97_abs_pos"/>
+      </physvol>
+      <physvol name="active_97">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_97_act_pos"/>
+      </physvol>
+      <physvol name="absorber_98">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_98_abs_pos"/>
+      </physvol>
+      <physvol name="active_98">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_98_act_pos"/>
+      </physvol>
+      <physvol name="absorber_99">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_99_abs_pos"/>
+      </physvol>
+      <physvol name="active_99">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_99_act_pos"/>
+      </physvol>
+      <physvol name="absorber_100">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_100_abs_pos"/>
+      </physvol>
+      <physvol name="active_100">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_100_act_pos"/>
+      </physvol>
+      <physvol name="absorber_101">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_101_abs_pos"/>
+      </physvol>
+      <physvol name="active_101">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_101_act_pos"/>
+      </physvol>
+      <physvol name="absorber_102">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_102_abs_pos"/>
+      </physvol>
+      <physvol name="active_102">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_102_act_pos"/>
+      </physvol>
+      <physvol name="absorber_103">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_103_abs_pos"/>
+      </physvol>
+      <physvol name="active_103">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_103_act_pos"/>
+      </physvol>
+      <physvol name="absorber_104">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_104_abs_pos"/>
+      </physvol>
+      <physvol name="active_104">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_104_act_pos"/>
+      </physvol>
+      <physvol name="absorber_105">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_105_abs_pos"/>
+      </physvol>
+      <physvol name="active_105">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_105_act_pos"/>
+      </physvol>
+      <physvol name="absorber_106">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_106_abs_pos"/>
+      </physvol>
+      <physvol name="active_106">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_106_act_pos"/>
+      </physvol>
+      <physvol name="absorber_107">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_107_abs_pos"/>
+      </physvol>
+      <physvol name="active_107">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_107_act_pos"/>
+      </physvol>
+      <physvol name="absorber_108">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_108_abs_pos"/>
+      </physvol>
+      <physvol name="active_108">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_108_act_pos"/>
+      </physvol>
+      <physvol name="absorber_109">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_109_abs_pos"/>
+      </physvol>
+      <physvol name="active_109">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_109_act_pos"/>
+      </physvol>
+      <physvol name="absorber_110">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_110_abs_pos"/>
+      </physvol>
+      <physvol name="active_110">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_110_act_pos"/>
+      </physvol>
+      <physvol name="absorber_111">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_111_abs_pos"/>
+      </physvol>
+      <physvol name="active_111">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_111_act_pos"/>
+      </physvol>
+      <physvol name="absorber_112">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_112_abs_pos"/>
+      </physvol>
+      <physvol name="active_112">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_112_act_pos"/>
+      </physvol>
+      <physvol name="absorber_113">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_113_abs_pos"/>
+      </physvol>
+      <physvol name="active_113">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_113_act_pos"/>
+      </physvol>
+      <physvol name="absorber_114">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_114_abs_pos"/>
+      </physvol>
+      <physvol name="active_114">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_114_act_pos"/>
+      </physvol>
+      <physvol name="absorber_115">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_115_abs_pos"/>
+      </physvol>
+      <physvol name="active_115">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_115_act_pos"/>
+      </physvol>
+      <physvol name="absorber_116">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_116_abs_pos"/>
+      </physvol>
+      <physvol name="active_116">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_116_act_pos"/>
+      </physvol>
+      <physvol name="absorber_117">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_117_abs_pos"/>
+      </physvol>
+      <physvol name="active_117">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_117_act_pos"/>
+      </physvol>
+      <physvol name="absorber_118">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_118_abs_pos"/>
+      </physvol>
+      <physvol name="active_118">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_118_act_pos"/>
+      </physvol>
+      <physvol name="absorber_119">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_119_abs_pos"/>
+      </physvol>
+      <physvol name="active_119">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_119_act_pos"/>
+      </physvol>
+      <physvol name="absorber_120">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_120_abs_pos"/>
+      </physvol>
+      <physvol name="active_120">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_120_act_pos"/>
+      </physvol>
+      <physvol name="absorber_121">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_121_abs_pos"/>
+      </physvol>
+      <physvol name="active_121">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_121_act_pos"/>
+      </physvol>
+      <physvol name="absorber_122">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_122_abs_pos"/>
+      </physvol>
+      <physvol name="active_122">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_122_act_pos"/>
+      </physvol>
+      <physvol name="absorber_123">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_123_abs_pos"/>
+      </physvol>
+      <physvol name="active_123">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_123_act_pos"/>
+      </physvol>
+      <physvol name="absorber_124">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_124_abs_pos"/>
+      </physvol>
+      <physvol name="active_124">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_124_act_pos"/>
+      </physvol>
+      <physvol name="absorber_125">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_125_abs_pos"/>
+      </physvol>
+      <physvol name="active_125">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_125_act_pos"/>
+      </physvol>
+      <physvol name="absorber_126">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_126_abs_pos"/>
+      </physvol>
+      <physvol name="active_126">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_126_act_pos"/>
+      </physvol>
+      <physvol name="absorber_127">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_127_abs_pos"/>
+      </physvol>
+      <physvol name="active_127">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_127_act_pos"/>
+      </physvol>
+      <physvol name="absorber_128">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_128_abs_pos"/>
+      </physvol>
+      <physvol name="active_128">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_128_act_pos"/>
+      </physvol>
+      <physvol name="absorber_129">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_129_abs_pos"/>
+      </physvol>
+      <physvol name="active_129">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_129_act_pos"/>
+      </physvol>
+      <physvol name="absorber_130">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_130_abs_pos"/>
+      </physvol>
+      <physvol name="active_130">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_130_act_pos"/>
+      </physvol>
+      <physvol name="absorber_131">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_131_abs_pos"/>
+      </physvol>
+      <physvol name="active_131">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_131_act_pos"/>
+      </physvol>
+      <physvol name="absorber_132">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_132_abs_pos"/>
+      </physvol>
+      <physvol name="active_132">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_132_act_pos"/>
+      </physvol>
+      <physvol name="absorber_133">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_133_abs_pos"/>
+      </physvol>
+      <physvol name="active_133">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_133_act_pos"/>
+      </physvol>
+      <physvol name="absorber_134">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_134_abs_pos"/>
+      </physvol>
+      <physvol name="active_134">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_134_act_pos"/>
+      </physvol>
+      <physvol name="absorber_135">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_135_abs_pos"/>
+      </physvol>
+      <physvol name="active_135">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_135_act_pos"/>
+      </physvol>
+      <physvol name="absorber_136">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_136_abs_pos"/>
+      </physvol>
+      <physvol name="active_136">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_136_act_pos"/>
+      </physvol>
+      <physvol name="absorber_137">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_137_abs_pos"/>
+      </physvol>
+      <physvol name="active_137">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_137_act_pos"/>
+      </physvol>
+      <physvol name="absorber_138">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_138_abs_pos"/>
+      </physvol>
+      <physvol name="active_138">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_138_act_pos"/>
+      </physvol>
+      <physvol name="absorber_139">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_139_abs_pos"/>
+      </physvol>
+      <physvol name="active_139">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_139_act_pos"/>
+      </physvol>
+      <physvol name="absorber_140">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_140_abs_pos"/>
+      </physvol>
+      <physvol name="active_140">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_140_act_pos"/>
+      </physvol>
+      <physvol name="absorber_141">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_141_abs_pos"/>
+      </physvol>
+      <physvol name="active_141">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_141_act_pos"/>
+      </physvol>
+      <physvol name="absorber_142">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_142_abs_pos"/>
+      </physvol>
+      <physvol name="active_142">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_142_act_pos"/>
+      </physvol>
+      <physvol name="absorber_143">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_143_abs_pos"/>
+      </physvol>
+      <physvol name="active_143">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_143_act_pos"/>
+      </physvol>
+      <physvol name="absorber_144">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_144_abs_pos"/>
+      </physvol>
+      <physvol name="active_144">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_144_act_pos"/>
+      </physvol>
+      <physvol name="absorber_145">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_145_abs_pos"/>
+      </physvol>
+      <physvol name="active_145">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_145_act_pos"/>
+      </physvol>
+      <physvol name="absorber_146">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_146_abs_pos"/>
+      </physvol>
+      <physvol name="active_146">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_146_act_pos"/>
+      </physvol>
+      <physvol name="absorber_147">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_147_abs_pos"/>
+      </physvol>
+      <physvol name="active_147">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_147_act_pos"/>
+      </physvol>
+      <physvol name="absorber_148">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_148_abs_pos"/>
+      </physvol>
+      <physvol name="active_148">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_148_act_pos"/>
+      </physvol>
+      <physvol name="absorber_149">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_149_abs_pos"/>
+      </physvol>
+      <physvol name="active_149">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_149_act_pos"/>
+      </physvol>
+      <physvol name="absorber_150">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_150_abs_pos"/>
+      </physvol>
+      <physvol name="active_150">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_150_act_pos"/>
+      </physvol>
+      <physvol name="absorber_151">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_151_abs_pos"/>
+      </physvol>
+      <physvol name="active_151">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_151_act_pos"/>
+      </physvol>
+      <physvol name="absorber_152">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_152_abs_pos"/>
+      </physvol>
+      <physvol name="active_152">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_152_act_pos"/>
+      </physvol>
+      <physvol name="absorber_153">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_153_abs_pos"/>
+      </physvol>
+      <physvol name="active_153">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_153_act_pos"/>
+      </physvol>
+      <physvol name="absorber_154">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_154_abs_pos"/>
+      </physvol>
+      <physvol name="active_154">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_154_act_pos"/>
+      </physvol>
+      <physvol name="absorber_155">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_155_abs_pos"/>
+      </physvol>
+      <physvol name="active_155">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_155_act_pos"/>
+      </physvol>
+      <physvol name="absorber_156">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_156_abs_pos"/>
+      </physvol>
+      <physvol name="active_156">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_156_act_pos"/>
+      </physvol>
+      <physvol name="absorber_157">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_157_abs_pos"/>
+      </physvol>
+      <physvol name="active_157">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_157_act_pos"/>
+      </physvol>
+      <physvol name="absorber_158">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_158_abs_pos"/>
+      </physvol>
+      <physvol name="active_158">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_158_act_pos"/>
+      </physvol>
+      <physvol name="absorber_159">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_159_abs_pos"/>
+      </physvol>
+      <physvol name="active_159">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_159_act_pos"/>
+      </physvol>
+      <physvol name="absorber_160">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_160_abs_pos"/>
+      </physvol>
+      <physvol name="active_160">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_160_act_pos"/>
+      </physvol>
+      <physvol name="absorber_161">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_161_abs_pos"/>
+      </physvol>
+      <physvol name="active_161">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_161_act_pos"/>
+      </physvol>
+      <physvol name="absorber_162">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_162_abs_pos"/>
+      </physvol>
+      <physvol name="active_162">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_162_act_pos"/>
+      </physvol>
+      <physvol name="absorber_163">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_163_abs_pos"/>
+      </physvol>
+      <physvol name="active_163">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_163_act_pos"/>
+      </physvol>
+      <physvol name="absorber_164">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_164_abs_pos"/>
+      </physvol>
+      <physvol name="active_164">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_164_act_pos"/>
+      </physvol>
+      <physvol name="absorber_165">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_165_abs_pos"/>
+      </physvol>
+      <physvol name="active_165">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_165_act_pos"/>
+      </physvol>
+      <physvol name="absorber_166">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_166_abs_pos"/>
+      </physvol>
+      <physvol name="active_166">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_166_act_pos"/>
+      </physvol>
+      <physvol name="absorber_167">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_167_abs_pos"/>
+      </physvol>
+      <physvol name="active_167">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_167_act_pos"/>
+      </physvol>
+      <physvol name="absorber_168">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_168_abs_pos"/>
+      </physvol>
+      <physvol name="active_168">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_168_act_pos"/>
+      </physvol>
+      <physvol name="absorber_169">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_169_abs_pos"/>
+      </physvol>
+      <physvol name="active_169">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_169_act_pos"/>
+      </physvol>
+      <physvol name="absorber_170">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_170_abs_pos"/>
+      </physvol>
+      <physvol name="active_170">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_170_act_pos"/>
+      </physvol>
+      <physvol name="absorber_171">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_171_abs_pos"/>
+      </physvol>
+      <physvol name="active_171">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_171_act_pos"/>
+      </physvol>
+      <physvol name="absorber_172">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_172_abs_pos"/>
+      </physvol>
+      <physvol name="active_172">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_172_act_pos"/>
+      </physvol>
+      <physvol name="absorber_173">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_173_abs_pos"/>
+      </physvol>
+      <physvol name="active_173">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_173_act_pos"/>
+      </physvol>
+      <physvol name="absorber_174">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_174_abs_pos"/>
+      </physvol>
+      <physvol name="active_174">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_174_act_pos"/>
+      </physvol>
+      <physvol name="absorber_175">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_175_abs_pos"/>
+      </physvol>
+      <physvol name="active_175">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_175_act_pos"/>
+      </physvol>
+      <physvol name="absorber_176">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_176_abs_pos"/>
+      </physvol>
+      <physvol name="active_176">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_176_act_pos"/>
+      </physvol>
+      <physvol name="absorber_177">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_177_abs_pos"/>
+      </physvol>
+      <physvol name="active_177">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_177_act_pos"/>
+      </physvol>
+      <physvol name="absorber_178">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_178_abs_pos"/>
+      </physvol>
+      <physvol name="active_178">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_178_act_pos"/>
+      </physvol>
+      <physvol name="absorber_179">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_179_abs_pos"/>
+      </physvol>
+      <physvol name="active_179">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_179_act_pos"/>
+      </physvol>
+      <physvol name="absorber_180">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_180_abs_pos"/>
+      </physvol>
+      <physvol name="active_180">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_180_act_pos"/>
+      </physvol>
+      <physvol name="absorber_181">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_181_abs_pos"/>
+      </physvol>
+      <physvol name="active_181">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_181_act_pos"/>
+      </physvol>
+      <physvol name="absorber_182">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_182_abs_pos"/>
+      </physvol>
+      <physvol name="active_182">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_182_act_pos"/>
+      </physvol>
+      <physvol name="absorber_183">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_183_abs_pos"/>
+      </physvol>
+      <physvol name="active_183">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_183_act_pos"/>
+      </physvol>
+      <physvol name="absorber_184">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_184_abs_pos"/>
+      </physvol>
+      <physvol name="active_184">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_184_act_pos"/>
+      </physvol>
+      <physvol name="absorber_185">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_185_abs_pos"/>
+      </physvol>
+      <physvol name="active_185">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_185_act_pos"/>
+      </physvol>
+      <physvol name="absorber_186">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_186_abs_pos"/>
+      </physvol>
+      <physvol name="active_186">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_186_act_pos"/>
+      </physvol>
+      <physvol name="absorber_187">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_187_abs_pos"/>
+      </physvol>
+      <physvol name="active_187">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_187_act_pos"/>
+      </physvol>
+      <physvol name="absorber_188">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_188_abs_pos"/>
+      </physvol>
+      <physvol name="active_188">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_188_act_pos"/>
+      </physvol>
+      <physvol name="absorber_189">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_189_abs_pos"/>
+      </physvol>
+      <physvol name="active_189">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_189_act_pos"/>
+      </physvol>
+      <physvol name="absorber_190">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_190_abs_pos"/>
+      </physvol>
+      <physvol name="active_190">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_190_act_pos"/>
+      </physvol>
+      <physvol name="absorber_191">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_191_abs_pos"/>
+      </physvol>
+      <physvol name="active_191">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_191_act_pos"/>
+      </physvol>
+      <physvol name="absorber_192">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_192_abs_pos"/>
+      </physvol>
+      <physvol name="active_192">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_192_act_pos"/>
+      </physvol>
+      <physvol name="absorber_193">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_193_abs_pos"/>
+      </physvol>
+      <physvol name="active_193">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_193_act_pos"/>
+      </physvol>
+      <physvol name="absorber_194">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_194_abs_pos"/>
+      </physvol>
+      <physvol name="active_194">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_194_act_pos"/>
+      </physvol>
+      <physvol name="absorber_195">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_195_abs_pos"/>
+      </physvol>
+      <physvol name="active_195">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_195_act_pos"/>
+      </physvol>
+      <physvol name="absorber_196">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_196_abs_pos"/>
+      </physvol>
+      <physvol name="active_196">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_196_act_pos"/>
+      </physvol>
+      <physvol name="absorber_197">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_197_abs_pos"/>
+      </physvol>
+      <physvol name="active_197">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_197_act_pos"/>
+      </physvol>
+      <physvol name="absorber_198">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_198_abs_pos"/>
+      </physvol>
+      <physvol name="active_198">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_198_act_pos"/>
+      </physvol>
+      <physvol name="absorber_199">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_199_abs_pos"/>
+      </physvol>
+      <physvol name="active_199">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_199_act_pos"/>
+      </physvol>
+      <physvol name="absorber_200">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_200_abs_pos"/>
+      </physvol>
+      <physvol name="active_200">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_200_act_pos"/>
+      </physvol>
+      <physvol name="absorber_201">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_201_abs_pos"/>
+      </physvol>
+      <physvol name="active_201">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_201_act_pos"/>
+      </physvol>
+      <physvol name="absorber_202">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_202_abs_pos"/>
+      </physvol>
+      <physvol name="active_202">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_202_act_pos"/>
+      </physvol>
+      <physvol name="absorber_203">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_203_abs_pos"/>
+      </physvol>
+      <physvol name="active_203">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_203_act_pos"/>
+      </physvol>
+      <physvol name="absorber_204">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_204_abs_pos"/>
+      </physvol>
+      <physvol name="active_204">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_204_act_pos"/>
+      </physvol>
+      <physvol name="absorber_205">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_205_abs_pos"/>
+      </physvol>
+      <physvol name="active_205">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_205_act_pos"/>
+      </physvol>
+      <physvol name="absorber_206">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_206_abs_pos"/>
+      </physvol>
+      <physvol name="active_206">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_206_act_pos"/>
+      </physvol>
+      <physvol name="absorber_207">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_207_abs_pos"/>
+      </physvol>
+      <physvol name="active_207">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_207_act_pos"/>
+      </physvol>
+      <physvol name="absorber_208">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_208_abs_pos"/>
+      </physvol>
+      <physvol name="active_208">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_208_act_pos"/>
+      </physvol>
+      <physvol name="absorber_209">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_209_abs_pos"/>
+      </physvol>
+      <physvol name="active_209">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_209_act_pos"/>
+      </physvol>
+      <physvol name="absorber_210">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_210_abs_pos"/>
+      </physvol>
+      <physvol name="active_210">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_210_act_pos"/>
+      </physvol>
+      <physvol name="absorber_211">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_211_abs_pos"/>
+      </physvol>
+      <physvol name="active_211">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_211_act_pos"/>
+      </physvol>
+      <physvol name="absorber_212">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_212_abs_pos"/>
+      </physvol>
+      <physvol name="active_212">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_212_act_pos"/>
+      </physvol>
+      <physvol name="absorber_213">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_213_abs_pos"/>
+      </physvol>
+      <physvol name="active_213">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_213_act_pos"/>
+      </physvol>
+      <physvol name="absorber_214">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_214_abs_pos"/>
+      </physvol>
+      <physvol name="active_214">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_214_act_pos"/>
+      </physvol>
+      <physvol name="absorber_215">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_215_abs_pos"/>
+      </physvol>
+      <physvol name="active_215">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_215_act_pos"/>
+      </physvol>
+      <physvol name="absorber_216">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_216_abs_pos"/>
+      </physvol>
+      <physvol name="active_216">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_216_act_pos"/>
+      </physvol>
+      <physvol name="absorber_217">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_217_abs_pos"/>
+      </physvol>
+      <physvol name="active_217">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_217_act_pos"/>
+      </physvol>
+      <physvol name="absorber_218">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_218_abs_pos"/>
+      </physvol>
+      <physvol name="active_218">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_218_act_pos"/>
+      </physvol>
+      <physvol name="absorber_219">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_219_abs_pos"/>
+      </physvol>
+      <physvol name="active_219">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_219_act_pos"/>
+      </physvol>
+      <physvol name="absorber_220">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_220_abs_pos"/>
+      </physvol>
+      <physvol name="active_220">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_220_act_pos"/>
+      </physvol>
+      <physvol name="absorber_221">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_221_abs_pos"/>
+      </physvol>
+      <physvol name="active_221">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_221_act_pos"/>
+      </physvol>
+      <physvol name="absorber_222">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_222_abs_pos"/>
+      </physvol>
+      <physvol name="active_222">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_222_act_pos"/>
+      </physvol>
+      <physvol name="absorber_223">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_223_abs_pos"/>
+      </physvol>
+      <physvol name="active_223">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_223_act_pos"/>
+      </physvol>
+      <physvol name="absorber_224">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_224_abs_pos"/>
+      </physvol>
+      <physvol name="active_224">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_224_act_pos"/>
+      </physvol>
+      <physvol name="absorber_225">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_225_abs_pos"/>
+      </physvol>
+      <physvol name="active_225">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_225_act_pos"/>
+      </physvol>
+      <physvol name="absorber_226">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_226_abs_pos"/>
+      </physvol>
+      <physvol name="active_226">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_226_act_pos"/>
+      </physvol>
+      <physvol name="absorber_227">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_227_abs_pos"/>
+      </physvol>
+      <physvol name="active_227">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_227_act_pos"/>
+      </physvol>
+      <physvol name="absorber_228">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_228_abs_pos"/>
+      </physvol>
+      <physvol name="active_228">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_228_act_pos"/>
+      </physvol>
+      <physvol name="absorber_229">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_229_abs_pos"/>
+      </physvol>
+      <physvol name="active_229">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_229_act_pos"/>
+      </physvol>
+      <physvol name="absorber_230">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_230_abs_pos"/>
+      </physvol>
+      <physvol name="active_230">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_230_act_pos"/>
+      </physvol>
+      <physvol name="absorber_231">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_231_abs_pos"/>
+      </physvol>
+      <physvol name="active_231">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_231_act_pos"/>
+      </physvol>
+      <physvol name="absorber_232">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_232_abs_pos"/>
+      </physvol>
+      <physvol name="active_232">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_232_act_pos"/>
+      </physvol>
+      <physvol name="absorber_233">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_233_abs_pos"/>
+      </physvol>
+      <physvol name="active_233">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_233_act_pos"/>
+      </physvol>
+      <physvol name="absorber_234">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_234_abs_pos"/>
+      </physvol>
+      <physvol name="active_234">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_234_act_pos"/>
+      </physvol>
+      <physvol name="absorber_235">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_235_abs_pos"/>
+      </physvol>
+      <physvol name="active_235">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_235_act_pos"/>
+      </physvol>
+      <physvol name="absorber_236">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_236_abs_pos"/>
+      </physvol>
+      <physvol name="active_236">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_236_act_pos"/>
+      </physvol>
+      <physvol name="absorber_237">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_237_abs_pos"/>
+      </physvol>
+      <physvol name="active_237">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_237_act_pos"/>
+      </physvol>
+      <physvol name="absorber_238">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_238_abs_pos"/>
+      </physvol>
+      <physvol name="active_238">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_238_act_pos"/>
+      </physvol>
+      <physvol name="absorber_239">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_239_abs_pos"/>
+      </physvol>
+      <physvol name="active_239">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_239_act_pos"/>
+      </physvol>
+      <physvol name="absorber_240">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_240_abs_pos"/>
+      </physvol>
+      <physvol name="active_240">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_240_act_pos"/>
+      </physvol>
+      <physvol name="absorber_241">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_241_abs_pos"/>
+      </physvol>
+      <physvol name="active_241">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_241_act_pos"/>
+      </physvol>
+      <physvol name="absorber_242">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_242_abs_pos"/>
+      </physvol>
+      <physvol name="active_242">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_242_act_pos"/>
+      </physvol>
+      <physvol name="absorber_243">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_243_abs_pos"/>
+      </physvol>
+      <physvol name="active_243">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_243_act_pos"/>
+      </physvol>
+      <physvol name="absorber_244">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_244_abs_pos"/>
+      </physvol>
+      <physvol name="active_244">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_244_act_pos"/>
+      </physvol>
+      <physvol name="absorber_245">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_245_abs_pos"/>
+      </physvol>
+      <physvol name="active_245">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_245_act_pos"/>
+      </physvol>
+      <physvol name="absorber_246">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_246_abs_pos"/>
+      </physvol>
+      <physvol name="active_246">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_246_act_pos"/>
+      </physvol>
+      <physvol name="absorber_247">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_247_abs_pos"/>
+      </physvol>
+      <physvol name="active_247">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_247_act_pos"/>
+      </physvol>
+      <physvol name="absorber_248">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_248_abs_pos"/>
+      </physvol>
+      <physvol name="active_248">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_248_act_pos"/>
+      </physvol>
+      <physvol name="absorber_249">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_249_abs_pos"/>
+      </physvol>
+      <physvol name="active_249">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_249_act_pos"/>
+      </physvol>
+      <physvol name="absorber_250">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_250_abs_pos"/>
+      </physvol>
+      <physvol name="active_250">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_250_act_pos"/>
+      </physvol>
+      <physvol name="absorber_251">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_251_abs_pos"/>
+      </physvol>
+      <physvol name="active_251">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_251_act_pos"/>
+      </physvol>
+      <physvol name="absorber_252">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_252_abs_pos"/>
+      </physvol>
+      <physvol name="active_252">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_252_act_pos"/>
+      </physvol>
+      <physvol name="absorber_253">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_253_abs_pos"/>
+      </physvol>
+      <physvol name="active_253">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_253_act_pos"/>
+      </physvol>
+      <physvol name="absorber_254">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_254_abs_pos"/>
+      </physvol>
+      <physvol name="active_254">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_254_act_pos"/>
+      </physvol>
+      <physvol name="absorber_255">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_255_abs_pos"/>
+      </physvol>
+      <physvol name="active_255">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_255_act_pos"/>
+      </physvol>
+      <physvol name="absorber_256">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_256_abs_pos"/>
+      </physvol>
+      <physvol name="active_256">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_256_act_pos"/>
+      </physvol>
+      <physvol name="absorber_257">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_257_abs_pos"/>
+      </physvol>
+      <physvol name="active_257">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_257_act_pos"/>
+      </physvol>
+      <physvol name="absorber_258">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_258_abs_pos"/>
+      </physvol>
+      <physvol name="active_258">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_258_act_pos"/>
+      </physvol>
+      <physvol name="absorber_259">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_259_abs_pos"/>
+      </physvol>
+      <physvol name="active_259">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_259_act_pos"/>
+      </physvol>
+      <physvol name="absorber_260">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_260_abs_pos"/>
+      </physvol>
+      <physvol name="active_260">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_260_act_pos"/>
+      </physvol>
+      <physvol name="absorber_261">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_261_abs_pos"/>
+      </physvol>
+      <physvol name="active_261">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_261_act_pos"/>
+      </physvol>
+      <physvol name="absorber_262">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_262_abs_pos"/>
+      </physvol>
+      <physvol name="active_262">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_262_act_pos"/>
+      </physvol>
+      <physvol name="absorber_263">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_263_abs_pos"/>
+      </physvol>
+      <physvol name="active_263">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_263_act_pos"/>
+      </physvol>
+      <physvol name="absorber_264">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_264_abs_pos"/>
+      </physvol>
+      <physvol name="active_264">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_264_act_pos"/>
+      </physvol>
+      <physvol name="absorber_265">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_265_abs_pos"/>
+      </physvol>
+      <physvol name="active_265">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_265_act_pos"/>
+      </physvol>
+      <physvol name="absorber_266">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_266_abs_pos"/>
+      </physvol>
+      <physvol name="active_266">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_266_act_pos"/>
+      </physvol>
+      <physvol name="absorber_267">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_267_abs_pos"/>
+      </physvol>
+      <physvol name="active_267">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_267_act_pos"/>
+      </physvol>
+      <physvol name="absorber_268">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_268_abs_pos"/>
+      </physvol>
+      <physvol name="active_268">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_268_act_pos"/>
+      </physvol>
+      <physvol name="absorber_269">
+        <volumeref ref="absorber_log"/>
+        <positionref ref="layer_269_abs_pos"/>
+      </physvol>
+      <physvol name="active_269">
+        <volumeref ref="active_log"/>
+        <positionref ref="layer_269_act_pos"/>
+      </physvol>
+    </volume>
+
+    <volume name="world_log">
+      <materialref ref="G4_AIR"/>
+      <solidref ref="world_solid"/>
+      <physvol name="shashlik_calorimeter">
+        <volumeref ref="calor_log"/>
+        <positionref ref="center"/>
+      </physvol>
+    </volume>
+  </structure>
+
+  <setup name="Default" version="1.0">
+    <world ref="world_log"/>
+  </setup>
+
+</gdml>

@@ -1,0 +1,88 @@
+[
+  {
+    "name": "iron_projective_tower",
+    "topology": "projective_tower",
+    "absorber_material": "iron",
+    "active_material": "scintillator",
+    "description": "Compact projective tower design optimized for forward region",
+    "absorber_thickness_cm": 1.5,
+    "active_thickness_cm": 0.4,
+    "num_layers": 58,
+    "total_depth_cm": 110.19999999999999,
+    "interaction_lengths": 5.5,
+    "sampling_fraction": 0.2105263157894737,
+    "lateral_size_cm": 40.0,
+    "expected_containment": {
+      "10GeV": {
+        "r90_cm": 26.6,
+        "longitudinal_90": 4.95
+      },
+      "30GeV": {
+        "r90_cm": 46.0,
+        "longitudinal_90": 4.95
+      },
+      "50GeV": {
+        "r90_cm": 59.4,
+        "longitudinal_90": 4.95
+      }
+    }
+  },
+  {
+    "name": "lead_cylinder_barrel",
+    "topology": "cylinder_barrel",
+    "absorber_material": "lead",
+    "active_material": "scintillator",
+    "description": "Cylindrical barrel design for central detector region",
+    "absorber_thickness_cm": 1.2,
+    "active_thickness_cm": 0.3,
+    "num_layers": 74,
+    "total_depth_cm": 111.0,
+    "interaction_lengths": 5.5,
+    "sampling_fraction": 0.19999999999999998,
+    "inner_radius_cm": 150.0,
+    "outer_radius_cm": 261.0,
+    "expected_containment": {
+      "10GeV": {
+        "r90_cm": 26.6,
+        "longitudinal_90": 4.95
+      },
+      "30GeV": {
+        "r90_cm": 46.0,
+        "longitudinal_90": 4.95
+      },
+      "50GeV": {
+        "r90_cm": 59.4,
+        "longitudinal_90": 4.95
+      }
+    }
+  },
+  {
+    "name": "iron_segmented",
+    "topology": "segmented",
+    "absorber_material": "iron",
+    "active_material": "scintillator",
+    "description": "Segmented tile design for flexible readout geometry",
+    "absorber_thickness_cm": 2.0,
+    "active_thickness_cm": 0.5,
+    "num_layers": 43,
+    "total_depth_cm": 107.5,
+    "interaction_lengths": 5.5,
+    "sampling_fraction": 0.2,
+    "tile_size_cm": 10.0,
+    "total_width_cm": 200.0,
+    "expected_containment": {
+      "10GeV": {
+        "r90_cm": 26.6,
+        "longitudinal_90": 4.95
+      },
+      "30GeV": {
+        "r90_cm": 46.0,
+        "longitudinal_90": 4.95
+      },
+      "50GeV": {
+        "r90_cm": 59.4,
+        "longitudinal_90": 4.95
+      }
+    }
+  }
+]

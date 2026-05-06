@@ -1,0 +1,45 @@
+{
+  "projective_tower": {
+    "mean_edep_mev": 4799.340360379908,
+    "resolution": 0.0272281192555572,
+    "linearity": 0.9598680720759816,
+    "n_events": 10000,
+    "beam_energy_mev": 5000,
+    "r90_containment_mm": 294.8376071139929
+  },
+  "box_calorimeter": {
+    "1.0": {
+      "mean_edep_mev": 969.9993591466146,
+      "std_edep_mev": 24.668187803565807,
+      "resolution": 0.025431138248656546,
+      "linearity": 0.9699993591466145,
+      "n_events": 10000,
+      "beam_energy_mev": 1000.0,
+      "r90_containment_mm": 35.23308220544467,
+      "shower_length_mm": 209.42551363746605,
+      "depth_adequacy": 1.0027431536518918
+    },
+    "5.0": {
+      "mean_edep_mev": 4762.539865385264,
+      "std_edep_mev": 141.56660643998538,
+      "resolution": 0.029725022874644933,
+      "linearity": 0.9525079730770529,
+      "n_events": 10000,
+      "beam_energy_mev": 5000.0,
+      "r90_containment_mm": 31.729022390102497,
+      "shower_length_mm": 209.98377614744277,
+      "depth_adequacy": 1.0000772624097676
+    },
+    "20.0": {
+      "mean_edep_mev": 18511.478218993598,
+      "std_edep_mev": 711.7144251698141,
+      "resolution": 0.03844719566693294,
+      "linearity": 0.9255739109496799,
+      "n_events": 10000,
+      "beam_energy_mev": 20000.0,
+      "r90_containment_mm": 32.551999520805865,
+      "shower_length_mm": 210.0,
+      "depth_adequacy": 1.0
+    }
+  }
+}

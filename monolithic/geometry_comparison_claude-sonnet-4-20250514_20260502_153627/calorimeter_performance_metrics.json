@@ -1,0 +1,40 @@
+{
+  "box_calorimeter": [
+    {
+      "energy_gev": 1.0,
+      "mean_edep_mev": 969.9993591466146,
+      "resolution": 0.025431138248656546,
+      "linearity": 0.9699993591466145,
+      "r90_containment_mm": 35.23308220544467,
+      "uniformity_rms": 1.3992064345712827,
+      "n_events": 10000
+    },
+    {
+      "energy_gev": 5.0,
+      "mean_edep_mev": 4762.539865385264,
+      "resolution": 0.029725022874644933,
+      "linearity": 0.9525079730770529,
+      "r90_containment_mm": 31.729022390102497,
+      "uniformity_rms": 1.3953401776452046,
+      "n_events": 10000
+    },
+    {
+      "energy_gev": 20.0,
+      "mean_edep_mev": 18511.478218993598,
+      "resolution": 0.03844719566693294,
+      "linearity": 0.9255739109496799,
+      "r90_containment_mm": 32.551999520805865,
+      "uniformity_rms": 1.3994187542393124,
+      "n_events": 10000
+    }
+  ],
+  "projective_tower": {
+    "energy_gev": 5.0,
+    "mean_edep_mev": 4799.340360379908,
+    "resolution": 0.0272281192555572,
+    "linearity": 0.9598680720759816,
+    "r90_containment_mm": 294.8376071139929,
+    "uniformity_rms": 1.3995203764467794,
+    "n_events": 10000
+  }
+}

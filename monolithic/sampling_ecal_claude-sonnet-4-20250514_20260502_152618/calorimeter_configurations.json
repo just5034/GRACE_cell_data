@@ -1,0 +1,41 @@
+[
+  {
+    "name": "thin_absorber",
+    "w_thickness_mm": 2,
+    "w_thickness_cm": 0.2,
+    "scint_thickness_mm": 5,
+    "scint_thickness_cm": 0.5,
+    "x0_per_layer": 0.5714285714285715,
+    "num_layers": 44,
+    "actual_x0": 25.142857142857146,
+    "sampling_fraction": 0.7142857142857143,
+    "layer_thickness_cm": 0.7,
+    "total_depth_cm": 30.799999999999997
+  },
+  {
+    "name": "balanced",
+    "w_thickness_mm": 3.5,
+    "w_thickness_cm": 0.35,
+    "scint_thickness_mm": 3.5,
+    "scint_thickness_cm": 0.35,
+    "x0_per_layer": 1.0,
+    "num_layers": 25,
+    "actual_x0": 25.0,
+    "sampling_fraction": 0.5,
+    "layer_thickness_cm": 0.7,
+    "total_depth_cm": 17.5
+  },
+  {
+    "name": "thick_absorber",
+    "w_thickness_mm": 5,
+    "w_thickness_cm": 0.5,
+    "scint_thickness_mm": 2,
+    "scint_thickness_cm": 0.2,
+    "x0_per_layer": 1.4285714285714286,
+    "num_layers": 18,
+    "actual_x0": 25.714285714285715,
+    "sampling_fraction": 0.28571428571428575,
+    "layer_thickness_cm": 0.7,
+    "total_depth_cm": 12.6
+  }
+]

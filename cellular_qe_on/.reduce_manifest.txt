@@ -1,0 +1,11 @@
+reduce_run_dir manifest
+=======================
+Date:           2026-05-02T15:09:30-05:00
+Scratch source: /work/nvme/bgde/jhill5/benchmarks/qe_on_17902135
+Persist target: /work/hdd/bgde/jhill5/benchmarks/qe_on_17902135
+Scratch peak:   339M
+Persisted:      4.5M
+Dropped:        12 hits files (~0.3 GB)
+
+Hits parquets and raw ROOT files dropped — regeneratable from GDML +
+Geant4 macro + RNG seed via the same git commit.

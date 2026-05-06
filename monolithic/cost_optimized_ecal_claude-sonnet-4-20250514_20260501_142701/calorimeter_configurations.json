@@ -1,0 +1,34 @@
+{
+  "premium_pbwo4": {
+    "depth_cm": 17.8,
+    "depth_m": 0.17800000000000002,
+    "mass_kg": 1473.8400000000001,
+    "cost_usd": 4421520.0,
+    "material": "PbWO4",
+    "type": "homogeneous"
+  },
+  "midrange_pb_scint": {
+    "depth_cm": 32.4,
+    "depth_m": 0.324,
+    "num_layers": 54,
+    "absorber_thickness_mm": 2.0,
+    "active_thickness_mm": 4.0,
+    "mass_kg": 1448.712,
+    "cost_usd": 6909.84,
+    "absorber_material": "lead",
+    "active_material": "plastic_scintillator",
+    "type": "sampling"
+  },
+  "budget_fe_scint": {
+    "depth_cm": 53.6,
+    "depth_m": 0.536,
+    "num_layers": 67,
+    "absorber_thickness_mm": 5.0,
+    "active_thickness_mm": 3.0,
+    "mass_kg": 2843.8820000000005,
+    "cost_usd": 6785.09,
+    "absorber_material": "iron",
+    "active_material": "plastic_scintillator",
+    "type": "sampling"
+  }
+}

@@ -1,0 +1,3087 @@
+Command: ['singularity', 'exec', '--nv', '--env', 'CUDA_VISIBLE_DEVICES=0', '--bind', '/tmp/grace_jhill5_18023199/grace_run_calorimeter_mono10k_18023199_1/calorimeter_claude-sonnet-4-20250514_20260503_131827:/geometry:ro', '--bind', '/tmp/grace_jhill5_18023199/grace_run_calorimeter_mono10k_18023199_1/calorimeter_claude-sonnet-4-20250514_20260503_131827/energy_50.000GeV:/work', '--bind', '/u/jhill5/grace/containers/geant4-app/build:/app:ro', '--bind', '/opt/nvidia/cuda-12.8:/cuda:ro', '--bind', '/u/jhill5/spack/opt/spack:/u/jhill5/spack/opt/spack:ro', '--pwd', '/work', '/u/jhill5/grace/containers/geant4_g4v11.3.2-fedora40.sif', 'bash', '-c', 'export G4DATA=/cvmfs/oasis.opensciencegrid.org/jlab/geant4/fedora40-gcc14/geant4/11.3.2/data/Geant4-11.3.2/data && export G4ENSDFSTATEDATA=$G4DATA/G4ENSDFSTATE3.0 && export G4LEDATA=$G4DATA/G4EMLOW8.6.1 && export G4LEVELGAMMADATA=$G4DATA/PhotonEvaporation6.1 && export G4RADIOACTIVEDATA=$G4DATA/RadioactiveDecay6.1.2 && export G4PARTICLEXSDATA=$G4DATA/G4PARTICLEXS4.1 && export G4SAIDXSDATA=$G4DATA/G4SAIDDATA2.0 && export G4NEUTRONHPDATA=$G4DATA/G4NDL4.7.1 && export G4ABLADATA=$G4DATA/G4ABLA3.3 && export G4REALSURFACEDATA=$G4DATA/RealSurface2.2 && export LD_LIBRARY_PATH=/u/jhill5/spack/opt/spack/linux-zen3/berkeley-db-18.1.40-xzq5bgm5qoomgai6tda7ho5bhnby4cqg/lib:/u/jhill5/spack/opt/spack/linux-zen3/boost-1.89.0-3sueda3bgmryrtd2bnuqdymwchao23s4/lib:/u/jhill5/spack/opt/spack/linux-zen3/bzip2-1.0.8-fpnhxc3cksmjff6ikwdxyftvpgmulrp5/lib:/u/jhill5/spack/opt/spack/linux-zen3/celeritas-0.6.3-6ljnzdllpzhknusoji4z4t5ibyba6xen/lib64:/u/jhill5/spack/opt/spack/linux-zen3/clhep-2.4.7.2-oprlroyj574esvcgsby4g7c2pzyf5hpc/lib:/u/jhill5/spack/opt/spack/linux-zen3/curl-8.17.0-mone2cmxw57l2eoxymezc46u65r6nhnj/lib:/u/jhill5/spack/opt/spack/linux-zen3/expat-2.7.3-komlofneigkywzpaxw2lsrjlik6dwf7q/lib:/u/jhill5/spack/opt/spack/linux-zen3/g4vg-1.0.6-frlx3lgpe7kh45ssqnnon4vjhshnccfx/lib64:/u/jhill5/spack/opt/spack/linux-zen3/gcc-runtime-13.3.1-fl2eer2yfa7npiagsgjjhs5xrtevcjnq/lib:/u/jhill5/spack/opt/spack/linux-zen3/gdbm-1.25-se2a6sw2aljxi54ry6vt4v6h5zwit5un/lib:/u/jhill5/spack/opt/spack/linux-zen3/geant4-11.4.0-4jixcikyrcbxeamy7wnc2dayy3fs6uqh/lib64:/u/jhill5/spack/opt/spack/linux-zen3/gettext-0.23.1-2ydfp2mep3lalm54mfi5tvbop654sarj/lib:/u/jhill5/spack/opt/spack/linux-zen3/glm-1.0.1-3wce34rjlucrwsiimrj3ivdrexmezk4h/lib64:/u/jhill5/spack/opt/spack/linux-zen3/hepmc3-3.3.1-cvbrknrdxfikul3dju4fi7ztunuaqgk7/lib64:/u/jhill5/spack/opt/spack/linux-zen3/libbsd-0.12.2-qowr3dvwxltgzhwlogjyekgdlusoayhh/lib:/u/jhill5/spack/opt/spack/linux-zen3/libffi-3.5.2-7w2zxn3liqqubjufc43bopgk57rooni2/lib64:/u/jhill5/spack/opt/spack/linux-zen3/libiconv-1.18-ghlrxwytxxumsjwmdaeisbewscbskawb/lib:/u/jhill5/spack/opt/spack/linux-zen3/libmd-1.1.0-wef4l4juixnmi4272mlvnffj7hbggznt/lib:/u/jhill5/spack/opt/spack/linux-zen3/libxml2-2.13.5-7hn3jxntlmiq4zlnmau5goudostito7s/lib:/u/jhill5/spack/opt/spack/linux-zen3/ncurses-6.5-20250705-pphhpl46kakyux2hwldkisxeggf64qhg/lib:/u/jhill5/spack/opt/spack/linux-zen3/nghttp2-1.67.1-mytlypfv3d2cxjw7nfndnzgru2rm6ouc/lib:/u/jhill5/spack/opt/spack/linux-zen3/openssl-3.6.0-pqtoawcmk33fze4ar2pdrwg5ef4vt2sv/lib64:/u/jhill5/spack/opt/spack/linux-zen3/perl-5.42.0-tdtx7yxshfhwrguh3zpulabq7oxv3ggi/lib:/u/jhill5/spack/opt/spack/linux-zen3/pkgconf-2.5.1-3hwkzbsfzyswpddk7absccfws7k2scu7/lib:/u/jhill5/spack/opt/spack/linux-zen3/python-3.14.2-nmlehy74wj7al6v5y4uzq7ocrakmmka5/lib:/u/jhill5/spack/opt/spack/linux-zen3/readline-8.3-qpx2eedu3tgyke5dtoegclgi6ivnprdr/lib:/u/jhill5/spack/opt/spack/linux-zen3/sqlite-3.50.4-6d37pv3f3uubtsidr5xxqfdbhu7rr6od/lib:/u/jhill5/spack/opt/spack/linux-zen3/thrust-1.17.2-ro6xdqbmcmbfna5p524i2t2y2mp7kvcp/lib64:/u/jhill5/spack/opt/spack/linux-zen3/util-linux-uuid-2.41-szfoqddjgk5bxcfwbn5ihjqjw7ffz6yd/lib:/u/jhill5/spack/opt/spack/linux-zen3/veccore-0.8.2-lodpayaarg6mooouxmwhan4egyubmz34/lib64:/u/jhill5/spack/opt/spack/linux-zen3/vecgeom-1.2.11-istcx37wilobypng4wsg2s25l2o6ys6n/lib64:/u/jhill5/spack/opt/spack/linux-zen3/xerces-c-3.3.0-cy4m3c3ax3jdz5nu2zr6v2kjbvxyaqcl/lib:/u/jhill5/spack/opt/spack/linux-zen3/xz-5.6.3-xbbnz46zup6hydwgxtl54rni7khbbyfi/lib:/u/jhill5/spack/opt/spack/linux-zen3/zlib-ng-2.3.2-natxgqclsxsfgapmchfdbhxzsunbhrk4/lib:/u/jhill5/spack/opt/spack/linux-zen3/zstd-1.5.7-r7r6lutdjvvwxxgjjmoyl3ue6cy7rrrr/lib:/cvmfs/oasis.opensciencegrid.org/jlab/geant4/fedora40-gcc14/geant4/11.3.2/lib64:$LD_LIBRARY_PATH && /app/grace-g4 --geometry /geometry/lead_tower_projective_retry_2_2.gdml --output /work/lead_tower_projective_retry_2_2_pip_hits.root --macro /work/particle_gun_pip_34567.mac --seed 34567 --threads 1 --use-gpu']
+Return code: 0
+Physics list: FTFP_BERT
+Seed: 34567
+
+=== STDOUT ===
+GPU acceleration: ENABLED (Celeritas)
+GRACE Geant4 Simulation
+=======================
+Geometry: /geometry/lead_tower_projective_retry_2_2.gdml
+Output:   /work/lead_tower_projective_retry_2_2_pip_hits.root
+Macro:    /work/particle_gun_pip_34567.mac
+Seed:     34567
+Threads:  1
+GPU:      ENABLED (Celeritas)
+
+Celeritas: Configured for GPU offload
+
+**************************************************************
+ Geant4 version Name: geant4-11-04 [MT]   (5-December-2025)
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+<<< Geant4 Physics List simulation engine: FTFP_BERT
+
+Celeritas: Will offload EM physics to GPU
+Loading GDML geometry from: /geometry/lead_tower_projective_retry_2_2.gdml
+G4GDML: Reading '/geometry/lead_tower_projective_retry_2_2.gdml'...
+G4GDML: Reading definitions...
+G4GDML: Reading materials...
+G4Material WARNING: duplicate name of material G4_Cu
+G4Material WARNING: duplicate name of material G4_BRASS
+G4GDML: Reading solids...
+G4GDML: Reading structure...
+G4GDML: Reading setup...
+G4GDML: Reading '/geometry/lead_tower_projective_retry_2_2.gdml' done!
+Stripping off GDML names of materials, solids and volumes ...
+Geometry loaded successfully.
+World volume: world_log_PV
+Daughter volumes: 1
+Attached sensitive detector to: absorber_log_eta0_layer0
+Attached sensitive detector to: active_log_eta0_layer0
+Attached sensitive detector to: absorber_log_eta0_layer1
+Attached sensitive detector to: active_log_eta0_layer1
+Attached sensitive detector to: absorber_log_eta0_layer2
+Attached sensitive detector to: active_log_eta0_layer2
+Attached sensitive detector to: absorber_log_eta0_layer3
+Attached sensitive detector to: active_log_eta0_layer3
+Attached sensitive detector to: absorber_log_eta0_layer4
+Attached sensitive detector to: active_log_eta0_layer4
+Attached sensitive detector to: absorber_log_eta0_layer5
+Attached sensitive detector to: active_log_eta0_layer5
+Attached sensitive detector to: absorber_log_eta0_layer6
+Attached sensitive detector to: active_log_eta0_layer6
+Attached sensitive detector to: absorber_log_eta0_layer7
+Attached sensitive detector to: active_log_eta0_layer7
+Attached sensitive detector to: absorber_log_eta0_layer8
+Attached sensitive detector to: active_log_eta0_layer8
+Attached sensitive detector to: absorber_log_eta0_layer9
+Attached sensitive detector to: active_log_eta0_layer9
+Attached sensitive detector to: absorber_log_eta0_layer10
+Attached sensitive detector to: active_log_eta0_layer10
+Attached sensitive detector to: absorber_log_eta0_layer11
+Attached sensitive detector to: active_log_eta0_layer11
+Attached sensitive detector to: absorber_log_eta0_layer12
+Attached sensitive detector to: active_log_eta0_layer12
+Attached sensitive detector to: absorber_log_eta0_layer13
+Attached sensitive detector to: active_log_eta0_layer13
+Attached sensitive detector to: absorber_log_eta0_layer14
+Attached sensitive detector to: active_log_eta0_layer14
+Attached sensitive detector to: absorber_log_eta0_layer15
+Attached sensitive detector to: active_log_eta0_layer15
+Attached sensitive detector to: absorber_log_eta0_layer16
+Attached sensitive detector to: active_log_eta0_layer16
+Attached sensitive detector to: absorber_log_eta0_layer17
+Attached sensitive detector to: active_log_eta0_layer17
+Attached sensitive detector to: absorber_log_eta0_layer18
+Attached sensitive detector to: active_log_eta0_layer18
+Attached sensitive detector to: absorber_log_eta0_layer19
+Attached sensitive detector to: active_log_eta0_layer19
+Attached sensitive detector to: absorber_log_eta0_layer20
+Attached sensitive detector to: active_log_eta0_layer20
+Attached sensitive detector to: absorber_log_eta0_layer21
+Attached sensitive detector to: active_log_eta0_layer21
+Attached sensitive detector to: absorber_log_eta0_layer22
+Attached sensitive detector to: active_log_eta0_layer22
+Attached sensitive detector to: absorber_log_eta0_layer23
+Attached sensitive detector to: active_log_eta0_layer23
+Attached sensitive detector to: absorber_log_eta0_layer24
+Attached sensitive detector to: active_log_eta0_layer24
+Attached sensitive detector to: absorber_log_eta0_layer25
+Attached sensitive detector to: active_log_eta0_layer25
+Attached sensitive detector to: absorber_log_eta0_layer26
+Attached sensitive detector to: active_log_eta0_layer26
+Attached sensitive detector to: absorber_log_eta0_layer27
+Attached sensitive detector to: active_log_eta0_layer27
+Attached sensitive detector to: absorber_log_eta0_layer28
+Attached sensitive detector to: active_log_eta0_layer28
+Attached sensitive detector to: absorber_log_eta0_layer29
+Attached sensitive detector to: active_log_eta0_layer29
+Attached sensitive detector to: absorber_log_eta0_layer30
+Attached sensitive detector to: active_log_eta0_layer30
+Attached sensitive detector to: absorber_log_eta0_layer31
+Attached sensitive detector to: active_log_eta0_layer31
+Attached sensitive detector to: absorber_log_eta0_layer32
+Attached sensitive detector to: active_log_eta0_layer32
+Attached sensitive detector to: absorber_log_eta0_layer33
+Attached sensitive detector to: active_log_eta0_layer33
+Attached sensitive detector to: absorber_log_eta0_layer34
+Attached sensitive detector to: active_log_eta0_layer34
+Attached sensitive detector to: absorber_log_eta0_layer35
+Attached sensitive detector to: active_log_eta0_layer35
+Attached sensitive detector to: absorber_log_eta0_layer36
+Attached sensitive detector to: active_log_eta0_layer36
+Attached sensitive detector to: absorber_log_eta0_layer37
+Attached sensitive detector to: active_log_eta0_layer37
+Attached sensitive detector to: absorber_log_eta0_layer38
+Attached sensitive detector to: active_log_eta0_layer38
+Attached sensitive detector to: absorber_log_eta0_layer39
+Attached sensitive detector to: active_log_eta0_layer39
+Attached sensitive detector to: absorber_log_eta0_layer40
+Attached sensitive detector to: active_log_eta0_layer40
+Attached sensitive detector to: absorber_log_eta0_layer41
+Attached sensitive detector to: active_log_eta0_layer41
+Attached sensitive detector to: absorber_log_eta0_layer42
+Attached sensitive detector to: active_log_eta0_layer42
+Attached sensitive detector to: absorber_log_eta0_layer43
+Attached sensitive detector to: active_log_eta0_layer43
+Attached sensitive detector to: absorber_log_eta0_layer44
+Attached sensitive detector to: active_log_eta0_layer44
+Attached sensitive detector to: absorber_log_eta0_layer45
+Attached sensitive detector to: active_log_eta0_layer45
+Attached sensitive detector to: absorber_log_eta0_layer46
+Attached sensitive detector to: active_log_eta0_layer46
+Attached sensitive detector to: absorber_log_eta0_layer47
+Attached sensitive detector to: active_log_eta0_layer47
+Attached sensitive detector to: absorber_log_eta0_layer48
+Attached sensitive detector to: active_log_eta0_layer48
+Attached sensitive detector to: absorber_log_eta0_layer49
+Attached sensitive detector to: active_log_eta0_layer49
+Attached sensitive detector to: absorber_log_eta0_layer50
+Attached sensitive detector to: active_log_eta0_layer50
+Attached sensitive detector to: absorber_log_eta0_layer51
+Attached sensitive detector to: active_log_eta0_layer51
+Attached sensitive detector to: absorber_log_eta0_layer52
+Attached sensitive detector to: active_log_eta0_layer52
+Attached sensitive detector to: absorber_log_eta0_layer53
+Attached sensitive detector to: active_log_eta0_layer53
+Attached sensitive detector to: absorber_log_eta0_layer54
+Attached sensitive detector to: active_log_eta0_layer54
+Attached sensitive detector to: absorber_log_eta0_layer55
+Attached sensitive detector to: active_log_eta0_layer55
+Attached sensitive detector to: absorber_log_eta0_layer56
+Attached sensitive detector to: active_log_eta0_layer56
+Attached sensitive detector to: absorber_log_eta0_layer57
+Attached sensitive detector to: active_log_eta0_layer57
+Attached sensitive detector to: absorber_log_eta0_layer58
+Attached sensitive detector to: active_log_eta0_layer58
+Attached sensitive detector to: absorber_log_eta0_layer59
+Attached sensitive detector to: active_log_eta0_layer59
+Attached sensitive detector to: absorber_log_eta0_layer60
+Attached sensitive detector to: active_log_eta0_layer60
+Attached sensitive detector to: absorber_log_eta0_layer61
+Attached sensitive detector to: active_log_eta0_layer61
+Attached sensitive detector to: absorber_log_eta0_layer62
+Attached sensitive detector to: active_log_eta0_layer62
+Attached sensitive detector to: absorber_log_eta0_layer63
+Attached sensitive detector to: active_log_eta0_layer63
+Attached sensitive detector to: absorber_log_eta0_layer64
+Attached sensitive detector to: active_log_eta0_layer64
+Attached sensitive detector to: absorber_log_eta0_layer65
+Attached sensitive detector to: active_log_eta0_layer65
+Attached sensitive detector to: absorber_log_eta0_layer66
+Attached sensitive detector to: active_log_eta0_layer66
+Attached sensitive detector to: absorber_log_eta0_layer67
+Attached sensitive detector to: active_log_eta0_layer67
+Attached sensitive detector to: absorber_log_eta0_layer68
+Attached sensitive detector to: active_log_eta0_layer68
+Attached sensitive detector to: absorber_log_eta0_layer69
+Attached sensitive detector to: active_log_eta0_layer69
+Attached sensitive detector to: absorber_log_eta0_layer70
+Attached sensitive detector to: active_log_eta0_layer70
+Attached sensitive detector to: absorber_log_eta0_layer71
+Attached sensitive detector to: active_log_eta0_layer71
+Attached sensitive detector to: absorber_log_eta0_layer72
+Attached sensitive detector to: active_log_eta0_layer72
+Attached sensitive detector to: absorber_log_eta0_layer73
+Attached sensitive detector to: active_log_eta0_layer73
+Attached sensitive detector to: absorber_log_eta0_layer74
+Attached sensitive detector to: active_log_eta0_layer74
+Attached sensitive detector to: absorber_log_eta0_layer75
+Attached sensitive detector to: active_log_eta0_layer75
+Attached sensitive detector to: absorber_log_eta0_layer76
+Attached sensitive detector to: active_log_eta0_layer76
+Attached sensitive detector to: absorber_log_eta0_layer77
+Attached sensitive detector to: active_log_eta0_layer77
+Attached sensitive detector to: absorber_log_eta0_layer78
+Attached sensitive detector to: active_log_eta0_layer78
+Attached sensitive detector to: absorber_log_eta0_layer79
+Attached sensitive detector to: active_log_eta0_layer79
+Attached sensitive detector to: absorber_log_eta0_layer80
+Attached sensitive detector to: active_log_eta0_layer80
+Attached sensitive detector to: absorber_log_eta0_layer81
+Attached sensitive detector to: active_log_eta0_layer81
+Attached sensitive detector to: absorber_log_eta0_layer82
+Attached sensitive detector to: active_log_eta0_layer82
+Attached sensitive detector to: absorber_log_eta0_layer83
+Attached sensitive detector to: active_log_eta0_layer83
+Attached sensitive detector to: absorber_log_eta0_layer84
+Attached sensitive detector to: active_log_eta0_layer84
+Attached sensitive detector to: absorber_log_eta0_layer85
+Attached sensitive detector to: active_log_eta0_layer85
+Attached sensitive detector to: absorber_log_eta0_layer86
+Attached sensitive detector to: active_log_eta0_layer86
+Attached sensitive detector to: absorber_log_eta0_layer87
+Attached sensitive detector to: active_log_eta0_layer87
+Attached sensitive detector to: absorber_log_eta0_layer88
+Attached sensitive detector to: active_log_eta0_layer88
+Attached sensitive detector to: absorber_log_eta0_layer89
+Attached sensitive detector to: active_log_eta0_layer89
+Attached sensitive detector to: absorber_log_eta0_layer90
+Attached sensitive detector to: active_log_eta0_layer90
+Attached sensitive detector to: absorber_log_eta0_layer91
+Attached sensitive detector to: active_log_eta0_layer91
+Attached sensitive detector to: absorber_log_eta0_layer92
+Attached sensitive detector to: active_log_eta0_layer92
+Attached sensitive detector to: absorber_log_eta0_layer93
+Attached sensitive detector to: active_log_eta0_layer93
+Attached sensitive detector to: absorber_log_eta0_layer94
+Attached sensitive detector to: active_log_eta0_layer94
+Attached sensitive detector to: absorber_log_eta0_layer95
+Attached sensitive detector to: active_log_eta0_layer95
+Attached sensitive detector to: absorber_log_eta0_layer96
+Attached sensitive detector to: active_log_eta0_layer96
+Attached sensitive detector to: absorber_log_eta0_layer97
+Attached sensitive detector to: active_log_eta0_layer97
+Attached sensitive detector to: absorber_log_eta0_layer98
+Attached sensitive detector to: active_log_eta0_layer98
+Attached sensitive detector to: absorber_log_eta0_layer99
+Attached sensitive detector to: active_log_eta0_layer99
+Attached sensitive detector to: absorber_log_eta0_layer100
+Attached sensitive detector to: active_log_eta0_layer100
+Attached sensitive detector to: absorber_log_eta0_layer101
+Attached sensitive detector to: active_log_eta0_layer101
+Attached sensitive detector to: absorber_log_eta0_layer102
+Attached sensitive detector to: active_log_eta0_layer102
+Attached sensitive detector to: absorber_log_eta0_layer103
+Attached sensitive detector to: active_log_eta0_layer103
+Attached sensitive detector to: absorber_log_eta0_layer104
+Attached sensitive detector to: active_log_eta0_layer104
+Attached sensitive detector to: absorber_log_eta0_layer105
+Attached sensitive detector to: active_log_eta0_layer105
+Attached sensitive detector to: absorber_log_eta0_layer106
+Attached sensitive detector to: active_log_eta0_layer106
+Attached sensitive detector to: absorber_log_eta0_layer107
+Attached sensitive detector to: active_log_eta0_layer107
+Attached sensitive detector to: absorber_log_eta0_layer108
+Attached sensitive detector to: active_log_eta0_layer108
+Attached sensitive detector to: absorber_log_eta0_layer109
+Attached sensitive detector to: active_log_eta0_layer109
+Attached sensitive detector to: absorber_log_eta0_layer110
+Attached sensitive detector to: active_log_eta0_layer110
+Attached sensitive detector to: absorber_log_eta0_layer111
+Attached sensitive detector to: active_log_eta0_layer111
+Attached sensitive detector to: absorber_log_eta0_layer112
+Attached sensitive detector to: active_log_eta0_layer112
+Attached sensitive detector to: absorber_log_eta0_layer113
+Attached sensitive detector to: active_log_eta0_layer113
+Attached sensitive detector to: absorber_log_eta0_layer114
+Attached sensitive detector to: active_log_eta0_layer114
+Attached sensitive detector to: absorber_log_eta0_layer115
+Attached sensitive detector to: active_log_eta0_layer115
+Attached sensitive detector to: absorber_log_eta0_layer116
+Attached sensitive detector to: active_log_eta0_layer116
+Attached sensitive detector to: absorber_log_eta0_layer117
+Attached sensitive detector to: active_log_eta0_layer117
+Attached sensitive detector to: absorber_log_eta0_layer118
+Attached sensitive detector to: active_log_eta0_layer118
+Attached sensitive detector to: absorber_log_eta0_layer119
+Attached sensitive detector to: active_log_eta0_layer119
+Attached sensitive detector to: absorber_log_eta0_layer120
+Attached sensitive detector to: active_log_eta0_layer120
+Attached sensitive detector to: absorber_log_eta0_layer121
+Attached sensitive detector to: active_log_eta0_layer121
+Attached sensitive detector to: absorber_log_eta0_layer122
+Attached sensitive detector to: active_log_eta0_layer122
+Attached sensitive detector to: absorber_log_eta0_layer123
+Attached sensitive detector to: active_log_eta0_layer123
+Attached sensitive detector to: absorber_log_eta0_layer124
+Attached sensitive detector to: active_log_eta0_layer124
+Attached sensitive detector to: absorber_log_eta0_layer125
+Attached sensitive detector to: active_log_eta0_layer125
+Attached sensitive detector to: absorber_log_eta0_layer126
+Attached sensitive detector to: active_log_eta0_layer126
+Attached sensitive detector to: absorber_log_eta0_layer127
+Attached sensitive detector to: active_log_eta0_layer127
+Attached sensitive detector to: absorber_log_eta0_layer128
+Attached sensitive detector to: active_log_eta0_layer128
+Attached sensitive detector to: absorber_log_eta0_layer129
+Attached sensitive detector to: active_log_eta0_layer129
+Attached sensitive detector to: absorber_log_eta0_layer130
+Attached sensitive detector to: active_log_eta0_layer130
+Attached sensitive detector to: absorber_log_eta0_layer131
+Attached sensitive detector to: active_log_eta0_layer131
+Attached sensitive detector to: absorber_log_eta0_layer132
+Attached sensitive detector to: active_log_eta0_layer132
+Attached sensitive detector to: absorber_log_eta0_layer133
+Attached sensitive detector to: active_log_eta0_layer133
+Attached sensitive detector to: absorber_log_eta0_layer134
+Attached sensitive detector to: active_log_eta0_layer134
+Attached sensitive detector to: absorber_log_eta0_layer135
+Attached sensitive detector to: active_log_eta0_layer135
+Attached sensitive detector to: absorber_log_eta0_layer136
+Attached sensitive detector to: active_log_eta0_layer136
+Attached sensitive detector to: absorber_log_eta1_layer0
+Attached sensitive detector to: active_log_eta1_layer0
+Attached sensitive detector to: absorber_log_eta1_layer1
+Attached sensitive detector to: active_log_eta1_layer1
+Attached sensitive detector to: absorber_log_eta1_layer2
+Attached sensitive detector to: active_log_eta1_layer2
+Attached sensitive detector to: absorber_log_eta1_layer3
+Attached sensitive detector to: active_log_eta1_layer3
+Attached sensitive detector to: absorber_log_eta1_layer4
+Attached sensitive detector to: active_log_eta1_layer4
+Attached sensitive detector to: absorber_log_eta1_layer5
+Attached sensitive detector to: active_log_eta1_layer5
+Attached sensitive detector to: absorber_log_eta1_layer6
+Attached sensitive detector to: active_log_eta1_layer6
+Attached sensitive detector to: absorber_log_eta1_layer7
+Attached sensitive detector to: active_log_eta1_layer7
+Attached sensitive detector to: absorber_log_eta1_layer8
+Attached sensitive detector to: active_log_eta1_layer8
+Attached sensitive detector to: absorber_log_eta1_layer9
+Attached sensitive detector to: active_log_eta1_layer9
+Attached sensitive detector to: absorber_log_eta1_layer10
+Attached sensitive detector to: active_log_eta1_layer10
+Attached sensitive detector to: absorber_log_eta1_layer11
+Attached sensitive detector to: active_log_eta1_layer11
+Attached sensitive detector to: absorber_log_eta1_layer12
+Attached sensitive detector to: active_log_eta1_layer12
+Attached sensitive detector to: absorber_log_eta1_layer13
+Attached sensitive detector to: active_log_eta1_layer13
+Attached sensitive detector to: absorber_log_eta1_layer14
+Attached sensitive detector to: active_log_eta1_layer14
+Attached sensitive detector to: absorber_log_eta1_layer15
+Attached sensitive detector to: active_log_eta1_layer15
+Attached sensitive detector to: absorber_log_eta1_layer16
+Attached sensitive detector to: active_log_eta1_layer16
+Attached sensitive detector to: absorber_log_eta1_layer17
+Attached sensitive detector to: active_log_eta1_layer17
+Attached sensitive detector to: absorber_log_eta1_layer18
+Attached sensitive detector to: active_log_eta1_layer18
+Attached sensitive detector to: absorber_log_eta1_layer19
+Attached sensitive detector to: active_log_eta1_layer19
+Attached sensitive detector to: absorber_log_eta1_layer20
+Attached sensitive detector to: active_log_eta1_layer20
+Attached sensitive detector to: absorber_log_eta1_layer21
+Attached sensitive detector to: active_log_eta1_layer21
+Attached sensitive detector to: absorber_log_eta1_layer22
+Attached sensitive detector to: active_log_eta1_layer22
+Attached sensitive detector to: absorber_log_eta1_layer23
+Attached sensitive detector to: active_log_eta1_layer23
+Attached sensitive detector to: absorber_log_eta1_layer24
+Attached sensitive detector to: active_log_eta1_layer24
+Attached sensitive detector to: absorber_log_eta1_layer25
+Attached sensitive detector to: active_log_eta1_layer25
+Attached sensitive detector to: absorber_log_eta1_layer26
+Attached sensitive detector to: active_log_eta1_layer26
+Attached sensitive detector to: absorber_log_eta1_layer27
+Attached sensitive detector to: active_log_eta1_layer27
+Attached sensitive detector to: absorber_log_eta1_layer28
+Attached sensitive detector to: active_log_eta1_layer28
+Attached sensitive detector to: absorber_log_eta1_layer29
+Attached sensitive detector to: active_log_eta1_layer29
+Attached sensitive detector to: absorber_log_eta1_layer30
+Attached sensitive detector to: active_log_eta1_layer30
+Attached sensitive detector to: absorber_log_eta1_layer31
+Attached sensitive detector to: active_log_eta1_layer31
+Attached sensitive detector to: absorber_log_eta1_layer32
+Attached sensitive detector to: active_log_eta1_layer32
+Attached sensitive detector to: absorber_log_eta1_layer33
+Attached sensitive detector to: active_log_eta1_layer33
+Attached sensitive detector to: absorber_log_eta1_layer34
+Attached sensitive detector to: active_log_eta1_layer34
+Attached sensitive detector to: absorber_log_eta1_layer35
+Attached sensitive detector to: active_log_eta1_layer35
+Attached sensitive detector to: absorber_log_eta1_layer36
+Attached sensitive detector to: active_log_eta1_layer36
+Attached sensitive detector to: absorber_log_eta1_layer37
+Attached sensitive detector to: active_log_eta1_layer37
+Attached sensitive detector to: absorber_log_eta1_layer38
+Attached sensitive detector to: active_log_eta1_layer38
+Attached sensitive detector to: absorber_log_eta1_layer39
+Attached sensitive detector to: active_log_eta1_layer39
+Attached sensitive detector to: absorber_log_eta1_layer40
+Attached sensitive detector to: active_log_eta1_layer40
+Attached sensitive detector to: absorber_log_eta1_layer41
+Attached sensitive detector to: active_log_eta1_layer41
+Attached sensitive detector to: absorber_log_eta1_layer42
+Attached sensitive detector to: active_log_eta1_layer42
+Attached sensitive detector to: absorber_log_eta1_layer43
+Attached sensitive detector to: active_log_eta1_layer43
+Attached sensitive detector to: absorber_log_eta1_layer44
+Attached sensitive detector to: active_log_eta1_layer44
+Attached sensitive detector to: absorber_log_eta1_layer45
+Attached sensitive detector to: active_log_eta1_layer45
+Attached sensitive detector to: absorber_log_eta1_layer46
+Attached sensitive detector to: active_log_eta1_layer46
+Attached sensitive detector to: absorber_log_eta1_layer47
+Attached sensitive detector to: active_log_eta1_layer47
+Attached sensitive detector to: absorber_log_eta1_layer48
+Attached sensitive detector to: active_log_eta1_layer48
+Attached sensitive detector to: absorber_log_eta1_layer49
+Attached sensitive detector to: active_log_eta1_layer49
+Attached sensitive detector to: absorber_log_eta1_layer50
+Attached sensitive detector to: active_log_eta1_layer50
+Attached sensitive detector to: absorber_log_eta1_layer51
+Attached sensitive detector to: active_log_eta1_layer51
+Attached sensitive detector to: absorber_log_eta1_layer52
+Attached sensitive detector to: active_log_eta1_layer52
+Attached sensitive detector to: absorber_log_eta1_layer53
+Attached sensitive detector to: active_log_eta1_layer53
+Attached sensitive detector to: absorber_log_eta1_layer54
+Attached sensitive detector to: active_log_eta1_layer54
+Attached sensitive detector to: absorber_log_eta1_layer55
+Attached sensitive detector to: active_log_eta1_layer55
+Attached sensitive detector to: absorber_log_eta1_layer56
+Attached sensitive detector to: active_log_eta1_layer56
+Attached sensitive detector to: absorber_log_eta1_layer57
+Attached sensitive detector to: active_log_eta1_layer57
+Attached sensitive detector to: absorber_log_eta1_layer58
+Attached sensitive detector to: active_log_eta1_layer58
+Attached sensitive detector to: absorber_log_eta1_layer59
+Attached sensitive detector to: active_log_eta1_layer59
+Attached sensitive detector to: absorber_log_eta1_layer60
+Attached sensitive detector to: active_log_eta1_layer60
+Attached sensitive detector to: absorber_log_eta1_layer61
+Attached sensitive detector to: active_log_eta1_layer61
+Attached sensitive detector to: absorber_log_eta1_layer62
+Attached sensitive detector to: active_log_eta1_layer62
+Attached sensitive detector to: absorber_log_eta1_layer63
+Attached sensitive detector to: active_log_eta1_layer63
+Attached sensitive detector to: absorber_log_eta1_layer64
+Attached sensitive detector to: active_log_eta1_layer64
+Attached sensitive detector to: absorber_log_eta1_layer65
+Attached sensitive detector to: active_log_eta1_layer65
+Attached sensitive detector to: absorber_log_eta1_layer66
+Attached sensitive detector to: active_log_eta1_layer66
+Attached sensitive detector to: absorber_log_eta1_layer67
+Attached sensitive detector to: active_log_eta1_layer67
+Attached sensitive detector to: absorber_log_eta1_layer68
+Attached sensitive detector to: active_log_eta1_layer68
+Attached sensitive detector to: absorber_log_eta1_layer69
+Attached sensitive detector to: active_log_eta1_layer69
+Attached sensitive detector to: absorber_log_eta1_layer70
+Attached sensitive detector to: active_log_eta1_layer70
+Attached sensitive detector to: absorber_log_eta1_layer71
+Attached sensitive detector to: active_log_eta1_layer71
+Attached sensitive detector to: absorber_log_eta1_layer72
+Attached sensitive detector to: active_log_eta1_layer72
+Attached sensitive detector to: absorber_log_eta1_layer73
+Attached sensitive detector to: active_log_eta1_layer73
+Attached sensitive detector to: absorber_log_eta1_layer74
+Attached sensitive detector to: active_log_eta1_layer74
+Attached sensitive detector to: absorber_log_eta1_layer75
+Attached sensitive detector to: active_log_eta1_layer75
+Attached sensitive detector to: absorber_log_eta1_layer76
+Attached sensitive detector to: active_log_eta1_layer76
+Attached sensitive detector to: absorber_log_eta1_layer77
+Attached sensitive detector to: active_log_eta1_layer77
+Attached sensitive detector to: absorber_log_eta1_layer78
+Attached sensitive detector to: active_log_eta1_layer78
+Attached sensitive detector to: absorber_log_eta1_layer79
+Attached sensitive detector to: active_log_eta1_layer79
+Attached sensitive detector to: absorber_log_eta1_layer80
+Attached sensitive detector to: active_log_eta1_layer80
+Attached sensitive detector to: absorber_log_eta1_layer81
+Attached sensitive detector to: active_log_eta1_layer81
+Attached sensitive detector to: absorber_log_eta1_layer82
+Attached sensitive detector to: active_log_eta1_layer82
+Attached sensitive detector to: absorber_log_eta1_layer83
+Attached sensitive detector to: active_log_eta1_layer83
+Attached sensitive detector to: absorber_log_eta1_layer84
+Attached sensitive detector to: active_log_eta1_layer84
+Attached sensitive detector to: absorber_log_eta1_layer85
+Attached sensitive detector to: active_log_eta1_layer85
+Attached sensitive detector to: absorber_log_eta1_layer86
+Attached sensitive detector to: active_log_eta1_layer86
+Attached sensitive detector to: absorber_log_eta1_layer87
+Attached sensitive detector to: active_log_eta1_layer87
+Attached sensitive detector to: absorber_log_eta1_layer88
+Attached sensitive detector to: active_log_eta1_layer88
+Attached sensitive detector to: absorber_log_eta1_layer89
+Attached sensitive detector to: active_log_eta1_layer89
+Attached sensitive detector to: absorber_log_eta1_layer90
+Attached sensitive detector to: active_log_eta1_layer90
+Attached sensitive detector to: absorber_log_eta1_layer91
+Attached sensitive detector to: active_log_eta1_layer91
+Attached sensitive detector to: absorber_log_eta1_layer92
+Attached sensitive detector to: active_log_eta1_layer92
+Attached sensitive detector to: absorber_log_eta1_layer93
+Attached sensitive detector to: active_log_eta1_layer93
+Attached sensitive detector to: absorber_log_eta1_layer94
+Attached sensitive detector to: active_log_eta1_layer94
+Attached sensitive detector to: absorber_log_eta1_layer95
+Attached sensitive detector to: active_log_eta1_layer95
+Attached sensitive detector to: absorber_log_eta1_layer96
+Attached sensitive detector to: active_log_eta1_layer96
+Attached sensitive detector to: absorber_log_eta1_layer97
+Attached sensitive detector to: active_log_eta1_layer97
+Attached sensitive detector to: absorber_log_eta1_layer98
+Attached sensitive detector to: active_log_eta1_layer98
+Attached sensitive detector to: absorber_log_eta1_layer99
+Attached sensitive detector to: active_log_eta1_layer99
+Attached sensitive detector to: absorber_log_eta1_layer100
+Attached sensitive detector to: active_log_eta1_layer100
+Attached sensitive detector to: absorber_log_eta1_layer101
+Attached sensitive detector to: active_log_eta1_layer101
+Attached sensitive detector to: absorber_log_eta1_layer102
+Attached sensitive detector to: active_log_eta1_layer102
+Attached sensitive detector to: absorber_log_eta1_layer103
+Attached sensitive detector to: active_log_eta1_layer103
+Attached sensitive detector to: absorber_log_eta1_layer104
+Attached sensitive detector to: active_log_eta1_layer104
+Attached sensitive detector to: absorber_log_eta1_layer105
+Attached sensitive detector to: active_log_eta1_layer105
+Attached sensitive detector to: absorber_log_eta1_layer106
+Attached sensitive detector to: active_log_eta1_layer106
+Attached sensitive detector to: absorber_log_eta1_layer107
+Attached sensitive detector to: active_log_eta1_layer107
+Attached sensitive detector to: absorber_log_eta1_layer108
+Attached sensitive detector to: active_log_eta1_layer108
+Attached sensitive detector to: absorber_log_eta1_layer109
+Attached sensitive detector to: active_log_eta1_layer109
+Attached sensitive detector to: absorber_log_eta1_layer110
+Attached sensitive detector to: active_log_eta1_layer110
+Attached sensitive detector to: absorber_log_eta1_layer111
+Attached sensitive detector to: active_log_eta1_layer111
+Attached sensitive detector to: absorber_log_eta1_layer112
+Attached sensitive detector to: active_log_eta1_layer112
+Attached sensitive detector to: absorber_log_eta1_layer113
+Attached sensitive detector to: active_log_eta1_layer113
+Attached sensitive detector to: absorber_log_eta1_layer114
+Attached sensitive detector to: active_log_eta1_layer114
+Attached sensitive detector to: absorber_log_eta1_layer115
+Attached sensitive detector to: active_log_eta1_layer115
+Attached sensitive detector to: absorber_log_eta1_layer116
+Attached sensitive detector to: active_log_eta1_layer116
+Attached sensitive detector to: absorber_log_eta1_layer117
+Attached sensitive detector to: active_log_eta1_layer117
+Attached sensitive detector to: absorber_log_eta1_layer118
+Attached sensitive detector to: active_log_eta1_layer118
+Attached sensitive detector to: absorber_log_eta1_layer119
+Attached sensitive detector to: active_log_eta1_layer119
+Attached sensitive detector to: absorber_log_eta1_layer120
+Attached sensitive detector to: active_log_eta1_layer120
+Attached sensitive detector to: absorber_log_eta1_layer121
+Attached sensitive detector to: active_log_eta1_layer121
+Attached sensitive detector to: absorber_log_eta1_layer122
+Attached sensitive detector to: active_log_eta1_layer122
+Attached sensitive detector to: absorber_log_eta1_layer123
+Attached sensitive detector to: active_log_eta1_layer123
+Attached sensitive detector to: absorber_log_eta1_layer124
+Attached sensitive detector to: active_log_eta1_layer124
+Attached sensitive detector to: absorber_log_eta1_layer125
+Attached sensitive detector to: active_log_eta1_layer125
+Attached sensitive detector to: absorber_log_eta1_layer126
+Attached sensitive detector to: active_log_eta1_layer126
+Attached sensitive detector to: absorber_log_eta1_layer127
+Attached sensitive detector to: active_log_eta1_layer127
+Attached sensitive detector to: absorber_log_eta1_layer128
+Attached sensitive detector to: active_log_eta1_layer128
+Attached sensitive detector to: absorber_log_eta1_layer129
+Attached sensitive detector to: active_log_eta1_layer129
+Attached sensitive detector to: absorber_log_eta1_layer130
+Attached sensitive detector to: active_log_eta1_layer130
+Attached sensitive detector to: absorber_log_eta1_layer131
+Attached sensitive detector to: active_log_eta1_layer131
+Attached sensitive detector to: absorber_log_eta1_layer132
+Attached sensitive detector to: active_log_eta1_layer132
+Attached sensitive detector to: absorber_log_eta1_layer133
+Attached sensitive detector to: active_log_eta1_layer133
+Attached sensitive detector to: absorber_log_eta1_layer134
+Attached sensitive detector to: active_log_eta1_layer134
+Attached sensitive detector to: absorber_log_eta1_layer135
+Attached sensitive detector to: active_log_eta1_layer135
+Attached sensitive detector to: absorber_log_eta1_layer136
+Attached sensitive detector to: active_log_eta1_layer136
+Attached sensitive detector to: absorber_log_eta2_layer0
+Attached sensitive detector to: active_log_eta2_layer0
+Attached sensitive detector to: absorber_log_eta2_layer1
+Attached sensitive detector to: active_log_eta2_layer1
+Attached sensitive detector to: absorber_log_eta2_layer2
+Attached sensitive detector to: active_log_eta2_layer2
+Attached sensitive detector to: absorber_log_eta2_layer3
+Attached sensitive detector to: active_log_eta2_layer3
+Attached sensitive detector to: absorber_log_eta2_layer4
+Attached sensitive detector to: active_log_eta2_layer4
+Attached sensitive detector to: absorber_log_eta2_layer5
+Attached sensitive detector to: active_log_eta2_layer5
+Attached sensitive detector to: absorber_log_eta2_layer6
+Attached sensitive detector to: active_log_eta2_layer6
+Attached sensitive detector to: absorber_log_eta2_layer7
+Attached sensitive detector to: active_log_eta2_layer7
+Attached sensitive detector to: absorber_log_eta2_layer8
+Attached sensitive detector to: active_log_eta2_layer8
+Attached sensitive detector to: absorber_log_eta2_layer9
+Attached sensitive detector to: active_log_eta2_layer9
+Attached sensitive detector to: absorber_log_eta2_layer10
+Attached sensitive detector to: active_log_eta2_layer10
+Attached sensitive detector to: absorber_log_eta2_layer11
+Attached sensitive detector to: active_log_eta2_layer11
+Attached sensitive detector to: absorber_log_eta2_layer12
+Attached sensitive detector to: active_log_eta2_layer12
+Attached sensitive detector to: absorber_log_eta2_layer13
+Attached sensitive detector to: active_log_eta2_layer13
+Attached sensitive detector to: absorber_log_eta2_layer14
+Attached sensitive detector to: active_log_eta2_layer14
+Attached sensitive detector to: absorber_log_eta2_layer15
+Attached sensitive detector to: active_log_eta2_layer15
+Attached sensitive detector to: absorber_log_eta2_layer16
+Attached sensitive detector to: active_log_eta2_layer16
+Attached sensitive detector to: absorber_log_eta2_layer17
+Attached sensitive detector to: active_log_eta2_layer17
+Attached sensitive detector to: absorber_log_eta2_layer18
+Attached sensitive detector to: active_log_eta2_layer18
+Attached sensitive detector to: absorber_log_eta2_layer19
+Attached sensitive detector to: active_log_eta2_layer19
+Attached sensitive detector to: absorber_log_eta2_layer20
+Attached sensitive detector to: active_log_eta2_layer20
+Attached sensitive detector to: absorber_log_eta2_layer21
+Attached sensitive detector to: active_log_eta2_layer21
+Attached sensitive detector to: absorber_log_eta2_layer22
+Attached sensitive detector to: active_log_eta2_layer22
+Attached sensitive detector to: absorber_log_eta2_layer23
+Attached sensitive detector to: active_log_eta2_layer23
+Attached sensitive detector to: absorber_log_eta2_layer24
+Attached sensitive detector to: active_log_eta2_layer24
+Attached sensitive detector to: absorber_log_eta2_layer25
+Attached sensitive detector to: active_log_eta2_layer25
+Attached sensitive detector to: absorber_log_eta2_layer26
+Attached sensitive detector to: active_log_eta2_layer26
+Attached sensitive detector to: absorber_log_eta2_layer27
+Attached sensitive detector to: active_log_eta2_layer27
+Attached sensitive detector to: absorber_log_eta2_layer28
+Attached sensitive detector to: active_log_eta2_layer28
+Attached sensitive detector to: absorber_log_eta2_layer29
+Attached sensitive detector to: active_log_eta2_layer29
+Attached sensitive detector to: absorber_log_eta2_layer30
+Attached sensitive detector to: active_log_eta2_layer30
+Attached sensitive detector to: absorber_log_eta2_layer31
+Attached sensitive detector to: active_log_eta2_layer31
+Attached sensitive detector to: absorber_log_eta2_layer32
+Attached sensitive detector to: active_log_eta2_layer32
+Attached sensitive detector to: absorber_log_eta2_layer33
+Attached sensitive detector to: active_log_eta2_layer33
+Attached sensitive detector to: absorber_log_eta2_layer34
+Attached sensitive detector to: active_log_eta2_layer34
+Attached sensitive detector to: absorber_log_eta2_layer35
+Attached sensitive detector to: active_log_eta2_layer35
+Attached sensitive detector to: absorber_log_eta2_layer36
+Attached sensitive detector to: active_log_eta2_layer36
+Attached sensitive detector to: absorber_log_eta2_layer37
+Attached sensitive detector to: active_log_eta2_layer37
+Attached sensitive detector to: absorber_log_eta2_layer38
+Attached sensitive detector to: active_log_eta2_layer38
+Attached sensitive detector to: absorber_log_eta2_layer39
+Attached sensitive detector to: active_log_eta2_layer39
+Attached sensitive detector to: absorber_log_eta2_layer40
+Attached sensitive detector to: active_log_eta2_layer40
+Attached sensitive detector to: absorber_log_eta2_layer41
+Attached sensitive detector to: active_log_eta2_layer41
+Attached sensitive detector to: absorber_log_eta2_layer42
+Attached sensitive detector to: active_log_eta2_layer42
+Attached sensitive detector to: absorber_log_eta2_layer43
+Attached sensitive detector to: active_log_eta2_layer43
+Attached sensitive detector to: absorber_log_eta2_layer44
+Attached sensitive detector to: active_log_eta2_layer44
+Attached sensitive detector to: absorber_log_eta2_layer45
+Attached sensitive detector to: active_log_eta2_layer45
+Attached sensitive detector to: absorber_log_eta2_layer46
+Attached sensitive detector to: active_log_eta2_layer46
+Attached sensitive detector to: absorber_log_eta2_layer47
+Attached sensitive detector to: active_log_eta2_layer47
+Attached sensitive detector to: absorber_log_eta2_layer48
+Attached sensitive detector to: active_log_eta2_layer48
+Attached sensitive detector to: absorber_log_eta2_layer49
+Attached sensitive detector to: active_log_eta2_layer49
+Attached sensitive detector to: absorber_log_eta2_layer50
+Attached sensitive detector to: active_log_eta2_layer50
+Attached sensitive detector to: absorber_log_eta2_layer51
+Attached sensitive detector to: active_log_eta2_layer51
+Attached sensitive detector to: absorber_log_eta2_layer52
+Attached sensitive detector to: active_log_eta2_layer52
+Attached sensitive detector to: absorber_log_eta2_layer53
+Attached sensitive detector to: active_log_eta2_layer53
+Attached sensitive detector to: absorber_log_eta2_layer54
+Attached sensitive detector to: active_log_eta2_layer54
+Attached sensitive detector to: absorber_log_eta2_layer55
+Attached sensitive detector to: active_log_eta2_layer55
+Attached sensitive detector to: absorber_log_eta2_layer56
+Attached sensitive detector to: active_log_eta2_layer56
+Attached sensitive detector to: absorber_log_eta2_layer57
+Attached sensitive detector to: active_log_eta2_layer57
+Attached sensitive detector to: absorber_log_eta2_layer58
+Attached sensitive detector to: active_log_eta2_layer58
+Attached sensitive detector to: absorber_log_eta2_layer59
+Attached sensitive detector to: active_log_eta2_layer59
+Attached sensitive detector to: absorber_log_eta2_layer60
+Attached sensitive detector to: active_log_eta2_layer60
+Attached sensitive detector to: absorber_log_eta2_layer61
+Attached sensitive detector to: active_log_eta2_layer61
+Attached sensitive detector to: absorber_log_eta2_layer62
+Attached sensitive detector to: active_log_eta2_layer62
+Attached sensitive detector to: absorber_log_eta2_layer63
+Attached sensitive detector to: active_log_eta2_layer63
+Attached sensitive detector to: absorber_log_eta2_layer64
+Attached sensitive detector to: active_log_eta2_layer64
+Attached sensitive detector to: absorber_log_eta2_layer65
+Attached sensitive detector to: active_log_eta2_layer65
+Attached sensitive detector to: absorber_log_eta2_layer66
+Attached sensitive detector to: active_log_eta2_layer66
+Attached sensitive detector to: absorber_log_eta2_layer67
+Attached sensitive detector to: active_log_eta2_layer67
+Attached sensitive detector to: absorber_log_eta2_layer68
+Attached sensitive detector to: active_log_eta2_layer68
+Attached sensitive detector to: absorber_log_eta2_layer69
+Attached sensitive detector to: active_log_eta2_layer69
+Attached sensitive detector to: absorber_log_eta2_layer70
+Attached sensitive detector to: active_log_eta2_layer70
+Attached sensitive detector to: absorber_log_eta2_layer71
+Attached sensitive detector to: active_log_eta2_layer71
+Attached sensitive detector to: absorber_log_eta2_layer72
+Attached sensitive detector to: active_log_eta2_layer72
+Attached sensitive detector to: absorber_log_eta2_layer73
+Attached sensitive detector to: active_log_eta2_layer73
+Attached sensitive detector to: absorber_log_eta2_layer74
+Attached sensitive detector to: active_log_eta2_layer74
+Attached sensitive detector to: absorber_log_eta2_layer75
+Attached sensitive detector to: active_log_eta2_layer75
+Attached sensitive detector to: absorber_log_eta2_layer76
+Attached sensitive detector to: active_log_eta2_layer76
+Attached sensitive detector to: absorber_log_eta2_layer77
+Attached sensitive detector to: active_log_eta2_layer77
+Attached sensitive detector to: absorber_log_eta2_layer78
+Attached sensitive detector to: active_log_eta2_layer78
+Attached sensitive detector to: absorber_log_eta2_layer79
+Attached sensitive detector to: active_log_eta2_layer79
+Attached sensitive detector to: absorber_log_eta2_layer80
+Attached sensitive detector to: active_log_eta2_layer80
+Attached sensitive detector to: absorber_log_eta2_layer81
+Attached sensitive detector to: active_log_eta2_layer81
+Attached sensitive detector to: absorber_log_eta2_layer82
+Attached sensitive detector to: active_log_eta2_layer82
+Attached sensitive detector to: absorber_log_eta2_layer83
+Attached sensitive detector to: active_log_eta2_layer83
+Attached sensitive detector to: absorber_log_eta2_layer84
+Attached sensitive detector to: active_log_eta2_layer84
+Attached sensitive detector to: absorber_log_eta2_layer85
+Attached sensitive detector to: active_log_eta2_layer85
+Attached sensitive detector to: absorber_log_eta2_layer86
+Attached sensitive detector to: active_log_eta2_layer86
+Attached sensitive detector to: absorber_log_eta2_layer87
+Attached sensitive detector to: active_log_eta2_layer87
+Attached sensitive detector to: absorber_log_eta2_layer88
+Attached sensitive detector to: active_log_eta2_layer88
+Attached sensitive detector to: absorber_log_eta2_layer89
+Attached sensitive detector to: active_log_eta2_layer89
+Attached sensitive detector to: absorber_log_eta2_layer90
+Attached sensitive detector to: active_log_eta2_layer90
+Attached sensitive detector to: absorber_log_eta2_layer91
+Attached sensitive detector to: active_log_eta2_layer91
+Attached sensitive detector to: absorber_log_eta2_layer92
+Attached sensitive detector to: active_log_eta2_layer92
+Attached sensitive detector to: absorber_log_eta2_layer93
+Attached sensitive detector to: active_log_eta2_layer93
+Attached sensitive detector to: absorber_log_eta2_layer94
+Attached sensitive detector to: active_log_eta2_layer94
+Attached sensitive detector to: absorber_log_eta2_layer95
+Attached sensitive detector to: active_log_eta2_layer95
+Attached sensitive detector to: absorber_log_eta2_layer96
+Attached sensitive detector to: active_log_eta2_layer96
+Attached sensitive detector to: absorber_log_eta2_layer97
+Attached sensitive detector to: active_log_eta2_layer97
+Attached sensitive detector to: absorber_log_eta2_layer98
+Attached sensitive detector to: active_log_eta2_layer98
+Attached sensitive detector to: absorber_log_eta2_layer99
+Attached sensitive detector to: active_log_eta2_layer99
+Attached sensitive detector to: absorber_log_eta2_layer100
+Attached sensitive detector to: active_log_eta2_layer100
+Attached sensitive detector to: absorber_log_eta2_layer101
+Attached sensitive detector to: active_log_eta2_layer101
+Attached sensitive detector to: absorber_log_eta2_layer102
+Attached sensitive detector to: active_log_eta2_layer102
+Attached sensitive detector to: absorber_log_eta2_layer103
+Attached sensitive detector to: active_log_eta2_layer103
+Attached sensitive detector to: absorber_log_eta2_layer104
+Attached sensitive detector to: active_log_eta2_layer104
+Attached sensitive detector to: absorber_log_eta2_layer105
+Attached sensitive detector to: active_log_eta2_layer105
+Attached sensitive detector to: absorber_log_eta2_layer106
+Attached sensitive detector to: active_log_eta2_layer106
+Attached sensitive detector to: absorber_log_eta2_layer107
+Attached sensitive detector to: active_log_eta2_layer107
+Attached sensitive detector to: absorber_log_eta2_layer108
+Attached sensitive detector to: active_log_eta2_layer108
+Attached sensitive detector to: absorber_log_eta2_layer109
+Attached sensitive detector to: active_log_eta2_layer109
+Attached sensitive detector to: absorber_log_eta2_layer110
+Attached sensitive detector to: active_log_eta2_layer110
+Attached sensitive detector to: absorber_log_eta2_layer111
+Attached sensitive detector to: active_log_eta2_layer111
+Attached sensitive detector to: absorber_log_eta2_layer112
+Attached sensitive detector to: active_log_eta2_layer112
+Attached sensitive detector to: absorber_log_eta2_layer113
+Attached sensitive detector to: active_log_eta2_layer113
+Attached sensitive detector to: absorber_log_eta2_layer114
+Attached sensitive detector to: active_log_eta2_layer114
+Attached sensitive detector to: absorber_log_eta2_layer115
+Attached sensitive detector to: active_log_eta2_layer115
+Attached sensitive detector to: absorber_log_eta2_layer116
+Attached sensitive detector to: active_log_eta2_layer116
+Attached sensitive detector to: absorber_log_eta2_layer117
+Attached sensitive detector to: active_log_eta2_layer117
+Attached sensitive detector to: absorber_log_eta2_layer118
+Attached sensitive detector to: active_log_eta2_layer118
+Attached sensitive detector to: absorber_log_eta2_layer119
+Attached sensitive detector to: active_log_eta2_layer119
+Attached sensitive detector to: absorber_log_eta2_layer120
+Attached sensitive detector to: active_log_eta2_layer120
+Attached sensitive detector to: absorber_log_eta2_layer121
+Attached sensitive detector to: active_log_eta2_layer121
+Attached sensitive detector to: absorber_log_eta2_layer122
+Attached sensitive detector to: active_log_eta2_layer122
+Attached sensitive detector to: absorber_log_eta2_layer123
+Attached sensitive detector to: active_log_eta2_layer123
+Attached sensitive detector to: absorber_log_eta2_layer124
+Attached sensitive detector to: active_log_eta2_layer124
+Attached sensitive detector to: absorber_log_eta2_layer125
+Attached sensitive detector to: active_log_eta2_layer125
+Attached sensitive detector to: absorber_log_eta2_layer126
+Attached sensitive detector to: active_log_eta2_layer126
+Attached sensitive detector to: absorber_log_eta2_layer127
+Attached sensitive detector to: active_log_eta2_layer127
+Attached sensitive detector to: absorber_log_eta2_layer128
+Attached sensitive detector to: active_log_eta2_layer128
+Attached sensitive detector to: absorber_log_eta2_layer129
+Attached sensitive detector to: active_log_eta2_layer129
+Attached sensitive detector to: absorber_log_eta2_layer130
+Attached sensitive detector to: active_log_eta2_layer130
+Attached sensitive detector to: absorber_log_eta2_layer131
+Attached sensitive detector to: active_log_eta2_layer131
+Attached sensitive detector to: absorber_log_eta2_layer132
+Attached sensitive detector to: active_log_eta2_layer132
+Attached sensitive detector to: absorber_log_eta2_layer133
+Attached sensitive detector to: active_log_eta2_layer133
+Attached sensitive detector to: absorber_log_eta2_layer134
+Attached sensitive detector to: active_log_eta2_layer134
+Attached sensitive detector to: absorber_log_eta2_layer135
+Attached sensitive detector to: active_log_eta2_layer135
+Attached sensitive detector to: absorber_log_eta2_layer136
+Attached sensitive detector to: active_log_eta2_layer136
+Attached sensitive detector to: absorber_log_eta3_layer0
+Attached sensitive detector to: active_log_eta3_layer0
+Attached sensitive detector to: absorber_log_eta3_layer1
+Attached sensitive detector to: active_log_eta3_layer1
+Attached sensitive detector to: absorber_log_eta3_layer2
+Attached sensitive detector to: active_log_eta3_layer2
+Attached sensitive detector to: absorber_log_eta3_layer3
+Attached sensitive detector to: active_log_eta3_layer3
+Attached sensitive detector to: absorber_log_eta3_layer4
+Attached sensitive detector to: active_log_eta3_layer4
+Attached sensitive detector to: absorber_log_eta3_layer5
+Attached sensitive detector to: active_log_eta3_layer5
+Attached sensitive detector to: absorber_log_eta3_layer6
+Attached sensitive detector to: active_log_eta3_layer6
+Attached sensitive detector to: absorber_log_eta3_layer7
+Attached sensitive detector to: active_log_eta3_layer7
+Attached sensitive detector to: absorber_log_eta3_layer8
+Attached sensitive detector to: active_log_eta3_layer8
+Attached sensitive detector to: absorber_log_eta3_layer9
+Attached sensitive detector to: active_log_eta3_layer9
+Attached sensitive detector to: absorber_log_eta3_layer10
+Attached sensitive detector to: active_log_eta3_layer10
+Attached sensitive detector to: absorber_log_eta3_layer11
+Attached sensitive detector to: active_log_eta3_layer11
+Attached sensitive detector to: absorber_log_eta3_layer12
+Attached sensitive detector to: active_log_eta3_layer12
+Attached sensitive detector to: absorber_log_eta3_layer13
+Attached sensitive detector to: active_log_eta3_layer13
+Attached sensitive detector to: absorber_log_eta3_layer14
+Attached sensitive detector to: active_log_eta3_layer14
+Attached sensitive detector to: absorber_log_eta3_layer15
+Attached sensitive detector to: active_log_eta3_layer15
+Attached sensitive detector to: absorber_log_eta3_layer16
+Attached sensitive detector to: active_log_eta3_layer16
+Attached sensitive detector to: absorber_log_eta3_layer17
+Attached sensitive detector to: active_log_eta3_layer17
+Attached sensitive detector to: absorber_log_eta3_layer18
+Attached sensitive detector to: active_log_eta3_layer18
+Attached sensitive detector to: absorber_log_eta3_layer19
+Attached sensitive detector to: active_log_eta3_layer19
+Attached sensitive detector to: absorber_log_eta3_layer20
+Attached sensitive detector to: active_log_eta3_layer20
+Attached sensitive detector to: absorber_log_eta3_layer21
+Attached sensitive detector to: active_log_eta3_layer21
+Attached sensitive detector to: absorber_log_eta3_layer22
+Attached sensitive detector to: active_log_eta3_layer22
+Attached sensitive detector to: absorber_log_eta3_layer23
+Attached sensitive detector to: active_log_eta3_layer23
+Attached sensitive detector to: absorber_log_eta3_layer24
+Attached sensitive detector to: active_log_eta3_layer24
+Attached sensitive detector to: absorber_log_eta3_layer25
+Attached sensitive detector to: active_log_eta3_layer25
+Attached sensitive detector to: absorber_log_eta3_layer26
+Attached sensitive detector to: active_log_eta3_layer26
+Attached sensitive detector to: absorber_log_eta3_layer27
+Attached sensitive detector to: active_log_eta3_layer27
+Attached sensitive detector to: absorber_log_eta3_layer28
+Attached sensitive detector to: active_log_eta3_layer28
+Attached sensitive detector to: absorber_log_eta3_layer29
+Attached sensitive detector to: active_log_eta3_layer29
+Attached sensitive detector to: absorber_log_eta3_layer30
+Attached sensitive detector to: active_log_eta3_layer30
+Attached sensitive detector to: absorber_log_eta3_layer31
+Attached sensitive detector to: active_log_eta3_layer31
+Attached sensitive detector to: absorber_log_eta3_layer32
+Attached sensitive detector to: active_log_eta3_layer32
+Attached sensitive detector to: absorber_log_eta3_layer33
+Attached sensitive detector to: active_log_eta3_layer33
+Attached sensitive detector to: absorber_log_eta3_layer34
+Attached sensitive detector to: active_log_eta3_layer34
+Attached sensitive detector to: absorber_log_eta3_layer35
+Attached sensitive detector to: active_log_eta3_layer35
+Attached sensitive detector to: absorber_log_eta3_layer36
+Attached sensitive detector to: active_log_eta3_layer36
+Attached sensitive detector to: absorber_log_eta3_layer37
+Attached sensitive detector to: active_log_eta3_layer37
+Attached sensitive detector to: absorber_log_eta3_layer38
+Attached sensitive detector to: active_log_eta3_layer38
+Attached sensitive detector to: absorber_log_eta3_layer39
+Attached sensitive detector to: active_log_eta3_layer39
+Attached sensitive detector to: absorber_log_eta3_layer40
+Attached sensitive detector to: active_log_eta3_layer40
+Attached sensitive detector to: absorber_log_eta3_layer41
+Attached sensitive detector to: active_log_eta3_layer41
+Attached sensitive detector to: absorber_log_eta3_layer42
+Attached sensitive detector to: active_log_eta3_layer42
+Attached sensitive detector to: absorber_log_eta3_layer43
+Attached sensitive detector to: active_log_eta3_layer43
+Attached sensitive detector to: absorber_log_eta3_layer44
+Attached sensitive detector to: active_log_eta3_layer44
+Attached sensitive detector to: absorber_log_eta3_layer45
+Attached sensitive detector to: active_log_eta3_layer45
+Attached sensitive detector to: absorber_log_eta3_layer46
+Attached sensitive detector to: active_log_eta3_layer46
+Attached sensitive detector to: absorber_log_eta3_layer47
+Attached sensitive detector to: active_log_eta3_layer47
+Attached sensitive detector to: absorber_log_eta3_layer48
+Attached sensitive detector to: active_log_eta3_layer48
+Attached sensitive detector to: absorber_log_eta3_layer49
+Attached sensitive detector to: active_log_eta3_layer49
+Attached sensitive detector to: absorber_log_eta3_layer50
+Attached sensitive detector to: active_log_eta3_layer50
+Attached sensitive detector to: absorber_log_eta3_layer51
+Attached sensitive detector to: active_log_eta3_layer51
+Attached sensitive detector to: absorber_log_eta3_layer52
+Attached sensitive detector to: active_log_eta3_layer52
+Attached sensitive detector to: absorber_log_eta3_layer53
+Attached sensitive detector to: active_log_eta3_layer53
+Attached sensitive detector to: absorber_log_eta3_layer54
+Attached sensitive detector to: active_log_eta3_layer54
+Attached sensitive detector to: absorber_log_eta3_layer55
+Attached sensitive detector to: active_log_eta3_layer55
+Attached sensitive detector to: absorber_log_eta3_layer56
+Attached sensitive detector to: active_log_eta3_layer56
+Attached sensitive detector to: absorber_log_eta3_layer57
+Attached sensitive detector to: active_log_eta3_layer57
+Attached sensitive detector to: absorber_log_eta3_layer58
+Attached sensitive detector to: active_log_eta3_layer58
+Attached sensitive detector to: absorber_log_eta3_layer59
+Attached sensitive detector to: active_log_eta3_layer59
+Attached sensitive detector to: absorber_log_eta3_layer60
+Attached sensitive detector to: active_log_eta3_layer60
+Attached sensitive detector to: absorber_log_eta3_layer61
+Attached sensitive detector to: active_log_eta3_layer61
+Attached sensitive detector to: absorber_log_eta3_layer62
+Attached sensitive detector to: active_log_eta3_layer62
+Attached sensitive detector to: absorber_log_eta3_layer63
+Attached sensitive detector to: active_log_eta3_layer63
+Attached sensitive detector to: absorber_log_eta3_layer64
+Attached sensitive detector to: active_log_eta3_layer64
+Attached sensitive detector to: absorber_log_eta3_layer65
+Attached sensitive detector to: active_log_eta3_layer65
+Attached sensitive detector to: absorber_log_eta3_layer66
+Attached sensitive detector to: active_log_eta3_layer66
+Attached sensitive detector to: absorber_log_eta3_layer67
+Attached sensitive detector to: active_log_eta3_layer67
+Attached sensitive detector to: absorber_log_eta3_layer68
+Attached sensitive detector to: active_log_eta3_layer68
+Attached sensitive detector to: absorber_log_eta3_layer69
+Attached sensitive detector to: active_log_eta3_layer69
+Attached sensitive detector to: absorber_log_eta3_layer70
+Attached sensitive detector to: active_log_eta3_layer70
+Attached sensitive detector to: absorber_log_eta3_layer71
+Attached sensitive detector to: active_log_eta3_layer71
+Attached sensitive detector to: absorber_log_eta3_layer72
+Attached sensitive detector to: active_log_eta3_layer72
+Attached sensitive detector to: absorber_log_eta3_layer73
+Attached sensitive detector to: active_log_eta3_layer73
+Attached sensitive detector to: absorber_log_eta3_layer74
+Attached sensitive detector to: active_log_eta3_layer74
+Attached sensitive detector to: absorber_log_eta3_layer75
+Attached sensitive detector to: active_log_eta3_layer75
+Attached sensitive detector to: absorber_log_eta3_layer76
+Attached sensitive detector to: active_log_eta3_layer76
+Attached sensitive detector to: absorber_log_eta3_layer77
+Attached sensitive detector to: active_log_eta3_layer77
+Attached sensitive detector to: absorber_log_eta3_layer78
+Attached sensitive detector to: active_log_eta3_layer78
+Attached sensitive detector to: absorber_log_eta3_layer79
+Attached sensitive detector to: active_log_eta3_layer79
+Attached sensitive detector to: absorber_log_eta3_layer80
+Attached sensitive detector to: active_log_eta3_layer80
+Attached sensitive detector to: absorber_log_eta3_layer81
+Attached sensitive detector to: active_log_eta3_layer81
+Attached sensitive detector to: absorber_log_eta3_layer82
+Attached sensitive detector to: active_log_eta3_layer82
+Attached sensitive detector to: absorber_log_eta3_layer83
+Attached sensitive detector to: active_log_eta3_layer83
+Attached sensitive detector to: absorber_log_eta3_layer84
+Attached sensitive detector to: active_log_eta3_layer84
+Attached sensitive detector to: absorber_log_eta3_layer85
+Attached sensitive detector to: active_log_eta3_layer85
+Attached sensitive detector to: absorber_log_eta3_layer86
+Attached sensitive detector to: active_log_eta3_layer86
+Attached sensitive detector to: absorber_log_eta3_layer87
+Attached sensitive detector to: active_log_eta3_layer87
+Attached sensitive detector to: absorber_log_eta3_layer88
+Attached sensitive detector to: active_log_eta3_layer88
+Attached sensitive detector to: absorber_log_eta3_layer89
+Attached sensitive detector to: active_log_eta3_layer89
+Attached sensitive detector to: absorber_log_eta3_layer90
+Attached sensitive detector to: active_log_eta3_layer90
+Attached sensitive detector to: absorber_log_eta3_layer91
+Attached sensitive detector to: active_log_eta3_layer91
+Attached sensitive detector to: absorber_log_eta3_layer92
+Attached sensitive detector to: active_log_eta3_layer92
+Attached sensitive detector to: absorber_log_eta3_layer93
+Attached sensitive detector to: active_log_eta3_layer93
+Attached sensitive detector to: absorber_log_eta3_layer94
+Attached sensitive detector to: active_log_eta3_layer94
+Attached sensitive detector to: absorber_log_eta3_layer95
+Attached sensitive detector to: active_log_eta3_layer95
+Attached sensitive detector to: absorber_log_eta3_layer96
+Attached sensitive detector to: active_log_eta3_layer96
+Attached sensitive detector to: absorber_log_eta3_layer97
+Attached sensitive detector to: active_log_eta3_layer97
+Attached sensitive detector to: absorber_log_eta3_layer98
+Attached sensitive detector to: active_log_eta3_layer98
+Attached sensitive detector to: absorber_log_eta3_layer99
+Attached sensitive detector to: active_log_eta3_layer99
+Attached sensitive detector to: absorber_log_eta3_layer100
+Attached sensitive detector to: active_log_eta3_layer100
+Attached sensitive detector to: absorber_log_eta3_layer101
+Attached sensitive detector to: active_log_eta3_layer101
+Attached sensitive detector to: absorber_log_eta3_layer102
+Attached sensitive detector to: active_log_eta3_layer102
+Attached sensitive detector to: absorber_log_eta3_layer103
+Attached sensitive detector to: active_log_eta3_layer103
+Attached sensitive detector to: absorber_log_eta3_layer104
+Attached sensitive detector to: active_log_eta3_layer104
+Attached sensitive detector to: absorber_log_eta3_layer105
+Attached sensitive detector to: active_log_eta3_layer105
+Attached sensitive detector to: absorber_log_eta3_layer106
+Attached sensitive detector to: active_log_eta3_layer106
+Attached sensitive detector to: absorber_log_eta3_layer107
+Attached sensitive detector to: active_log_eta3_layer107
+Attached sensitive detector to: absorber_log_eta3_layer108
+Attached sensitive detector to: active_log_eta3_layer108
+Attached sensitive detector to: absorber_log_eta3_layer109
+Attached sensitive detector to: active_log_eta3_layer109
+Attached sensitive detector to: absorber_log_eta3_layer110
+Attached sensitive detector to: active_log_eta3_layer110
+Attached sensitive detector to: absorber_log_eta3_layer111
+Attached sensitive detector to: active_log_eta3_layer111
+Attached sensitive detector to: absorber_log_eta3_layer112
+Attached sensitive detector to: active_log_eta3_layer112
+Attached sensitive detector to: absorber_log_eta3_layer113
+Attached sensitive detector to: active_log_eta3_layer113
+Attached sensitive detector to: absorber_log_eta3_layer114
+Attached sensitive detector to: active_log_eta3_layer114
+Attached sensitive detector to: absorber_log_eta3_layer115
+Attached sensitive detector to: active_log_eta3_layer115
+Attached sensitive detector to: absorber_log_eta3_layer116
+Attached sensitive detector to: active_log_eta3_layer116
+Attached sensitive detector to: absorber_log_eta3_layer117
+Attached sensitive detector to: active_log_eta3_layer117
+Attached sensitive detector to: absorber_log_eta3_layer118
+Attached sensitive detector to: active_log_eta3_layer118
+Attached sensitive detector to: absorber_log_eta3_layer119
+Attached sensitive detector to: active_log_eta3_layer119
+Attached sensitive detector to: absorber_log_eta3_layer120
+Attached sensitive detector to: active_log_eta3_layer120
+Attached sensitive detector to: absorber_log_eta3_layer121
+Attached sensitive detector to: active_log_eta3_layer121
+Attached sensitive detector to: absorber_log_eta3_layer122
+Attached sensitive detector to: active_log_eta3_layer122
+Attached sensitive detector to: absorber_log_eta3_layer123
+Attached sensitive detector to: active_log_eta3_layer123
+Attached sensitive detector to: absorber_log_eta3_layer124
+Attached sensitive detector to: active_log_eta3_layer124
+Attached sensitive detector to: absorber_log_eta3_layer125
+Attached sensitive detector to: active_log_eta3_layer125
+Attached sensitive detector to: absorber_log_eta3_layer126
+Attached sensitive detector to: active_log_eta3_layer126
+Attached sensitive detector to: absorber_log_eta3_layer127
+Attached sensitive detector to: active_log_eta3_layer127
+Attached sensitive detector to: absorber_log_eta3_layer128
+Attached sensitive detector to: active_log_eta3_layer128
+Attached sensitive detector to: absorber_log_eta3_layer129
+Attached sensitive detector to: active_log_eta3_layer129
+Attached sensitive detector to: absorber_log_eta3_layer130
+Attached sensitive detector to: active_log_eta3_layer130
+Attached sensitive detector to: absorber_log_eta3_layer131
+Attached sensitive detector to: active_log_eta3_layer131
+Attached sensitive detector to: absorber_log_eta3_layer132
+Attached sensitive detector to: active_log_eta3_layer132
+Attached sensitive detector to: absorber_log_eta3_layer133
+Attached sensitive detector to: active_log_eta3_layer133
+Attached sensitive detector to: absorber_log_eta3_layer134
+Attached sensitive detector to: active_log_eta3_layer134
+Attached sensitive detector to: absorber_log_eta3_layer135
+Attached sensitive detector to: active_log_eta3_layer135
+Attached sensitive detector to: absorber_log_eta3_layer136
+Attached sensitive detector to: active_log_eta3_layer136
+Attached sensitive detector to: absorber_log_eta4_layer0
+Attached sensitive detector to: active_log_eta4_layer0
+Attached sensitive detector to: absorber_log_eta4_layer1
+Attached sensitive detector to: active_log_eta4_layer1
+Attached sensitive detector to: absorber_log_eta4_layer2
+Attached sensitive detector to: active_log_eta4_layer2
+Attached sensitive detector to: absorber_log_eta4_layer3
+Attached sensitive detector to: active_log_eta4_layer3
+Attached sensitive detector to: absorber_log_eta4_layer4
+Attached sensitive detector to: active_log_eta4_layer4
+Attached sensitive detector to: absorber_log_eta4_layer5
+Attached sensitive detector to: active_log_eta4_layer5
+Attached sensitive detector to: absorber_log_eta4_layer6
+Attached sensitive detector to: active_log_eta4_layer6
+Attached sensitive detector to: absorber_log_eta4_layer7
+Attached sensitive detector to: active_log_eta4_layer7
+Attached sensitive detector to: absorber_log_eta4_layer8
+Attached sensitive detector to: active_log_eta4_layer8
+Attached sensitive detector to: absorber_log_eta4_layer9
+Attached sensitive detector to: active_log_eta4_layer9
+Attached sensitive detector to: absorber_log_eta4_layer10
+Attached sensitive detector to: active_log_eta4_layer10
+Attached sensitive detector to: absorber_log_eta4_layer11
+Attached sensitive detector to: active_log_eta4_layer11
+Attached sensitive detector to: absorber_log_eta4_layer12
+Attached sensitive detector to: active_log_eta4_layer12
+Attached sensitive detector to: absorber_log_eta4_layer13
+Attached sensitive detector to: active_log_eta4_layer13
+Attached sensitive detector to: absorber_log_eta4_layer14
+Attached sensitive detector to: active_log_eta4_layer14
+Attached sensitive detector to: absorber_log_eta4_layer15
+Attached sensitive detector to: active_log_eta4_layer15
+Attached sensitive detector to: absorber_log_eta4_layer16
+Attached sensitive detector to: active_log_eta4_layer16
+Attached sensitive detector to: absorber_log_eta4_layer17
+Attached sensitive detector to: active_log_eta4_layer17
+Attached sensitive detector to: absorber_log_eta4_layer18
+Attached sensitive detector to: active_log_eta4_layer18
+Attached sensitive detector to: absorber_log_eta4_layer19
+Attached sensitive detector to: active_log_eta4_layer19
+Attached sensitive detector to: absorber_log_eta4_layer20
+Attached sensitive detector to: active_log_eta4_layer20
+Attached sensitive detector to: absorber_log_eta4_layer21
+Attached sensitive detector to: active_log_eta4_layer21
+Attached sensitive detector to: absorber_log_eta4_layer22
+Attached sensitive detector to: active_log_eta4_layer22
+Attached sensitive detector to: absorber_log_eta4_layer23
+Attached sensitive detector to: active_log_eta4_layer23
+Attached sensitive detector to: absorber_log_eta4_layer24
+Attached sensitive detector to: active_log_eta4_layer24
+Attached sensitive detector to: absorber_log_eta4_layer25
+Attached sensitive detector to: active_log_eta4_layer25
+Attached sensitive detector to: absorber_log_eta4_layer26
+Attached sensitive detector to: active_log_eta4_layer26
+Attached sensitive detector to: absorber_log_eta4_layer27
+Attached sensitive detector to: active_log_eta4_layer27
+Attached sensitive detector to: absorber_log_eta4_layer28
+Attached sensitive detector to: active_log_eta4_layer28
+Attached sensitive detector to: absorber_log_eta4_layer29
+Attached sensitive detector to: active_log_eta4_layer29
+Attached sensitive detector to: absorber_log_eta4_layer30
+Attached sensitive detector to: active_log_eta4_layer30
+Attached sensitive detector to: absorber_log_eta4_layer31
+Attached sensitive detector to: active_log_eta4_layer31
+Attached sensitive detector to: absorber_log_eta4_layer32
+Attached sensitive detector to: active_log_eta4_layer32
+Attached sensitive detector to: absorber_log_eta4_layer33
+Attached sensitive detector to: active_log_eta4_layer33
+Attached sensitive detector to: absorber_log_eta4_layer34
+Attached sensitive detector to: active_log_eta4_layer34
+Attached sensitive detector to: absorber_log_eta4_layer35
+Attached sensitive detector to: active_log_eta4_layer35
+Attached sensitive detector to: absorber_log_eta4_layer36
+Attached sensitive detector to: active_log_eta4_layer36
+Attached sensitive detector to: absorber_log_eta4_layer37
+Attached sensitive detector to: active_log_eta4_layer37
+Attached sensitive detector to: absorber_log_eta4_layer38
+Attached sensitive detector to: active_log_eta4_layer38
+Attached sensitive detector to: absorber_log_eta4_layer39
+Attached sensitive detector to: active_log_eta4_layer39
+Attached sensitive detector to: absorber_log_eta4_layer40
+Attached sensitive detector to: active_log_eta4_layer40
+Attached sensitive detector to: absorber_log_eta4_layer41
+Attached sensitive detector to: active_log_eta4_layer41
+Attached sensitive detector to: absorber_log_eta4_layer42
+Attached sensitive detector to: active_log_eta4_layer42
+Attached sensitive detector to: absorber_log_eta4_layer43
+Attached sensitive detector to: active_log_eta4_layer43
+Attached sensitive detector to: absorber_log_eta4_layer44
+Attached sensitive detector to: active_log_eta4_layer44
+Attached sensitive detector to: absorber_log_eta4_layer45
+Attached sensitive detector to: active_log_eta4_layer45
+Attached sensitive detector to: absorber_log_eta4_layer46
+Attached sensitive detector to: active_log_eta4_layer46
+Attached sensitive detector to: absorber_log_eta4_layer47
+Attached sensitive detector to: active_log_eta4_layer47
+Attached sensitive detector to: absorber_log_eta4_layer48
+Attached sensitive detector to: active_log_eta4_layer48
+Attached sensitive detector to: absorber_log_eta4_layer49
+Attached sensitive detector to: active_log_eta4_layer49
+Attached sensitive detector to: absorber_log_eta4_layer50
+Attached sensitive detector to: active_log_eta4_layer50
+Attached sensitive detector to: absorber_log_eta4_layer51
+Attached sensitive detector to: active_log_eta4_layer51
+Attached sensitive detector to: absorber_log_eta4_layer52
+Attached sensitive detector to: active_log_eta4_layer52
+Attached sensitive detector to: absorber_log_eta4_layer53
+Attached sensitive detector to: active_log_eta4_layer53
+Attached sensitive detector to: absorber_log_eta4_layer54
+Attached sensitive detector to: active_log_eta4_layer54
+Attached sensitive detector to: absorber_log_eta4_layer55
+Attached sensitive detector to: active_log_eta4_layer55
+Attached sensitive detector to: absorber_log_eta4_layer56
+Attached sensitive detector to: active_log_eta4_layer56
+Attached sensitive detector to: absorber_log_eta4_layer57
+Attached sensitive detector to: active_log_eta4_layer57
+Attached sensitive detector to: absorber_log_eta4_layer58
+Attached sensitive detector to: active_log_eta4_layer58
+Attached sensitive detector to: absorber_log_eta4_layer59
+Attached sensitive detector to: active_log_eta4_layer59
+Attached sensitive detector to: absorber_log_eta4_layer60
+Attached sensitive detector to: active_log_eta4_layer60
+Attached sensitive detector to: absorber_log_eta4_layer61
+Attached sensitive detector to: active_log_eta4_layer61
+Attached sensitive detector to: absorber_log_eta4_layer62
+Attached sensitive detector to: active_log_eta4_layer62
+Attached sensitive detector to: absorber_log_eta4_layer63
+Attached sensitive detector to: active_log_eta4_layer63
+Attached sensitive detector to: absorber_log_eta4_layer64
+Attached sensitive detector to: active_log_eta4_layer64
+Attached sensitive detector to: absorber_log_eta4_layer65
+Attached sensitive detector to: active_log_eta4_layer65
+Attached sensitive detector to: absorber_log_eta4_layer66
+Attached sensitive detector to: active_log_eta4_layer66
+Attached sensitive detector to: absorber_log_eta4_layer67
+Attached sensitive detector to: active_log_eta4_layer67
+Attached sensitive detector to: absorber_log_eta4_layer68
+Attached sensitive detector to: active_log_eta4_layer68
+Attached sensitive detector to: absorber_log_eta4_layer69
+Attached sensitive detector to: active_log_eta4_layer69
+Attached sensitive detector to: absorber_log_eta4_layer70
+Attached sensitive detector to: active_log_eta4_layer70
+Attached sensitive detector to: absorber_log_eta4_layer71
+Attached sensitive detector to: active_log_eta4_layer71
+Attached sensitive detector to: absorber_log_eta4_layer72
+Attached sensitive detector to: active_log_eta4_layer72
+Attached sensitive detector to: absorber_log_eta4_layer73
+Attached sensitive detector to: active_log_eta4_layer73
+Attached sensitive detector to: absorber_log_eta4_layer74
+Attached sensitive detector to: active_log_eta4_layer74
+Attached sensitive detector to: absorber_log_eta4_layer75
+Attached sensitive detector to: active_log_eta4_layer75
+Attached sensitive detector to: absorber_log_eta4_layer76
+Attached sensitive detector to: active_log_eta4_layer76
+Attached sensitive detector to: absorber_log_eta4_layer77
+Attached sensitive detector to: active_log_eta4_layer77
+Attached sensitive detector to: absorber_log_eta4_layer78
+Attached sensitive detector to: active_log_eta4_layer78
+Attached sensitive detector to: absorber_log_eta4_layer79
+Attached sensitive detector to: active_log_eta4_layer79
+Attached sensitive detector to: absorber_log_eta4_layer80
+Attached sensitive detector to: active_log_eta4_layer80
+Attached sensitive detector to: absorber_log_eta4_layer81
+Attached sensitive detector to: active_log_eta4_layer81
+Attached sensitive detector to: absorber_log_eta4_layer82
+Attached sensitive detector to: active_log_eta4_layer82
+Attached sensitive detector to: absorber_log_eta4_layer83
+Attached sensitive detector to: active_log_eta4_layer83
+Attached sensitive detector to: absorber_log_eta4_layer84
+Attached sensitive detector to: active_log_eta4_layer84
+Attached sensitive detector to: absorber_log_eta4_layer85
+Attached sensitive detector to: active_log_eta4_layer85
+Attached sensitive detector to: absorber_log_eta4_layer86
+Attached sensitive detector to: active_log_eta4_layer86
+Attached sensitive detector to: absorber_log_eta4_layer87
+Attached sensitive detector to: active_log_eta4_layer87
+Attached sensitive detector to: absorber_log_eta4_layer88
+Attached sensitive detector to: active_log_eta4_layer88
+Attached sensitive detector to: absorber_log_eta4_layer89
+Attached sensitive detector to: active_log_eta4_layer89
+Attached sensitive detector to: absorber_log_eta4_layer90
+Attached sensitive detector to: active_log_eta4_layer90
+Attached sensitive detector to: absorber_log_eta4_layer91
+Attached sensitive detector to: active_log_eta4_layer91
+Attached sensitive detector to: absorber_log_eta4_layer92
+Attached sensitive detector to: active_log_eta4_layer92
+Attached sensitive detector to: absorber_log_eta4_layer93
+Attached sensitive detector to: active_log_eta4_layer93
+Attached sensitive detector to: absorber_log_eta4_layer94
+Attached sensitive detector to: active_log_eta4_layer94
+Attached sensitive detector to: absorber_log_eta4_layer95
+Attached sensitive detector to: active_log_eta4_layer95
+Attached sensitive detector to: absorber_log_eta4_layer96
+Attached sensitive detector to: active_log_eta4_layer96
+Attached sensitive detector to: absorber_log_eta4_layer97
+Attached sensitive detector to: active_log_eta4_layer97
+Attached sensitive detector to: absorber_log_eta4_layer98
+Attached sensitive detector to: active_log_eta4_layer98
+Attached sensitive detector to: absorber_log_eta4_layer99
+Attached sensitive detector to: active_log_eta4_layer99
+Attached sensitive detector to: absorber_log_eta4_layer100
+Attached sensitive detector to: active_log_eta4_layer100
+Attached sensitive detector to: absorber_log_eta4_layer101
+Attached sensitive detector to: active_log_eta4_layer101
+Attached sensitive detector to: absorber_log_eta4_layer102
+Attached sensitive detector to: active_log_eta4_layer102
+Attached sensitive detector to: absorber_log_eta4_layer103
+Attached sensitive detector to: active_log_eta4_layer103
+Attached sensitive detector to: absorber_log_eta4_layer104
+Attached sensitive detector to: active_log_eta4_layer104
+Attached sensitive detector to: absorber_log_eta4_layer105
+Attached sensitive detector to: active_log_eta4_layer105
+Attached sensitive detector to: absorber_log_eta4_layer106
+Attached sensitive detector to: active_log_eta4_layer106
+Attached sensitive detector to: absorber_log_eta4_layer107
+Attached sensitive detector to: active_log_eta4_layer107
+Attached sensitive detector to: absorber_log_eta4_layer108
+Attached sensitive detector to: active_log_eta4_layer108
+Attached sensitive detector to: absorber_log_eta4_layer109
+Attached sensitive detector to: active_log_eta4_layer109
+Attached sensitive detector to: absorber_log_eta4_layer110
+Attached sensitive detector to: active_log_eta4_layer110
+Attached sensitive detector to: absorber_log_eta4_layer111
+Attached sensitive detector to: active_log_eta4_layer111
+Attached sensitive detector to: absorber_log_eta4_layer112
+Attached sensitive detector to: active_log_eta4_layer112
+Attached sensitive detector to: absorber_log_eta4_layer113
+Attached sensitive detector to: active_log_eta4_layer113
+Attached sensitive detector to: absorber_log_eta4_layer114
+Attached sensitive detector to: active_log_eta4_layer114
+Attached sensitive detector to: absorber_log_eta4_layer115
+Attached sensitive detector to: active_log_eta4_layer115
+Attached sensitive detector to: absorber_log_eta4_layer116
+Attached sensitive detector to: active_log_eta4_layer116
+Attached sensitive detector to: absorber_log_eta4_layer117
+Attached sensitive detector to: active_log_eta4_layer117
+Attached sensitive detector to: absorber_log_eta4_layer118
+Attached sensitive detector to: active_log_eta4_layer118
+Attached sensitive detector to: absorber_log_eta4_layer119
+Attached sensitive detector to: active_log_eta4_layer119
+Attached sensitive detector to: absorber_log_eta4_layer120
+Attached sensitive detector to: active_log_eta4_layer120
+Attached sensitive detector to: absorber_log_eta4_layer121
+Attached sensitive detector to: active_log_eta4_layer121
+Attached sensitive detector to: absorber_log_eta4_layer122
+Attached sensitive detector to: active_log_eta4_layer122
+Attached sensitive detector to: absorber_log_eta4_layer123
+Attached sensitive detector to: active_log_eta4_layer123
+Attached sensitive detector to: absorber_log_eta4_layer124
+Attached sensitive detector to: active_log_eta4_layer124
+Attached sensitive detector to: absorber_log_eta4_layer125
+Attached sensitive detector to: active_log_eta4_layer125
+Attached sensitive detector to: absorber_log_eta4_layer126
+Attached sensitive detector to: active_log_eta4_layer126
+Attached sensitive detector to: absorber_log_eta4_layer127
+Attached sensitive detector to: active_log_eta4_layer127
+Attached sensitive detector to: absorber_log_eta4_layer128
+Attached sensitive detector to: active_log_eta4_layer128
+Attached sensitive detector to: absorber_log_eta4_layer129
+Attached sensitive detector to: active_log_eta4_layer129
+Attached sensitive detector to: absorber_log_eta4_layer130
+Attached sensitive detector to: active_log_eta4_layer130
+Attached sensitive detector to: absorber_log_eta4_layer131
+Attached sensitive detector to: active_log_eta4_layer131
+Attached sensitive detector to: absorber_log_eta4_layer132
+Attached sensitive detector to: active_log_eta4_layer132
+Attached sensitive detector to: absorber_log_eta4_layer133
+Attached sensitive detector to: active_log_eta4_layer133
+Attached sensitive detector to: absorber_log_eta4_layer134
+Attached sensitive detector to: active_log_eta4_layer134
+Attached sensitive detector to: absorber_log_eta4_layer135
+Attached sensitive detector to: active_log_eta4_layer135
+Attached sensitive detector to: absorber_log_eta4_layer136
+Attached sensitive detector to: active_log_eta4_layer136
+Attached sensitive detector to: absorber_log_eta5_layer0
+Attached sensitive detector to: active_log_eta5_layer0
+Attached sensitive detector to: absorber_log_eta5_layer1
+Attached sensitive detector to: active_log_eta5_layer1
+Attached sensitive detector to: absorber_log_eta5_layer2
+Attached sensitive detector to: active_log_eta5_layer2
+Attached sensitive detector to: absorber_log_eta5_layer3
+Attached sensitive detector to: active_log_eta5_layer3
+Attached sensitive detector to: absorber_log_eta5_layer4
+Attached sensitive detector to: active_log_eta5_layer4
+Attached sensitive detector to: absorber_log_eta5_layer5
+Attached sensitive detector to: active_log_eta5_layer5
+Attached sensitive detector to: absorber_log_eta5_layer6
+Attached sensitive detector to: active_log_eta5_layer6
+Attached sensitive detector to: absorber_log_eta5_layer7
+Attached sensitive detector to: active_log_eta5_layer7
+Attached sensitive detector to: absorber_log_eta5_layer8
+Attached sensitive detector to: active_log_eta5_layer8
+Attached sensitive detector to: absorber_log_eta5_layer9
+Attached sensitive detector to: active_log_eta5_layer9
+Attached sensitive detector to: absorber_log_eta5_layer10
+Attached sensitive detector to: active_log_eta5_layer10
+Attached sensitive detector to: absorber_log_eta5_layer11
+Attached sensitive detector to: active_log_eta5_layer11
+Attached sensitive detector to: absorber_log_eta5_layer12
+Attached sensitive detector to: active_log_eta5_layer12
+Attached sensitive detector to: absorber_log_eta5_layer13
+Attached sensitive detector to: active_log_eta5_layer13
+Attached sensitive detector to: absorber_log_eta5_layer14
+Attached sensitive detector to: active_log_eta5_layer14
+Attached sensitive detector to: absorber_log_eta5_layer15
+Attached sensitive detector to: active_log_eta5_layer15
+Attached sensitive detector to: absorber_log_eta5_layer16
+Attached sensitive detector to: active_log_eta5_layer16
+Attached sensitive detector to: absorber_log_eta5_layer17
+Attached sensitive detector to: active_log_eta5_layer17
+Attached sensitive detector to: absorber_log_eta5_layer18
+Attached sensitive detector to: active_log_eta5_layer18
+Attached sensitive detector to: absorber_log_eta5_layer19
+Attached sensitive detector to: active_log_eta5_layer19
+Attached sensitive detector to: absorber_log_eta5_layer20
+Attached sensitive detector to: active_log_eta5_layer20
+Attached sensitive detector to: absorber_log_eta5_layer21
+Attached sensitive detector to: active_log_eta5_layer21
+Attached sensitive detector to: absorber_log_eta5_layer22
+Attached sensitive detector to: active_log_eta5_layer22
+Attached sensitive detector to: absorber_log_eta5_layer23
+Attached sensitive detector to: active_log_eta5_layer23
+Attached sensitive detector to: absorber_log_eta5_layer24
+Attached sensitive detector to: active_log_eta5_layer24
+Attached sensitive detector to: absorber_log_eta5_layer25
+Attached sensitive detector to: active_log_eta5_layer25
+Attached sensitive detector to: absorber_log_eta5_layer26
+Attached sensitive detector to: active_log_eta5_layer26
+Attached sensitive detector to: absorber_log_eta5_layer27
+Attached sensitive detector to: active_log_eta5_layer27
+Attached sensitive detector to: absorber_log_eta5_layer28
+Attached sensitive detector to: active_log_eta5_layer28
+Attached sensitive detector to: absorber_log_eta5_layer29
+Attached sensitive detector to: active_log_eta5_layer29
+Attached sensitive detector to: absorber_log_eta5_layer30
+Attached sensitive detector to: active_log_eta5_layer30
+Attached sensitive detector to: absorber_log_eta5_layer31
+Attached sensitive detector to: active_log_eta5_layer31
+Attached sensitive detector to: absorber_log_eta5_layer32
+Attached sensitive detector to: active_log_eta5_layer32
+Attached sensitive detector to: absorber_log_eta5_layer33
+Attached sensitive detector to: active_log_eta5_layer33
+Attached sensitive detector to: absorber_log_eta5_layer34
+Attached sensitive detector to: active_log_eta5_layer34
+Attached sensitive detector to: absorber_log_eta5_layer35
+Attached sensitive detector to: active_log_eta5_layer35
+Attached sensitive detector to: absorber_log_eta5_layer36
+Attached sensitive detector to: active_log_eta5_layer36
+Attached sensitive detector to: absorber_log_eta5_layer37
+Attached sensitive detector to: active_log_eta5_layer37
+Attached sensitive detector to: absorber_log_eta5_layer38
+Attached sensitive detector to: active_log_eta5_layer38
+Attached sensitive detector to: absorber_log_eta5_layer39
+Attached sensitive detector to: active_log_eta5_layer39
+Attached sensitive detector to: absorber_log_eta5_layer40
+Attached sensitive detector to: active_log_eta5_layer40
+Attached sensitive detector to: absorber_log_eta5_layer41
+Attached sensitive detector to: active_log_eta5_layer41
+Attached sensitive detector to: absorber_log_eta5_layer42
+Attached sensitive detector to: active_log_eta5_layer42
+Attached sensitive detector to: absorber_log_eta5_layer43
+Attached sensitive detector to: active_log_eta5_layer43
+Attached sensitive detector to: absorber_log_eta5_layer44
+Attached sensitive detector to: active_log_eta5_layer44
+Attached sensitive detector to: absorber_log_eta5_layer45
+Attached sensitive detector to: active_log_eta5_layer45
+Attached sensitive detector to: absorber_log_eta5_layer46
+Attached sensitive detector to: active_log_eta5_layer46
+Attached sensitive detector to: absorber_log_eta5_layer47
+Attached sensitive detector to: active_log_eta5_layer47
+Attached sensitive detector to: absorber_log_eta5_layer48
+Attached sensitive detector to: active_log_eta5_layer48
+Attached sensitive detector to: absorber_log_eta5_layer49
+Attached sensitive detector to: active_log_eta5_layer49
+Attached sensitive detector to: absorber_log_eta5_layer50
+Attached sensitive detector to: active_log_eta5_layer50
+Attached sensitive detector to: absorber_log_eta5_layer51
+Attached sensitive detector to: active_log_eta5_layer51
+Attached sensitive detector to: absorber_log_eta5_layer52
+Attached sensitive detector to: active_log_eta5_layer52
+Attached sensitive detector to: absorber_log_eta5_layer53
+Attached sensitive detector to: active_log_eta5_layer53
+Attached sensitive detector to: absorber_log_eta5_layer54
+Attached sensitive detector to: active_log_eta5_layer54
+Attached sensitive detector to: absorber_log_eta5_layer55
+Attached sensitive detector to: active_log_eta5_layer55
+Attached sensitive detector to: absorber_log_eta5_layer56
+Attached sensitive detector to: active_log_eta5_layer56
+Attached sensitive detector to: absorber_log_eta5_layer57
+Attached sensitive detector to: active_log_eta5_layer57
+Attached sensitive detector to: absorber_log_eta5_layer58
+Attached sensitive detector to: active_log_eta5_layer58
+Attached sensitive detector to: absorber_log_eta5_layer59
+Attached sensitive detector to: active_log_eta5_layer59
+Attached sensitive detector to: absorber_log_eta5_layer60
+Attached sensitive detector to: active_log_eta5_layer60
+Attached sensitive detector to: absorber_log_eta5_layer61
+Attached sensitive detector to: active_log_eta5_layer61
+Attached sensitive detector to: absorber_log_eta5_layer62
+Attached sensitive detector to: active_log_eta5_layer62
+Attached sensitive detector to: absorber_log_eta5_layer63
+Attached sensitive detector to: active_log_eta5_layer63
+Attached sensitive detector to: absorber_log_eta5_layer64
+Attached sensitive detector to: active_log_eta5_layer64
+Attached sensitive detector to: absorber_log_eta5_layer65
+Attached sensitive detector to: active_log_eta5_layer65
+Attached sensitive detector to: absorber_log_eta5_layer66
+Attached sensitive detector to: active_log_eta5_layer66
+Attached sensitive detector to: absorber_log_eta5_layer67
+Attached sensitive detector to: active_log_eta5_layer67
+Attached sensitive detector to: absorber_log_eta5_layer68
+Attached sensitive detector to: active_log_eta5_layer68
+Attached sensitive detector to: absorber_log_eta5_layer69
+Attached sensitive detector to: active_log_eta5_layer69
+Attached sensitive detector to: absorber_log_eta5_layer70
+Attached sensitive detector to: active_log_eta5_layer70
+Attached sensitive detector to: absorber_log_eta5_layer71
+Attached sensitive detector to: active_log_eta5_layer71
+Attached sensitive detector to: absorber_log_eta5_layer72
+Attached sensitive detector to: active_log_eta5_layer72
+Attached sensitive detector to: absorber_log_eta5_layer73
+Attached sensitive detector to: active_log_eta5_layer73
+Attached sensitive detector to: absorber_log_eta5_layer74
+Attached sensitive detector to: active_log_eta5_layer74
+Attached sensitive detector to: absorber_log_eta5_layer75
+Attached sensitive detector to: active_log_eta5_layer75
+Attached sensitive detector to: absorber_log_eta5_layer76
+Attached sensitive detector to: active_log_eta5_layer76
+Attached sensitive detector to: absorber_log_eta5_layer77
+Attached sensitive detector to: active_log_eta5_layer77
+Attached sensitive detector to: absorber_log_eta5_layer78
+Attached sensitive detector to: active_log_eta5_layer78
+Attached sensitive detector to: absorber_log_eta5_layer79
+Attached sensitive detector to: active_log_eta5_layer79
+Attached sensitive detector to: absorber_log_eta5_layer80
+Attached sensitive detector to: active_log_eta5_layer80
+Attached sensitive detector to: absorber_log_eta5_layer81
+Attached sensitive detector to: active_log_eta5_layer81
+Attached sensitive detector to: absorber_log_eta5_layer82
+Attached sensitive detector to: active_log_eta5_layer82
+Attached sensitive detector to: absorber_log_eta5_layer83
+Attached sensitive detector to: active_log_eta5_layer83
+Attached sensitive detector to: absorber_log_eta5_layer84
+Attached sensitive detector to: active_log_eta5_layer84
+Attached sensitive detector to: absorber_log_eta5_layer85
+Attached sensitive detector to: active_log_eta5_layer85
+Attached sensitive detector to: absorber_log_eta5_layer86
+Attached sensitive detector to: active_log_eta5_layer86
+Attached sensitive detector to: absorber_log_eta5_layer87
+Attached sensitive detector to: active_log_eta5_layer87
+Attached sensitive detector to: absorber_log_eta5_layer88
+Attached sensitive detector to: active_log_eta5_layer88
+Attached sensitive detector to: absorber_log_eta5_layer89
+Attached sensitive detector to: active_log_eta5_layer89
+Attached sensitive detector to: absorber_log_eta5_layer90
+Attached sensitive detector to: active_log_eta5_layer90
+Attached sensitive detector to: absorber_log_eta5_layer91
+Attached sensitive detector to: active_log_eta5_layer91
+Attached sensitive detector to: absorber_log_eta5_layer92
+Attached sensitive detector to: active_log_eta5_layer92
+Attached sensitive detector to: absorber_log_eta5_layer93
+Attached sensitive detector to: active_log_eta5_layer93
+Attached sensitive detector to: absorber_log_eta5_layer94
+Attached sensitive detector to: active_log_eta5_layer94
+Attached sensitive detector to: absorber_log_eta5_layer95
+Attached sensitive detector to: active_log_eta5_layer95
+Attached sensitive detector to: absorber_log_eta5_layer96
+Attached sensitive detector to: active_log_eta5_layer96
+Attached sensitive detector to: absorber_log_eta5_layer97
+Attached sensitive detector to: active_log_eta5_layer97
+Attached sensitive detector to: absorber_log_eta5_layer98
+Attached sensitive detector to: active_log_eta5_layer98
+Attached sensitive detector to: absorber_log_eta5_layer99
+Attached sensitive detector to: active_log_eta5_layer99
+Attached sensitive detector to: absorber_log_eta5_layer100
+Attached sensitive detector to: active_log_eta5_layer100
+Attached sensitive detector to: absorber_log_eta5_layer101
+Attached sensitive detector to: active_log_eta5_layer101
+Attached sensitive detector to: absorber_log_eta5_layer102
+Attached sensitive detector to: active_log_eta5_layer102
+Attached sensitive detector to: absorber_log_eta5_layer103
+Attached sensitive detector to: active_log_eta5_layer103
+Attached sensitive detector to: absorber_log_eta5_layer104
+Attached sensitive detector to: active_log_eta5_layer104
+Attached sensitive detector to: absorber_log_eta5_layer105
+Attached sensitive detector to: active_log_eta5_layer105
+Attached sensitive detector to: absorber_log_eta5_layer106
+Attached sensitive detector to: active_log_eta5_layer106
+Attached sensitive detector to: absorber_log_eta5_layer107
+Attached sensitive detector to: active_log_eta5_layer107
+Attached sensitive detector to: absorber_log_eta5_layer108
+Attached sensitive detector to: active_log_eta5_layer108
+Attached sensitive detector to: absorber_log_eta5_layer109
+Attached sensitive detector to: active_log_eta5_layer109
+Attached sensitive detector to: absorber_log_eta5_layer110
+Attached sensitive detector to: active_log_eta5_layer110
+Attached sensitive detector to: absorber_log_eta5_layer111
+Attached sensitive detector to: active_log_eta5_layer111
+Attached sensitive detector to: absorber_log_eta5_layer112
+Attached sensitive detector to: active_log_eta5_layer112
+Attached sensitive detector to: absorber_log_eta5_layer113
+Attached sensitive detector to: active_log_eta5_layer113
+Attached sensitive detector to: absorber_log_eta5_layer114
+Attached sensitive detector to: active_log_eta5_layer114
+Attached sensitive detector to: absorber_log_eta5_layer115
+Attached sensitive detector to: active_log_eta5_layer115
+Attached sensitive detector to: absorber_log_eta5_layer116
+Attached sensitive detector to: active_log_eta5_layer116
+Attached sensitive detector to: absorber_log_eta5_layer117
+Attached sensitive detector to: active_log_eta5_layer117
+Attached sensitive detector to: absorber_log_eta5_layer118
+Attached sensitive detector to: active_log_eta5_layer118
+Attached sensitive detector to: absorber_log_eta5_layer119
+Attached sensitive detector to: active_log_eta5_layer119
+Attached sensitive detector to: absorber_log_eta5_layer120
+Attached sensitive detector to: active_log_eta5_layer120
+Attached sensitive detector to: absorber_log_eta5_layer121
+Attached sensitive detector to: active_log_eta5_layer121
+Attached sensitive detector to: absorber_log_eta5_layer122
+Attached sensitive detector to: active_log_eta5_layer122
+Attached sensitive detector to: absorber_log_eta5_layer123
+Attached sensitive detector to: active_log_eta5_layer123
+Attached sensitive detector to: absorber_log_eta5_layer124
+Attached sensitive detector to: active_log_eta5_layer124
+Attached sensitive detector to: absorber_log_eta5_layer125
+Attached sensitive detector to: active_log_eta5_layer125
+Attached sensitive detector to: absorber_log_eta5_layer126
+Attached sensitive detector to: active_log_eta5_layer126
+Attached sensitive detector to: absorber_log_eta5_layer127
+Attached sensitive detector to: active_log_eta5_layer127
+Attached sensitive detector to: absorber_log_eta5_layer128
+Attached sensitive detector to: active_log_eta5_layer128
+Attached sensitive detector to: absorber_log_eta5_layer129
+Attached sensitive detector to: active_log_eta5_layer129
+Attached sensitive detector to: absorber_log_eta5_layer130
+Attached sensitive detector to: active_log_eta5_layer130
+Attached sensitive detector to: absorber_log_eta5_layer131
+Attached sensitive detector to: active_log_eta5_layer131
+Attached sensitive detector to: absorber_log_eta5_layer132
+Attached sensitive detector to: active_log_eta5_layer132
+Attached sensitive detector to: absorber_log_eta5_layer133
+Attached sensitive detector to: active_log_eta5_layer133
+Attached sensitive detector to: absorber_log_eta5_layer134
+Attached sensitive detector to: active_log_eta5_layer134
+Attached sensitive detector to: absorber_log_eta5_layer135
+Attached sensitive detector to: active_log_eta5_layer135
+Attached sensitive detector to: absorber_log_eta5_layer136
+Attached sensitive detector to: active_log_eta5_layer136
+Attached sensitive detector to: absorber_log_eta6_layer0
+Attached sensitive detector to: active_log_eta6_layer0
+Attached sensitive detector to: absorber_log_eta6_layer1
+Attached sensitive detector to: active_log_eta6_layer1
+Attached sensitive detector to: absorber_log_eta6_layer2
+Attached sensitive detector to: active_log_eta6_layer2
+Attached sensitive detector to: absorber_log_eta6_layer3
+Attached sensitive detector to: active_log_eta6_layer3
+Attached sensitive detector to: absorber_log_eta6_layer4
+Attached sensitive detector to: active_log_eta6_layer4
+Attached sensitive detector to: absorber_log_eta6_layer5
+Attached sensitive detector to: active_log_eta6_layer5
+Attached sensitive detector to: absorber_log_eta6_layer6
+Attached sensitive detector to: active_log_eta6_layer6
+Attached sensitive detector to: absorber_log_eta6_layer7
+Attached sensitive detector to: active_log_eta6_layer7
+Attached sensitive detector to: absorber_log_eta6_layer8
+Attached sensitive detector to: active_log_eta6_layer8
+Attached sensitive detector to: absorber_log_eta6_layer9
+Attached sensitive detector to: active_log_eta6_layer9
+Attached sensitive detector to: absorber_log_eta6_layer10
+Attached sensitive detector to: active_log_eta6_layer10
+Attached sensitive detector to: absorber_log_eta6_layer11
+Attached sensitive detector to: active_log_eta6_layer11
+Attached sensitive detector to: absorber_log_eta6_layer12
+Attached sensitive detector to: active_log_eta6_layer12
+Attached sensitive detector to: absorber_log_eta6_layer13
+Attached sensitive detector to: active_log_eta6_layer13
+Attached sensitive detector to: absorber_log_eta6_layer14
+Attached sensitive detector to: active_log_eta6_layer14
+Attached sensitive detector to: absorber_log_eta6_layer15
+Attached sensitive detector to: active_log_eta6_layer15
+Attached sensitive detector to: absorber_log_eta6_layer16
+Attached sensitive detector to: active_log_eta6_layer16
+Attached sensitive detector to: absorber_log_eta6_layer17
+Attached sensitive detector to: active_log_eta6_layer17
+Attached sensitive detector to: absorber_log_eta6_layer18
+Attached sensitive detector to: active_log_eta6_layer18
+Attached sensitive detector to: absorber_log_eta6_layer19
+Attached sensitive detector to: active_log_eta6_layer19
+Attached sensitive detector to: absorber_log_eta6_layer20
+Attached sensitive detector to: active_log_eta6_layer20
+Attached sensitive detector to: absorber_log_eta6_layer21
+Attached sensitive detector to: active_log_eta6_layer21
+Attached sensitive detector to: absorber_log_eta6_layer22
+Attached sensitive detector to: active_log_eta6_layer22
+Attached sensitive detector to: absorber_log_eta6_layer23
+Attached sensitive detector to: active_log_eta6_layer23
+Attached sensitive detector to: absorber_log_eta6_layer24
+Attached sensitive detector to: active_log_eta6_layer24
+Attached sensitive detector to: absorber_log_eta6_layer25
+Attached sensitive detector to: active_log_eta6_layer25
+Attached sensitive detector to: absorber_log_eta6_layer26
+Attached sensitive detector to: active_log_eta6_layer26
+Attached sensitive detector to: absorber_log_eta6_layer27
+Attached sensitive detector to: active_log_eta6_layer27
+Attached sensitive detector to: absorber_log_eta6_layer28
+Attached sensitive detector to: active_log_eta6_layer28
+Attached sensitive detector to: absorber_log_eta6_layer29
+Attached sensitive detector to: active_log_eta6_layer29
+Attached sensitive detector to: absorber_log_eta6_layer30
+Attached sensitive detector to: active_log_eta6_layer30
+Attached sensitive detector to: absorber_log_eta6_layer31
+Attached sensitive detector to: active_log_eta6_layer31
+Attached sensitive detector to: absorber_log_eta6_layer32
+Attached sensitive detector to: active_log_eta6_layer32
+Attached sensitive detector to: absorber_log_eta6_layer33
+Attached sensitive detector to: active_log_eta6_layer33
+Attached sensitive detector to: absorber_log_eta6_layer34
+Attached sensitive detector to: active_log_eta6_layer34
+Attached sensitive detector to: absorber_log_eta6_layer35
+Attached sensitive detector to: active_log_eta6_layer35
+Attached sensitive detector to: absorber_log_eta6_layer36
+Attached sensitive detector to: active_log_eta6_layer36
+Attached sensitive detector to: absorber_log_eta6_layer37
+Attached sensitive detector to: active_log_eta6_layer37
+Attached sensitive detector to: absorber_log_eta6_layer38
+Attached sensitive detector to: active_log_eta6_layer38
+Attached sensitive detector to: absorber_log_eta6_layer39
+Attached sensitive detector to: active_log_eta6_layer39
+Attached sensitive detector to: absorber_log_eta6_layer40
+Attached sensitive detector to: active_log_eta6_layer40
+Attached sensitive detector to: absorber_log_eta6_layer41
+Attached sensitive detector to: active_log_eta6_layer41
+Attached sensitive detector to: absorber_log_eta6_layer42
+Attached sensitive detector to: active_log_eta6_layer42
+Attached sensitive detector to: absorber_log_eta6_layer43
+Attached sensitive detector to: active_log_eta6_layer43
+Attached sensitive detector to: absorber_log_eta6_layer44
+Attached sensitive detector to: active_log_eta6_layer44
+Attached sensitive detector to: absorber_log_eta6_layer45
+Attached sensitive detector to: active_log_eta6_layer45
+Attached sensitive detector to: absorber_log_eta6_layer46
+Attached sensitive detector to: active_log_eta6_layer46
+Attached sensitive detector to: absorber_log_eta6_layer47
+Attached sensitive detector to: active_log_eta6_layer47
+Attached sensitive detector to: absorber_log_eta6_layer48
+Attached sensitive detector to: active_log_eta6_layer48
+Attached sensitive detector to: absorber_log_eta6_layer49
+Attached sensitive detector to: active_log_eta6_layer49
+Attached sensitive detector to: absorber_log_eta6_layer50
+Attached sensitive detector to: active_log_eta6_layer50
+Attached sensitive detector to: absorber_log_eta6_layer51
+Attached sensitive detector to: active_log_eta6_layer51
+Attached sensitive detector to: absorber_log_eta6_layer52
+Attached sensitive detector to: active_log_eta6_layer52
+Attached sensitive detector to: absorber_log_eta6_layer53
+Attached sensitive detector to: active_log_eta6_layer53
+Attached sensitive detector to: absorber_log_eta6_layer54
+Attached sensitive detector to: active_log_eta6_layer54
+Attached sensitive detector to: absorber_log_eta6_layer55
+Attached sensitive detector to: active_log_eta6_layer55
+Attached sensitive detector to: absorber_log_eta6_layer56
+Attached sensitive detector to: active_log_eta6_layer56
+Attached sensitive detector to: absorber_log_eta6_layer57
+Attached sensitive detector to: active_log_eta6_layer57
+Attached sensitive detector to: absorber_log_eta6_layer58
+Attached sensitive detector to: active_log_eta6_layer58
+Attached sensitive detector to: absorber_log_eta6_layer59
+Attached sensitive detector to: active_log_eta6_layer59
+Attached sensitive detector to: absorber_log_eta6_layer60
+Attached sensitive detector to: active_log_eta6_layer60
+Attached sensitive detector to: absorber_log_eta6_layer61
+Attached sensitive detector to: active_log_eta6_layer61
+Attached sensitive detector to: absorber_log_eta6_layer62
+Attached sensitive detector to: active_log_eta6_layer62
+Attached sensitive detector to: absorber_log_eta6_layer63
+Attached sensitive detector to: active_log_eta6_layer63
+Attached sensitive detector to: absorber_log_eta6_layer64
+Attached sensitive detector to: active_log_eta6_layer64
+Attached sensitive detector to: absorber_log_eta6_layer65
+Attached sensitive detector to: active_log_eta6_layer65
+Attached sensitive detector to: absorber_log_eta6_layer66
+Attached sensitive detector to: active_log_eta6_layer66
+Attached sensitive detector to: absorber_log_eta6_layer67
+Attached sensitive detector to: active_log_eta6_layer67
+Attached sensitive detector to: absorber_log_eta6_layer68
+Attached sensitive detector to: active_log_eta6_layer68
+Attached sensitive detector to: absorber_log_eta6_layer69
+Attached sensitive detector to: active_log_eta6_layer69
+Attached sensitive detector to: absorber_log_eta6_layer70
+Attached sensitive detector to: active_log_eta6_layer70
+Attached sensitive detector to: absorber_log_eta6_layer71
+Attached sensitive detector to: active_log_eta6_layer71
+Attached sensitive detector to: absorber_log_eta6_layer72
+Attached sensitive detector to: active_log_eta6_layer72
+Attached sensitive detector to: absorber_log_eta6_layer73
+Attached sensitive detector to: active_log_eta6_layer73
+Attached sensitive detector to: absorber_log_eta6_layer74
+Attached sensitive detector to: active_log_eta6_layer74
+Attached sensitive detector to: absorber_log_eta6_layer75
+Attached sensitive detector to: active_log_eta6_layer75
+Attached sensitive detector to: absorber_log_eta6_layer76
+Attached sensitive detector to: active_log_eta6_layer76
+Attached sensitive detector to: absorber_log_eta6_layer77
+Attached sensitive detector to: active_log_eta6_layer77
+Attached sensitive detector to: absorber_log_eta6_layer78
+Attached sensitive detector to: active_log_eta6_layer78
+Attached sensitive detector to: absorber_log_eta6_layer79
+Attached sensitive detector to: active_log_eta6_layer79
+Attached sensitive detector to: absorber_log_eta6_layer80
+Attached sensitive detector to: active_log_eta6_layer80
+Attached sensitive detector to: absorber_log_eta6_layer81
+Attached sensitive detector to: active_log_eta6_layer81
+Attached sensitive detector to: absorber_log_eta6_layer82
+Attached sensitive detector to: active_log_eta6_layer82
+Attached sensitive detector to: absorber_log_eta6_layer83
+Attached sensitive detector to: active_log_eta6_layer83
+Attached sensitive detector to: absorber_log_eta6_layer84
+Attached sensitive detector to: active_log_eta6_layer84
+Attached sensitive detector to: absorber_log_eta6_layer85
+Attached sensitive detector to: active_log_eta6_layer85
+Attached sensitive detector to: absorber_log_eta6_layer86
+Attached sensitive detector to: active_log_eta6_layer86
+Attached sensitive detector to: absorber_log_eta6_layer87
+Attached sensitive detector to: active_log_eta6_layer87
+Attached sensitive detector to: absorber_log_eta6_layer88
+Attached sensitive detector to: active_log_eta6_layer88
+Attached sensitive detector to: absorber_log_eta6_layer89
+Attached sensitive detector to: active_log_eta6_layer89
+Attached sensitive detector to: absorber_log_eta6_layer90
+Attached sensitive detector to: active_log_eta6_layer90
+Attached sensitive detector to: absorber_log_eta6_layer91
+Attached sensitive detector to: active_log_eta6_layer91
+Attached sensitive detector to: absorber_log_eta6_layer92
+Attached sensitive detector to: active_log_eta6_layer92
+Attached sensitive detector to: absorber_log_eta6_layer93
+Attached sensitive detector to: active_log_eta6_layer93
+Attached sensitive detector to: absorber_log_eta6_layer94
+Attached sensitive detector to: active_log_eta6_layer94
+Attached sensitive detector to: absorber_log_eta6_layer95
+Attached sensitive detector to: active_log_eta6_layer95
+Attached sensitive detector to: absorber_log_eta6_layer96
+Attached sensitive detector to: active_log_eta6_layer96
+Attached sensitive detector to: absorber_log_eta6_layer97
+Attached sensitive detector to: active_log_eta6_layer97
+Attached sensitive detector to: absorber_log_eta6_layer98
+Attached sensitive detector to: active_log_eta6_layer98
+Attached sensitive detector to: absorber_log_eta6_layer99
+Attached sensitive detector to: active_log_eta6_layer99
+Attached sensitive detector to: absorber_log_eta6_layer100
+Attached sensitive detector to: active_log_eta6_layer100
+Attached sensitive detector to: absorber_log_eta6_layer101
+Attached sensitive detector to: active_log_eta6_layer101
+Attached sensitive detector to: absorber_log_eta6_layer102
+Attached sensitive detector to: active_log_eta6_layer102
+Attached sensitive detector to: absorber_log_eta6_layer103
+Attached sensitive detector to: active_log_eta6_layer103
+Attached sensitive detector to: absorber_log_eta6_layer104
+Attached sensitive detector to: active_log_eta6_layer104
+Attached sensitive detector to: absorber_log_eta6_layer105
+Attached sensitive detector to: active_log_eta6_layer105
+Attached sensitive detector to: absorber_log_eta6_layer106
+Attached sensitive detector to: active_log_eta6_layer106
+Attached sensitive detector to: absorber_log_eta6_layer107
+Attached sensitive detector to: active_log_eta6_layer107
+Attached sensitive detector to: absorber_log_eta6_layer108
+Attached sensitive detector to: active_log_eta6_layer108
+Attached sensitive detector to: absorber_log_eta6_layer109
+Attached sensitive detector to: active_log_eta6_layer109
+Attached sensitive detector to: absorber_log_eta6_layer110
+Attached sensitive detector to: active_log_eta6_layer110
+Attached sensitive detector to: absorber_log_eta6_layer111
+Attached sensitive detector to: active_log_eta6_layer111
+Attached sensitive detector to: absorber_log_eta6_layer112
+Attached sensitive detector to: active_log_eta6_layer112
+Attached sensitive detector to: absorber_log_eta6_layer113
+Attached sensitive detector to: active_log_eta6_layer113
+Attached sensitive detector to: absorber_log_eta6_layer114
+Attached sensitive detector to: active_log_eta6_layer114
+Attached sensitive detector to: absorber_log_eta6_layer115
+Attached sensitive detector to: active_log_eta6_layer115
+Attached sensitive detector to: absorber_log_eta6_layer116
+Attached sensitive detector to: active_log_eta6_layer116
+Attached sensitive detector to: absorber_log_eta6_layer117
+Attached sensitive detector to: active_log_eta6_layer117
+Attached sensitive detector to: absorber_log_eta6_layer118
+Attached sensitive detector to: active_log_eta6_layer118
+Attached sensitive detector to: absorber_log_eta6_layer119
+Attached sensitive detector to: active_log_eta6_layer119
+Attached sensitive detector to: absorber_log_eta6_layer120
+Attached sensitive detector to: active_log_eta6_layer120
+Attached sensitive detector to: absorber_log_eta6_layer121
+Attached sensitive detector to: active_log_eta6_layer121
+Attached sensitive detector to: absorber_log_eta6_layer122
+Attached sensitive detector to: active_log_eta6_layer122
+Attached sensitive detector to: absorber_log_eta6_layer123
+Attached sensitive detector to: active_log_eta6_layer123
+Attached sensitive detector to: absorber_log_eta6_layer124
+Attached sensitive detector to: active_log_eta6_layer124
+Attached sensitive detector to: absorber_log_eta6_layer125
+Attached sensitive detector to: active_log_eta6_layer125
+Attached sensitive detector to: absorber_log_eta6_layer126
+Attached sensitive detector to: active_log_eta6_layer126
+Attached sensitive detector to: absorber_log_eta6_layer127
+Attached sensitive detector to: active_log_eta6_layer127
+Attached sensitive detector to: absorber_log_eta6_layer128
+Attached sensitive detector to: active_log_eta6_layer128
+Attached sensitive detector to: absorber_log_eta6_layer129
+Attached sensitive detector to: active_log_eta6_layer129
+Attached sensitive detector to: absorber_log_eta6_layer130
+Attached sensitive detector to: active_log_eta6_layer130
+Attached sensitive detector to: absorber_log_eta6_layer131
+Attached sensitive detector to: active_log_eta6_layer131
+Attached sensitive detector to: absorber_log_eta6_layer132
+Attached sensitive detector to: active_log_eta6_layer132
+Attached sensitive detector to: absorber_log_eta6_layer133
+Attached sensitive detector to: active_log_eta6_layer133
+Attached sensitive detector to: absorber_log_eta6_layer134
+Attached sensitive detector to: active_log_eta6_layer134
+Attached sensitive detector to: absorber_log_eta6_layer135
+Attached sensitive detector to: active_log_eta6_layer135
+Attached sensitive detector to: absorber_log_eta6_layer136
+Attached sensitive detector to: active_log_eta6_layer136
+Attached sensitive detector to: absorber_log_eta7_layer0
+Attached sensitive detector to: active_log_eta7_layer0
+Attached sensitive detector to: absorber_log_eta7_layer1
+Attached sensitive detector to: active_log_eta7_layer1
+Attached sensitive detector to: absorber_log_eta7_layer2
+Attached sensitive detector to: active_log_eta7_layer2
+Attached sensitive detector to: absorber_log_eta7_layer3
+Attached sensitive detector to: active_log_eta7_layer3
+Attached sensitive detector to: absorber_log_eta7_layer4
+Attached sensitive detector to: active_log_eta7_layer4
+Attached sensitive detector to: absorber_log_eta7_layer5
+Attached sensitive detector to: active_log_eta7_layer5
+Attached sensitive detector to: absorber_log_eta7_layer6
+Attached sensitive detector to: active_log_eta7_layer6
+Attached sensitive detector to: absorber_log_eta7_layer7
+Attached sensitive detector to: active_log_eta7_layer7
+Attached sensitive detector to: absorber_log_eta7_layer8
+Attached sensitive detector to: active_log_eta7_layer8
+Attached sensitive detector to: absorber_log_eta7_layer9
+Attached sensitive detector to: active_log_eta7_layer9
+Attached sensitive detector to: absorber_log_eta7_layer10
+Attached sensitive detector to: active_log_eta7_layer10
+Attached sensitive detector to: absorber_log_eta7_layer11
+Attached sensitive detector to: active_log_eta7_layer11
+Attached sensitive detector to: absorber_log_eta7_layer12
+Attached sensitive detector to: active_log_eta7_layer12
+Attached sensitive detector to: absorber_log_eta7_layer13
+Attached sensitive detector to: active_log_eta7_layer13
+Attached sensitive detector to: absorber_log_eta7_layer14
+Attached sensitive detector to: active_log_eta7_layer14
+Attached sensitive detector to: absorber_log_eta7_layer15
+Attached sensitive detector to: active_log_eta7_layer15
+Attached sensitive detector to: absorber_log_eta7_layer16
+Attached sensitive detector to: active_log_eta7_layer16
+Attached sensitive detector to: absorber_log_eta7_layer17
+Attached sensitive detector to: active_log_eta7_layer17
+Attached sensitive detector to: absorber_log_eta7_layer18
+Attached sensitive detector to: active_log_eta7_layer18
+Attached sensitive detector to: absorber_log_eta7_layer19
+Attached sensitive detector to: active_log_eta7_layer19
+Attached sensitive detector to: absorber_log_eta7_layer20
+Attached sensitive detector to: active_log_eta7_layer20
+Attached sensitive detector to: absorber_log_eta7_layer21
+Attached sensitive detector to: active_log_eta7_layer21
+Attached sensitive detector to: absorber_log_eta7_layer22
+Attached sensitive detector to: active_log_eta7_layer22
+Attached sensitive detector to: absorber_log_eta7_layer23
+Attached sensitive detector to: active_log_eta7_layer23
+Attached sensitive detector to: absorber_log_eta7_layer24
+Attached sensitive detector to: active_log_eta7_layer24
+Attached sensitive detector to: absorber_log_eta7_layer25
+Attached sensitive detector to: active_log_eta7_layer25
+Attached sensitive detector to: absorber_log_eta7_layer26
+Attached sensitive detector to: active_log_eta7_layer26
+Attached sensitive detector to: absorber_log_eta7_layer27
+Attached sensitive detector to: active_log_eta7_layer27
+Attached sensitive detector to: absorber_log_eta7_layer28
+Attached sensitive detector to: active_log_eta7_layer28
+Attached sensitive detector to: absorber_log_eta7_layer29
+Attached sensitive detector to: active_log_eta7_layer29
+Attached sensitive detector to: absorber_log_eta7_layer30
+Attached sensitive detector to: active_log_eta7_layer30
+Attached sensitive detector to: absorber_log_eta7_layer31
+Attached sensitive detector to: active_log_eta7_layer31
+Attached sensitive detector to: absorber_log_eta7_layer32
+Attached sensitive detector to: active_log_eta7_layer32
+Attached sensitive detector to: absorber_log_eta7_layer33
+Attached sensitive detector to: active_log_eta7_layer33
+Attached sensitive detector to: absorber_log_eta7_layer34
+Attached sensitive detector to: active_log_eta7_layer34
+Attached sensitive detector to: absorber_log_eta7_layer35
+Attached sensitive detector to: active_log_eta7_layer35
+Attached sensitive detector to: absorber_log_eta7_layer36
+Attached sensitive detector to: active_log_eta7_layer36
+Attached sensitive detector to: absorber_log_eta7_layer37
+Attached sensitive detector to: active_log_eta7_layer37
+Attached sensitive detector to: absorber_log_eta7_layer38
+Attached sensitive detector to: active_log_eta7_layer38
+Attached sensitive detector to: absorber_log_eta7_layer39
+Attached sensitive detector to: active_log_eta7_layer39
+Attached sensitive detector to: absorber_log_eta7_layer40
+Attached sensitive detector to: active_log_eta7_layer40
+Attached sensitive detector to: absorber_log_eta7_layer41
+Attached sensitive detector to: active_log_eta7_layer41
+Attached sensitive detector to: absorber_log_eta7_layer42
+Attached sensitive detector to: active_log_eta7_layer42
+Attached sensitive detector to: absorber_log_eta7_layer43
+Attached sensitive detector to: active_log_eta7_layer43
+Attached sensitive detector to: absorber_log_eta7_layer44
+Attached sensitive detector to: active_log_eta7_layer44
+Attached sensitive detector to: absorber_log_eta7_layer45
+Attached sensitive detector to: active_log_eta7_layer45
+Attached sensitive detector to: absorber_log_eta7_layer46
+Attached sensitive detector to: active_log_eta7_layer46
+Attached sensitive detector to: absorber_log_eta7_layer47
+Attached sensitive detector to: active_log_eta7_layer47
+Attached sensitive detector to: absorber_log_eta7_layer48
+Attached sensitive detector to: active_log_eta7_layer48
+Attached sensitive detector to: absorber_log_eta7_layer49
+Attached sensitive detector to: active_log_eta7_layer49
+Attached sensitive detector to: absorber_log_eta7_layer50
+Attached sensitive detector to: active_log_eta7_layer50
+Attached sensitive detector to: absorber_log_eta7_layer51
+Attached sensitive detector to: active_log_eta7_layer51
+Attached sensitive detector to: absorber_log_eta7_layer52
+Attached sensitive detector to: active_log_eta7_layer52
+Attached sensitive detector to: absorber_log_eta7_layer53
+Attached sensitive detector to: active_log_eta7_layer53
+Attached sensitive detector to: absorber_log_eta7_layer54
+Attached sensitive detector to: active_log_eta7_layer54
+Attached sensitive detector to: absorber_log_eta7_layer55
+Attached sensitive detector to: active_log_eta7_layer55
+Attached sensitive detector to: absorber_log_eta7_layer56
+Attached sensitive detector to: active_log_eta7_layer56
+Attached sensitive detector to: absorber_log_eta7_layer57
+Attached sensitive detector to: active_log_eta7_layer57
+Attached sensitive detector to: absorber_log_eta7_layer58
+Attached sensitive detector to: active_log_eta7_layer58
+Attached sensitive detector to: absorber_log_eta7_layer59
+Attached sensitive detector to: active_log_eta7_layer59
+Attached sensitive detector to: absorber_log_eta7_layer60
+Attached sensitive detector to: active_log_eta7_layer60
+Attached sensitive detector to: absorber_log_eta7_layer61
+Attached sensitive detector to: active_log_eta7_layer61
+Attached sensitive detector to: absorber_log_eta7_layer62
+Attached sensitive detector to: active_log_eta7_layer62
+Attached sensitive detector to: absorber_log_eta7_layer63
+Attached sensitive detector to: active_log_eta7_layer63
+Attached sensitive detector to: absorber_log_eta7_layer64
+Attached sensitive detector to: active_log_eta7_layer64
+Attached sensitive detector to: absorber_log_eta7_layer65
+Attached sensitive detector to: active_log_eta7_layer65
+Attached sensitive detector to: absorber_log_eta7_layer66
+Attached sensitive detector to: active_log_eta7_layer66
+Attached sensitive detector to: absorber_log_eta7_layer67
+Attached sensitive detector to: active_log_eta7_layer67
+Attached sensitive detector to: absorber_log_eta7_layer68
+Attached sensitive detector to: active_log_eta7_layer68
+Attached sensitive detector to: absorber_log_eta7_layer69
+Attached sensitive detector to: active_log_eta7_layer69
+Attached sensitive detector to: absorber_log_eta7_layer70
+Attached sensitive detector to: active_log_eta7_layer70
+Attached sensitive detector to: absorber_log_eta7_layer71
+Attached sensitive detector to: active_log_eta7_layer71
+Attached sensitive detector to: absorber_log_eta7_layer72
+Attached sensitive detector to: active_log_eta7_layer72
+Attached sensitive detector to: absorber_log_eta7_layer73
+Attached sensitive detector to: active_log_eta7_layer73
+Attached sensitive detector to: absorber_log_eta7_layer74
+Attached sensitive detector to: active_log_eta7_layer74
+Attached sensitive detector to: absorber_log_eta7_layer75
+Attached sensitive detector to: active_log_eta7_layer75
+Attached sensitive detector to: absorber_log_eta7_layer76
+Attached sensitive detector to: active_log_eta7_layer76
+Attached sensitive detector to: absorber_log_eta7_layer77
+Attached sensitive detector to: active_log_eta7_layer77
+Attached sensitive detector to: absorber_log_eta7_layer78
+Attached sensitive detector to: active_log_eta7_layer78
+Attached sensitive detector to: absorber_log_eta7_layer79
+Attached sensitive detector to: active_log_eta7_layer79
+Attached sensitive detector to: absorber_log_eta7_layer80
+Attached sensitive detector to: active_log_eta7_layer80
+Attached sensitive detector to: absorber_log_eta7_layer81
+Attached sensitive detector to: active_log_eta7_layer81
+Attached sensitive detector to: absorber_log_eta7_layer82
+Attached sensitive detector to: active_log_eta7_layer82
+Attached sensitive detector to: absorber_log_eta7_layer83
+Attached sensitive detector to: active_log_eta7_layer83
+Attached sensitive detector to: absorber_log_eta7_layer84
+Attached sensitive detector to: active_log_eta7_layer84
+Attached sensitive detector to: absorber_log_eta7_layer85
+Attached sensitive detector to: active_log_eta7_layer85
+Attached sensitive detector to: absorber_log_eta7_layer86
+Attached sensitive detector to: active_log_eta7_layer86
+Attached sensitive detector to: absorber_log_eta7_layer87
+Attached sensitive detector to: active_log_eta7_layer87
+Attached sensitive detector to: absorber_log_eta7_layer88
+Attached sensitive detector to: active_log_eta7_layer88
+Attached sensitive detector to: absorber_log_eta7_layer89
+Attached sensitive detector to: active_log_eta7_layer89
+Attached sensitive detector to: absorber_log_eta7_layer90
+Attached sensitive detector to: active_log_eta7_layer90
+Attached sensitive detector to: absorber_log_eta7_layer91
+Attached sensitive detector to: active_log_eta7_layer91
+Attached sensitive detector to: absorber_log_eta7_layer92
+Attached sensitive detector to: active_log_eta7_layer92
+Attached sensitive detector to: absorber_log_eta7_layer93
+Attached sensitive detector to: active_log_eta7_layer93
+Attached sensitive detector to: absorber_log_eta7_layer94
+Attached sensitive detector to: active_log_eta7_layer94
+Attached sensitive detector to: absorber_log_eta7_layer95
+Attached sensitive detector to: active_log_eta7_layer95
+Attached sensitive detector to: absorber_log_eta7_layer96
+Attached sensitive detector to: active_log_eta7_layer96
+Attached sensitive detector to: absorber_log_eta7_layer97
+Attached sensitive detector to: active_log_eta7_layer97
+Attached sensitive detector to: absorber_log_eta7_layer98
+Attached sensitive detector to: active_log_eta7_layer98
+Attached sensitive detector to: absorber_log_eta7_layer99
+Attached sensitive detector to: active_log_eta7_layer99
+Attached sensitive detector to: absorber_log_eta7_layer100
+Attached sensitive detector to: active_log_eta7_layer100
+Attached sensitive detector to: absorber_log_eta7_layer101
+Attached sensitive detector to: active_log_eta7_layer101
+Attached sensitive detector to: absorber_log_eta7_layer102
+Attached sensitive detector to: active_log_eta7_layer102
+Attached sensitive detector to: absorber_log_eta7_layer103
+Attached sensitive detector to: active_log_eta7_layer103
+Attached sensitive detector to: absorber_log_eta7_layer104
+Attached sensitive detector to: active_log_eta7_layer104
+Attached sensitive detector to: absorber_log_eta7_layer105
+Attached sensitive detector to: active_log_eta7_layer105
+Attached sensitive detector to: absorber_log_eta7_layer106
+Attached sensitive detector to: active_log_eta7_layer106
+Attached sensitive detector to: absorber_log_eta7_layer107
+Attached sensitive detector to: active_log_eta7_layer107
+Attached sensitive detector to: absorber_log_eta7_layer108
+Attached sensitive detector to: active_log_eta7_layer108
+Attached sensitive detector to: absorber_log_eta7_layer109
+Attached sensitive detector to: active_log_eta7_layer109
+Attached sensitive detector to: absorber_log_eta7_layer110
+Attached sensitive detector to: active_log_eta7_layer110
+Attached sensitive detector to: absorber_log_eta7_layer111
+Attached sensitive detector to: active_log_eta7_layer111
+Attached sensitive detector to: absorber_log_eta7_layer112
+Attached sensitive detector to: active_log_eta7_layer112
+Attached sensitive detector to: absorber_log_eta7_layer113
+Attached sensitive detector to: active_log_eta7_layer113
+Attached sensitive detector to: absorber_log_eta7_layer114
+Attached sensitive detector to: active_log_eta7_layer114
+Attached sensitive detector to: absorber_log_eta7_layer115
+Attached sensitive detector to: active_log_eta7_layer115
+Attached sensitive detector to: absorber_log_eta7_layer116
+Attached sensitive detector to: active_log_eta7_layer116
+Attached sensitive detector to: absorber_log_eta7_layer117
+Attached sensitive detector to: active_log_eta7_layer117
+Attached sensitive detector to: absorber_log_eta7_layer118
+Attached sensitive detector to: active_log_eta7_layer118
+Attached sensitive detector to: absorber_log_eta7_layer119
+Attached sensitive detector to: active_log_eta7_layer119
+Attached sensitive detector to: absorber_log_eta7_layer120
+Attached sensitive detector to: active_log_eta7_layer120
+Attached sensitive detector to: absorber_log_eta7_layer121
+Attached sensitive detector to: active_log_eta7_layer121
+Attached sensitive detector to: absorber_log_eta7_layer122
+Attached sensitive detector to: active_log_eta7_layer122
+Attached sensitive detector to: absorber_log_eta7_layer123
+Attached sensitive detector to: active_log_eta7_layer123
+Attached sensitive detector to: absorber_log_eta7_layer124
+Attached sensitive detector to: active_log_eta7_layer124
+Attached sensitive detector to: absorber_log_eta7_layer125
+Attached sensitive detector to: active_log_eta7_layer125
+Attached sensitive detector to: absorber_log_eta7_layer126
+Attached sensitive detector to: active_log_eta7_layer126
+Attached sensitive detector to: absorber_log_eta7_layer127
+Attached sensitive detector to: active_log_eta7_layer127
+Attached sensitive detector to: absorber_log_eta7_layer128
+Attached sensitive detector to: active_log_eta7_layer128
+Attached sensitive detector to: absorber_log_eta7_layer129
+Attached sensitive detector to: active_log_eta7_layer129
+Attached sensitive detector to: absorber_log_eta7_layer130
+Attached sensitive detector to: active_log_eta7_layer130
+Attached sensitive detector to: absorber_log_eta7_layer131
+Attached sensitive detector to: active_log_eta7_layer131
+Attached sensitive detector to: absorber_log_eta7_layer132
+Attached sensitive detector to: active_log_eta7_layer132
+Attached sensitive detector to: absorber_log_eta7_layer133
+Attached sensitive detector to: active_log_eta7_layer133
+Attached sensitive detector to: absorber_log_eta7_layer134
+Attached sensitive detector to: active_log_eta7_layer134
+Attached sensitive detector to: absorber_log_eta7_layer135
+Attached sensitive detector to: active_log_eta7_layer135
+Attached sensitive detector to: absorber_log_eta7_layer136
+Attached sensitive detector to: active_log_eta7_layer136
+
+ hInelastic FTFP_BERT : threshold between BERT and FTFP is over the interval 
+ for pions :   3 to 6 GeV
+ for kaons :   3 to 6 GeV
+ for proton :  3 to 6 GeV
+ for neutron : 3 to 6 GeV
+
+### Adding tracking cuts for neutron  TimeCut(ns)= 10000  KinEnergyCut(MeV)= 0
+### Birks coefficients used in run time
+   G4_POLYSTYRENE     0.07943 mm/MeV     0.00841958 g/cm^2/MeV  massFactor=  503.235 effCharge= 18.5519
+   G4_lAr     0.032 mm/MeV     0.0044672 g/cm^2/MeV  massFactor=  23.4875 effCharge= 324
+   G4_BGO     0.008415 mm/MeV     0.0059999 g/cm^2/MeV  massFactor=  40.0128 effCharge= 1653.11
+   G4_PbWO4     0.0333333 mm/MeV     0.0276 g/cm^2/MeV  massFactor=  40.7365 effCharge= 2071.99
+=======================================================================
+======                 Electromagnetic Physics Parameters      ========
+=======================================================================
+LPM effect enabled                                 1
+Enable creation and use of sampling tables         0
+Apply cuts on all EM processes                     0
+Use combined TransportationWithMsc                 Disabled
+Use general process                                1
+Enable linear polarisation for gamma               0
+Enable photoeffect sampling below K-shell          1
+Enable sampling of quantum entanglement            0
+X-section factor for integral approach             0.8
+Min kinetic energy for tables                      100 eV 
+Max kinetic energy for tables                      100 TeV
+Number of bins per decade of a table               7
+Verbose level                                      1
+Verbose level for worker thread                    0
+Bremsstrahlung energy threshold above which 
+  primary e+- is added to the list of secondary    100 TeV
+Bremsstrahlung energy threshold above which primary
+  muon/hadron is added to the list of secondary    100 TeV
+Positron annihilation at rest model                SimplePositronium
+Enable 3 gamma annihilation on fly                 0
+Lowest triplet kinetic energy                      1 MeV
+Enable sampling of gamma linear polarisation       0
+5D gamma conversion model type                     0
+5D gamma conversion model on isolated ion          0
+Use RiGe 5D e+e- pair production model by muons    0
+Livermore data directory                           epics_2017
+=======================================================================
+======                 Ionisation Parameters                   ========
+=======================================================================
+Step function for e+-                              (0.2, 1 mm)
+Step function for muons/hadrons                    (0.2, 0.1 mm)
+Step function for light ions                       (0.2, 0.1 mm)
+Step function for general ions                     (0.2, 0.1 mm)
+Lowest e+e- kinetic energy                         1 keV
+Lowest muon/hadron kinetic energy                  1 keV
+Use ICRU90 data                                    0
+Fluctuations of dE/dx are enabled                  1
+Type of fluctuation model for leptons and hadrons  Urban
+Use built-in Birks saturation                      1
+Build CSDA range enabled                           0
+Use cut as a final range enabled                   0
+Enable angular generator interface                 0
+Max kinetic energy for CSDA tables                 1 GeV
+Max kinetic energy for NIEL computation            0 eV 
+Linear loss limit                                  0.01
+Read data from file for e+e- pair production by mu 0
+=======================================================================
+======                 Multiple Scattering Parameters          ========
+=======================================================================
+Type of msc step limit algorithm for e+-           1
+Type of msc step limit algorithm for muons/hadrons 0
+Msc lateral displacement for e+- enabled           1
+Msc lateral displacement for muons and hadrons     0
+Urban msc model lateral displacement alg96         1
+Range factor for msc step limit for e+-            0.04
+Range factor for msc step limit for muons/hadrons  0.2
+Geometry factor for msc step limitation of e+-     2.5
+Safety factor for msc step limit for e+-           0.6
+Skin parameter for msc step limitation of e+-      1
+Lambda limit for msc step limit for e+-            1 mm
+Use Mott correction for e- scattering              0
+Factor used for dynamic computation of angular 
+  limit between single and multiple scattering     1
+Fixed angular limit between single 
+  and multiple scattering                          3.1416 rad
+Upper energy limit for e+- multiple scattering     100 MeV
+Type of electron single scattering model           0
+Type of nuclear form-factor                        1
+Screening factor                                   1
+=======================================================================
+
+phot:  for gamma SubType=12 BuildTable=0
+      LambdaPrime table from 200 keV to 100 TeV in 61 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric : Emin=    0 eV  Emax=  100 TeV  SauterGavrila Fluo
+
+compt:  for gamma SubType=13 BuildTable=1
+      Lambda table from 100 eV  to 1 MeV, 7 bins/decade, spline: 1
+      LambdaPrime table from 1 MeV to 100 TeV in 56 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       Klein-Nishina : Emin=    0 eV  Emax=  100 TeV
+
+conv:  for gamma SubType=14 BuildTable=1
+      Lambda table from 1.022 MeV to 100 TeV, 18 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+     BetheHeitlerLPM : Emin=    0 eV  Emax=  100 TeV  ModifiedTsai
+
+Rayl:  for gamma SubType=11 BuildTable=1
+      Lambda table from 100 eV  to 150 keV, 7 bins/decade, spline: 0
+      LambdaPrime table from 150 keV to 100 TeV in 62 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh : Emin=    0 eV  Emax=  100 TeV  CullenGenerator
+
+msc:  for e-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 MeV Nbins=42 100 eV  - 100 MeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=42 100 MeV - 100 TeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+
+eIoni:  for e-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha : Emin=    0 eV  Emax=  100 TeV
+
+eBrem:  for e-  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  ModifiedTsai
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+
+CoulombScat:  for e- XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for e+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 MeV Nbins=42 100 eV  - 100 MeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=42 100 MeV - 100 TeV
+          StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llim=1 mm
+
+eIoni:  for e+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha : Emin=    0 eV  Emax=  100 TeV
+
+eBrem:  for e+  XStype:4  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  ModifiedTsai
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+
+annihil:  for e+ XStype:2 SubType=5 AtRestModel:Simple BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for e+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+hBrems:  for proton  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for proton  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 17x1001, from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for GenericIon  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+ionIoni:  for GenericIon  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+msc:  for alpha  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+ionIoni:  for alpha  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=7.9452 MeV
+          BetheBloch : Emin=7.9452 MeV Emax=  100 TeV
+
+msc:  for anti_proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for anti_proton  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+hBrems:  for anti_proton  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for anti_proton  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 17x1001, from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for anti_proton XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for kaon+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=1.05231 MeV
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV
+
+hBrems:  for kaon+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for kaon+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 18x1001, from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for kaon-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=1.05231 MeV
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV
+
+hBrems:  for kaon-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for kaon-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 18x1001, from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of kaon+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+muIoni:  for mu+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=  200 keV
+        MuBetheBloch : Emin=  200 keV Emax=  100 TeV
+
+muBrems:  for mu+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+muPairProd:  for mu+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 21x1001, from 0.85 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+muIoni:  for mu-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=  200 keV
+        MuBetheBloch : Emin=  200 keV Emax=  100 TeV
+
+muBrems:  for mu-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+muPairProd:  for mu-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 21x1001, from 0.85 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of mu+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for pi+  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=297.505 keV
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV
+
+hBrems:  for pi+  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for pi+  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 20x1001, from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi+ XStype:1 SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 0
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+          StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llim=1 mm
+
+hIoni:  for pi-  XStype:3  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 3, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=297.505 keV
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV
+
+hBrems:  for pi-  XStype:1  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for pi-  XStype:1  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 20x1001, from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi- XStype:1 SubType=1 BuildTable=1
+      Used Lambda table of pi+
+      ThetaMin(p) < Theta(degree) < 180, pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+-----------------------------------------------------------------------
+                           Hadronic Processes for neutron
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronElasticXS: 0 eV  ---> 100 TeV
+  Process: neutronInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+  Process: nCapture
+        Model:               nRadCapture: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+  Process: nKiller
+-----------------------------------------------------------------------
+                           Hadronic Processes for B-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: B-Inelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for D-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: D-Inelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for GenericIon
+  Process: ionInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for He3
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: He3Inelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for alpha
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: alphaInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_He3
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_He3Inelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_alpha
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_alphaInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_deuteron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_deuteronInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-------------------------------------------------------------------------
+                           Hadronic Processes for anti_hypertriton
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_lambda
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: anti_lambdaInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_neutron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_neutronInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_proton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_protonInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for anti_triton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: anti_tritonInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+  Process: hFritiofCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for deuteron
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: dInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for e+
+  Process: positronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for e-
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for gamma
+  Process: photonNuclear
+        Model:               GammaNPreco: 0 eV  ---> 200 MeV
+        Model:            BertiniCascade: 199 MeV ---> 6 GeV
+        Model:           TheoFSGenerator: 3 GeV ---> 100 TeV
+     Cr_sctns:            GammaNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for kaon+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: kaon+Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for kaon-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: kaon-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for lambda
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: lambdaInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for mu+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for mu-
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+  Process: muMinusCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for pi+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: pi+Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for pi-
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: pi-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for proton
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+  Process: protonInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+-----------------------------------------------------------------------
+                           Hadronic Processes for sigma-
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: sigma-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+  Process: hBertiniCaptureAtRest
+-----------------------------------------------------------------------
+                           Hadronic Processes for triton
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+  Process: tInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+=======================================================================
+======       Geant4 Native Pre-compound Model Parameters       ========
+=======================================================================
+Type of pre-compound model                          0
+Type of pre-compound inverse x-section              1
+Pre-compound model active                           1
+Pre-compound excitation low energy                  0.1 MeV 
+Pre-compound excitation high energy                 15 MeV 
+Angular generator for pre-compound model            1
+Use NeverGoBack option for pre-compound model       0
+Use SoftCutOff option for pre-compound model        0
+Use CEM transitions for pre-compound model          1
+Use GNASH transitions for pre-compound model        0
+Use HETC submodel for pre-compound model            0
+=======================================================================
+======       Nuclear De-excitation Module Parameters           ========
+=======================================================================
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68
+Type of Fermi BreakUp model                         ModelVI
+Min excitation energy                               0.01 keV 
+Min energy per nucleon for multifragmentation       2e+05 MeV
+Level density (1/MeV)                               0.075
+Use simple level density model                      1
+Use discrete excitation energy of the residual      0
+Time limit for long lived isomeres                  1 ns 
+Isomer production flag                              1
+Internal e- conversion flag                         1
+Store e- internal conversion data                   1
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+=======================================================================
+### Run 0 start.
+
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : Analysis_W001
+      issued by : G4RootNtupleFileManager::SetNtupleMergingMode
+Merging ntuples is not applicable in sequential application.
+Setting was ignored.
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+... set ntuple merging row mode : row-wise - done
+... create file : /work/lead_tower_projective_retry_2_2_pip_hits.root - done
+... open analysis file : /work/lead_tower_projective_retry_2_2_pip_hits.root - done
+... open analysis file : /work/lead_tower_projective_retry_2_2_pip_hits.root - done
+Output file: /work/lead_tower_projective_retry_2_2_pip_hits.root
+Event 0 processed: 114748 hits, 43781.5 MeV total energy deposit, 0 optical photons detected
+Event 100 processed: 101093 hits, 36973.7 MeV total energy deposit, 0 optical photons detected
+Event 200 processed: 96288 hits, 36606.8 MeV total energy deposit, 0 optical photons detected
+Event 300 processed: 113819 hits, 44106 MeV total energy deposit, 0 optical photons detected
+Event 400 processed: 117937 hits, 42725.8 MeV total energy deposit, 0 optical photons detected
+Event 500 processed: 109852 hits, 37427 MeV total energy deposit, 0 optical photons detected
+Event 600 processed: 98508 hits, 39179.9 MeV total energy deposit, 0 optical photons detected
+Event 700 processed: 102130 hits, 36675 MeV total energy deposit, 0 optical photons detected
+Event 800 processed: 97842 hits, 40234 MeV total energy deposit, 0 optical photons detected
+Event 900 processed: 103572 hits, 36837.5 MeV total energy deposit, 0 optical photons detected
+Event 1000 processed: 101776 hits, 37727.4 MeV total energy deposit, 0 optical photons detected
+Event 1100 processed: 96833 hits, 37678.9 MeV total energy deposit, 0 optical photons detected
+Event 1200 processed: 104453 hits, 40826.8 MeV total energy deposit, 0 optical photons detected
+Event 1300 processed: 106049 hits, 40120.7 MeV total energy deposit, 0 optical photons detected
+Event 1400 processed: 99729 hits, 37800.6 MeV total energy deposit, 0 optical photons detected
+Event 1500 processed: 103995 hits, 38460.3 MeV total energy deposit, 0 optical photons detected
+Event 1600 processed: 104892 hits, 42731.5 MeV total energy deposit, 0 optical photons detected
+Event 1700 processed: 106195 hits, 41524.6 MeV total energy deposit, 0 optical photons detected
+Event 1800 processed: 109715 hits, 40184.4 MeV total energy deposit, 0 optical photons detected
+Event 1900 processed: 110038 hits, 39484.2 MeV total energy deposit, 0 optical photons detected
+Event 2000 processed: 101255 hits, 41390.9 MeV total energy deposit, 0 optical photons detected
+Event 2100 processed: 112033 hits, 42157.9 MeV total energy deposit, 0 optical photons detected
+Event 2200 processed: 103410 hits, 41325.1 MeV total energy deposit, 0 optical photons detected
+Event 2300 processed: 108198 hits, 38864.1 MeV total energy deposit, 0 optical photons detected
+Event 2400 processed: 117179 hits, 44085.7 MeV total energy deposit, 0 optical photons detected
+Event 2500 processed: 98633 hits, 38663.9 MeV total energy deposit, 0 optical photons detected
+Event 2600 processed: 109845 hits, 43902 MeV total energy deposit, 0 optical photons detected
+Event 2700 processed: 100304 hits, 39568.4 MeV total energy deposit, 0 optical photons detected
+Event 2800 processed: 104384 hits, 38100.3 MeV total energy deposit, 0 optical photons detected
+Event 2900 processed: 86039 hits, 35671.9 MeV total energy deposit, 0 optical photons detected
+Event 3000 processed: 102191 hits, 38327.4 MeV total energy deposit, 0 optical photons detected
+Event 3100 processed: 96558 hits, 39732.2 MeV total energy deposit, 0 optical photons detected
+Event 3200 processed: 103432 hits, 38695.6 MeV total energy deposit, 0 optical photons detected
+Event 3300 processed: 116104 hits, 44295.4 MeV total energy deposit, 0 optical photons detected
+Event 3400 processed: 105022 hits, 40179.6 MeV total energy deposit, 0 optical photons detected
+Event 3500 processed: 104111 hits, 35909.2 MeV total energy deposit, 0 optical photons detected
+Event 3600 processed: 108641 hits, 42411.5 MeV total energy deposit, 0 optical photons detected
+Event 3700 processed: 125294 hits, 45261.4 MeV total energy deposit, 0 optical photons detected
+Event 3800 processed: 111454 hits, 41078.3 MeV total energy deposit, 0 optical photons detected
+Event 3900 processed: 102617 hits, 40151.5 MeV total energy deposit, 0 optical photons detected
+Event 4000 processed: 116094 hits, 41835.1 MeV total energy deposit, 0 optical photons detected
+Event 4100 processed: 116157 hits, 42313.3 MeV total energy deposit, 0 optical photons detected
+Event 4200 processed: 99727 hits, 39659.2 MeV total energy deposit, 0 optical photons detected
+Event 4300 processed: 95112 hits, 39321.1 MeV total energy deposit, 0 optical photons detected
+Event 4400 processed: 72058 hits, 30295.8 MeV total energy deposit, 0 optical photons detected
+Event 4500 processed: 103976 hits, 38599 MeV total energy deposit, 0 optical photons detected
+Event 4600 processed: 113706 hits, 44540.5 MeV total energy deposit, 0 optical photons detected
+Event 4700 processed: 114670 hits, 43314.5 MeV total energy deposit, 0 optical photons detected
+Event 4800 processed: 115111 hits, 40659.5 MeV total energy deposit, 0 optical photons detected
+Event 4900 processed: 106350 hits, 39272.2 MeV total energy deposit, 0 optical photons detected
+Event 5000 processed: 98108 hits, 37775.9 MeV total energy deposit, 0 optical photons detected
+Event 5100 processed: 95314 hits, 41543.1 MeV total energy deposit, 0 optical photons detected
+Event 5200 processed: 99517 hits, 38756.4 MeV total energy deposit, 0 optical photons detected
+Event 5300 processed: 105309 hits, 37048 MeV total energy deposit, 0 optical photons detected
+Event 5400 processed: 103355 hits, 38490.8 MeV total energy deposit, 0 optical photons detected
+Event 5500 processed: 106140 hits, 39503.7 MeV total energy deposit, 0 optical photons detected
+Event 5600 processed: 98386 hits, 38614.3 MeV total energy deposit, 0 optical photons detected
+Event 5700 processed: 105942 hits, 40542.2 MeV total energy deposit, 0 optical photons detected
+Event 5800 processed: 112714 hits, 43299.4 MeV total energy deposit, 0 optical photons detected
+Event 5900 processed: 102267 hits, 39737.6 MeV total energy deposit, 0 optical photons detected
+Event 6000 processed: 110513 hits, 40707 MeV total energy deposit, 0 optical photons detected
+Event 6100 processed: 109367 hits, 38888.1 MeV total energy deposit, 0 optical photons detected
+Event 6200 processed: 100797 hits, 38525 MeV total energy deposit, 0 optical photons detected
+Event 6300 processed: 103968 hits, 38195.5 MeV total energy deposit, 0 optical photons detected
+Event 6400 processed: 101317 hits, 39496.7 MeV total energy deposit, 0 optical photons detected
+Event 6500 processed: 115727 hits, 42940.3 MeV total energy deposit, 0 optical photons detected
+Event 6600 processed: 111991 hits, 42641 MeV total energy deposit, 0 optical photons detected
+Event 6700 processed: 94363 hits, 36750 MeV total energy deposit, 0 optical photons detected
+Event 6800 processed: 102375 hits, 40583.3 MeV total energy deposit, 0 optical photons detected
+Event 6900 processed: 116817 hits, 45328.4 MeV total energy deposit, 0 optical photons detected
+Event 7000 processed: 101014 hits, 36960.7 MeV total energy deposit, 0 optical photons detected
+Event 7100 processed: 109560 hits, 41262.7 MeV total energy deposit, 0 optical photons detected
+Event 7200 processed: 100093 hits, 38621.1 MeV total energy deposit, 0 optical photons detected
+Event 7300 processed: 108148 hits, 42148.2 MeV total energy deposit, 0 optical photons detected
+Event 7400 processed: 104487 hits, 41212.2 MeV total energy deposit, 0 optical photons detected
+Event 7500 processed: 103358 hits, 38966.7 MeV total energy deposit, 0 optical photons detected
+Event 7600 processed: 107420 hits, 40384.7 MeV total energy deposit, 0 optical photons detected
+Event 7700 processed: 118870 hits, 44962.7 MeV total energy deposit, 0 optical photons detected
+Event 7800 processed: 111681 hits, 42045 MeV total energy deposit, 0 optical photons detected
+Event 7900 processed: 106952 hits, 40342.6 MeV total energy deposit, 0 optical photons detected
+Event 8000 processed: 108427 hits, 42227.5 MeV total energy deposit, 0 optical photons detected
+Event 8100 processed: 95481 hits, 37462.3 MeV total energy deposit, 0 optical photons detected
+Event 8200 processed: 114132 hits, 45820.9 MeV total energy deposit, 0 optical photons detected
+Event 8300 processed: 105274 hits, 39376.4 MeV total energy deposit, 0 optical photons detected
+Event 8400 processed: 114022 hits, 43252.6 MeV total energy deposit, 0 optical photons detected
+Event 8500 processed: 105281 hits, 42272.3 MeV total energy deposit, 0 optical photons detected
+Event 8600 processed: 117035 hits, 42980.7 MeV total energy deposit, 0 optical photons detected
+Event 8700 processed: 105275 hits, 42629.5 MeV total energy deposit, 0 optical photons detected
+Event 8800 processed: 100273 hits, 41169.2 MeV total energy deposit, 0 optical photons detected
+Event 8900 processed: 119279 hits, 45239.4 MeV total energy deposit, 0 optical photons detected
+Event 9000 processed: 116746 hits, 46110.1 MeV total energy deposit, 0 optical photons detected
+Event 9100 processed: 106361 hits, 41491.7 MeV total energy deposit, 0 optical photons detected
+Event 9200 processed: 104518 hits, 40292.7 MeV total energy deposit, 0 optical photons detected
+Event 9300 processed: 113521 hits, 41883.3 MeV total energy deposit, 0 optical photons detected
+Event 9400 processed: 107565 hits, 41539.7 MeV total energy deposit, 0 optical photons detected
+Event 9500 processed: 108863 hits, 38535.1 MeV total energy deposit, 0 optical photons detected
+Event 9600 processed: 115308 hits, 42552.8 MeV total energy deposit, 0 optical photons detected
+Event 9700 processed: 115051 hits, 42208.9 MeV total energy deposit, 0 optical photons detected
+Event 9800 processed: 103183 hits, 39392.8 MeV total energy deposit, 0 optical photons detected
+Event 9900 processed: 105545 hits, 38094.4 MeV total energy deposit, 0 optical photons detected
+
+### Run 0 end.
+Number of events: 10000
+... write file : /work/lead_tower_projective_retry_2_2_pip_hits.root - done
+... close file : /work/lead_tower_projective_retry_2_2_pip_hits.root - done
+Output file written successfully.
+Celeritas: GPU resources released
+
+Simulation complete. Output written to: /work/lead_tower_projective_retry_2_2_pip_hits.root
+
+
+=== STDERR ===
+

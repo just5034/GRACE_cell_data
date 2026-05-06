@@ -1,0 +1,37 @@
+{
+  "box_calorimeter": {
+    "1.0": {
+      "mean_edep_mev": 969.9993591466146,
+      "std_edep_mev": 24.668187803565807,
+      "resolution": 0.025431138248656546,
+      "linearity": 0.9699993591466145,
+      "n_events": 10000,
+      "beam_energy_gev": 1.0
+    },
+    "5.0": {
+      "mean_edep_mev": 4762.539865385264,
+      "std_edep_mev": 141.56660643998538,
+      "resolution": 0.029725022874644933,
+      "linearity": 0.9525079730770529,
+      "n_events": 10000,
+      "beam_energy_gev": 5.0
+    },
+    "20.0": {
+      "mean_edep_mev": 18511.478218993598,
+      "std_edep_mev": 711.7144251698141,
+      "resolution": 0.03844719566693294,
+      "linearity": 0.9255739109496799,
+      "n_events": 10000,
+      "beam_energy_gev": 20.0
+    }
+  },
+  "projective_tower": {
+    "mean_edep_mev": 4799.340360379908,
+    "std_edep_mev": 130.677011680433,
+    "resolution": 0.0272281192555572,
+    "linearity": 0.9598680720759816,
+    "r90_containment_mm": 294.8376071139929,
+    "n_events": 10000,
+    "n_hits_analyzed": 100000
+  }
+}

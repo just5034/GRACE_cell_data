@@ -1,0 +1,12 @@
+{"ts": "2026-04-27T08:58:45.784617+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 689, "output_tokens": 440, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T08:59:07.942764+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 195, "output_tokens": 772, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T08:59:17.708184+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 3223, "output_tokens": 576, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T09:01:17.122836+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 3384, "output_tokens": 10454, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T09:01:24.597740+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 2867, "output_tokens": 269, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T09:01:27.391826+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 1226, "output_tokens": 69, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T09:01:31.166022+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 3135, "output_tokens": 294, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T09:01:33.941765+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 1229, "output_tokens": 83, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T09:01:39.578715+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 3441, "output_tokens": 287, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T09:01:43.863884+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 1223, "output_tokens": 54, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T09:01:48.590658+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 2666, "output_tokens": 94, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}
+{"ts": "2026-04-27T09:01:51.869875+00:00", "backend": "claude", "model": "claude-sonnet-4-20250514", "input_tokens": 1205, "output_tokens": 80, "cache_read_input_tokens": 0, "cache_creation_input_tokens": 0}

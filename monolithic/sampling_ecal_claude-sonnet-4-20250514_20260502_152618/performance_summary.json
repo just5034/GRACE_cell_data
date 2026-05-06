@@ -1,0 +1,43 @@
+{
+  "energy_resolution": {
+    "stochastic_term": 0.0235,
+    "noise_term": -0.0137,
+    "constant_term": 0.004,
+    "data_points": [
+      [
+        1.0,
+        0.013753960535406064
+      ],
+      [
+        5.0,
+        0.011766754943748552
+      ],
+      [
+        20.0,
+        0.008577987113897042
+      ]
+    ]
+  },
+  "energy_linearity": {
+    "data_points": [
+      [
+        1.0,
+        0.9826381339100105
+      ],
+      [
+        5.0,
+        0.9832507689620558
+      ],
+      [
+        20.0,
+        0.9825019245119878
+      ]
+    ],
+    "mean_linearity": 0.9827969424613513
+  },
+  "sampling_performance": {
+    "sampling_fraction": 0.9828,
+    "r90_containment_mm": 32.61,
+    "detector_mass_kg": 76.84
+  }
+}

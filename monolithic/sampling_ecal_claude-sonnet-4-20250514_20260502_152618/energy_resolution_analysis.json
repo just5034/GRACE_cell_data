@@ -1,0 +1,59 @@
+{
+  "energy_points_gev": [
+    1.0,
+    5.0,
+    20.0
+  ],
+  "measured_resolutions": [
+    0.013753960535406064,
+    0.011766754943748552,
+    0.008577987113897042
+  ],
+  "fitted_resolutions": [
+    0.013753960535406066,
+    0.01176675494374855,
+    0.00857798711389704
+  ],
+  "fit_parameters": {
+    "stochastic_term": 0.023476009615301437,
+    "noise_term": -0.01373751669449173,
+    "constant_term": 0.004015467614596357
+  },
+  "fit_quality": {
+    "chi2": 9.027796614315168e-36,
+    "covariance_matrix": [
+      [
+        Infinity,
+        Infinity,
+        Infinity
+      ],
+      [
+        Infinity,
+        Infinity,
+        Infinity
+      ],
+      [
+        Infinity,
+        Infinity,
+        Infinity
+      ]
+    ]
+  },
+  "raw_data": {
+    "1.0": {
+      "mean_edep_mev": 982.6381339100105,
+      "resolution": 0.013753960535406064,
+      "n_events": 10000
+    },
+    "5.0": {
+      "mean_edep_mev": 4916.253844810279,
+      "resolution": 0.011766754943748552,
+      "n_events": 10000
+    },
+    "20.0": {
+      "mean_edep_mev": 19650.038490239756,
+      "resolution": 0.008577987113897042,
+      "n_events": 10000
+    }
+  }
+}

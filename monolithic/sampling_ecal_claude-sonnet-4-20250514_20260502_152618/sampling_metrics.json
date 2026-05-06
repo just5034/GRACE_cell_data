@@ -1,0 +1,10 @@
+{
+  "sampling_fraction": 0.9827969424613513,
+  "shower_containment_r90_mm": 32.61179458065716,
+  "detector_mass_kg": 76.84160000000001,
+  "detector_volume_cm3": 12320.0,
+  "tungsten_mass_kg": 67.76000000000002,
+  "scintillator_mass_kg": 9.0816,
+  "tungsten_volume_cm3": 3520.0000000000005,
+  "scintillator_volume_cm3": 8800.0
+}
